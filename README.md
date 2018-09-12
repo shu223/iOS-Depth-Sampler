@@ -55,6 +55,13 @@ Available in iOS 12 or later.
 
 Depth visualization on ARKit. The depth on ARKit is available only when using `ARFaceTrackingConfiguration`.
 
+### 3D rendering
+
+[WIP] Render a 2D image in 3D space using depth.
+
+### AR occlusion
+
+[WIP] An occlusion sample on ARKit using depth.
 
 ## Author
 
