@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AvailableCameraDevices
+//  iOS-Depth-Sampler
 //
 //  Created by Shuichi Tsutsumi on 2018/08/20.
 //  Copyright © 2018 Shuichi Tsutsumi. All rights reserved.

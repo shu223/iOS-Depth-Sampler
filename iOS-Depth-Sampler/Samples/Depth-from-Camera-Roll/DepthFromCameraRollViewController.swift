@@ -60,12 +60,7 @@ class DepthFromCameraRollViewController: UIViewController {
         // Are there pictures with depth?
         let assets = PHAsset.fetchAssetsWithDepth()
         if assets.isEmpty {
-            let alert = UIAlertController(title: "No pictures with depth",
-                                          message: "Plaease take a picture with the Camera app using the PORTRAIT mode.",
-                                          preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-            alert.addAction(okAction)
-            present(alert, animated: true, completion: nil)
+            UIAlertController.showAlert(title: "No pictures with depth", message: "Plaease take a picture with the Camera app using the PORTRAIT mode.", on: self)
         } else {
             pickerBtnTapped()
         }
@@ -87,6 +82,12 @@ class DepthFromCameraRollViewController: UIViewController {
             if let depthMapImage = UIImage(pixelBuffer: pixelBuffer) {
                 image = depthMapImage
             }
+            // Histogram Equalization
+//            if let cgImage = image?.cgImage {
+//                var ciImage = CIImage(cgImage: cgImage)
+//                ciImage = ciImage.applyingFilter("YUCIHistogramEqualization")
+//                image = UIImage(ciImage: ciImage)
+//            }
         }
         drawImage(image)
     }
@@ -137,8 +138,6 @@ class DepthFromCameraRollViewController: UIViewController {
         rootListAssets.didSelectAssets = {(assets: Array<PHAsset?>) -> () in
             if let asset = assets.first {
                 self.asset = asset
-                
-                // カラー画像に戻す
                 self.typeSegmentedCtl.selectedSegmentIndex = 0
             }
         }

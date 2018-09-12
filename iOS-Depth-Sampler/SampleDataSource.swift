@@ -40,12 +40,12 @@ struct SampleDataSource {
         ),
         Sample(
             title: "Portrait Matte",
-            detail: "Depth visualization from pictures in the camera roll",
+            detail: "Background removal demo using Portrait Matte",
             classPrefix: "PortraitMatte"
         ),
         Sample(
             title: "ARKit Depth",
-            detail: "Depth on ARKit",
+            detail: "Depth visualization on ARKit",
             classPrefix: "ARKitDepth"
         ),
         ]
