@@ -1,0 +1,6 @@
+framework module SwiftAssetsPickerController {
+  umbrella header "SwiftAssetsPickerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CheckMarkView {
+  umbrella header "CheckMarkView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.13.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mJC-mE-H3J">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kit Depth View Controller-->
+        <scene sceneID="Lb3-B3-dTt">
+            <objects>
+                <viewController id="mJC-mE-H3J" customClass="ARKitDepthViewController" customModule="iOS_Depth_Sampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7o8-BY-8SX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzy-bx-wI7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <mtkView contentMode="scaleToFill" colorPixelFormat="BGRA8Unorm" depthStencilPixelFormat="Depth32Float" translatesAutoresizingMaskIntoConstraints="NO" id="x3n-Nf-fJs">
+                                <rect key="frame" x="0.0" y="20" width="180" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="Pbf-vI-Gl6"/>
+                                    <constraint firstAttribute="width" constant="180" id="gVp-kj-UeH"/>
+                                </constraints>
+                            </mtkView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsX-Xq-VRd">
+                                <rect key="frame" x="8" y="40" width="359" height="20.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fzy-bx-wI7" secondAttribute="trailing" id="3cv-Wu-biV"/>
+                            <constraint firstAttribute="bottom" secondItem="fzy-bx-wI7" secondAttribute="bottom" id="QG4-eU-UAm"/>
+                            <constraint firstItem="x3n-Nf-fJs" firstAttribute="leading" secondItem="Hpe-4E-zu3" secondAttribute="leading" id="W5d-WM-6S1"/>
+                            <constraint firstItem="x3n-Nf-fJs" firstAttribute="top" secondItem="Hpe-4E-zu3" secondAttribute="top" id="Ydz-zg-u3q"/>
+                            <constraint firstItem="Hpe-4E-zu3" firstAttribute="trailing" secondItem="TsX-Xq-VRd" secondAttribute="trailing" constant="8" id="dDm-s9-XxX"/>
+                            <constraint firstItem="TsX-Xq-VRd" firstAttribute="top" secondItem="Hpe-4E-zu3" secondAttribute="top" constant="20" id="oQA-FH-0Cj"/>
+                            <constraint firstItem="fzy-bx-wI7" firstAttribute="leading" secondItem="7o8-BY-8SX" secondAttribute="leading" id="omi-Rw-pI3"/>
+                            <constraint firstItem="fzy-bx-wI7" firstAttribute="top" secondItem="7o8-BY-8SX" secondAttribute="top" id="qtd-DQ-3Tl"/>
+                            <constraint firstItem="TsX-Xq-VRd" firstAttribute="leading" secondItem="Hpe-4E-zu3" secondAttribute="leading" constant="8" id="xwj-uQ-Eks"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hpe-4E-zu3"/>
+                    </view>
+                    <connections>
+                        <outlet property="mtkView" destination="x3n-Nf-fJs" id="wog-81-Ut0"/>
+                        <outlet property="sceneView" destination="fzy-bx-wI7" id="dBI-SY-E3P"/>
+                        <outlet property="trackingStateLabel" destination="TsX-Xq-VRd" id="Dbv-gb-AKT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oji-kc-a7l" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  SwiftAssetsPickerController
+
+  Created by Maxim on 7/22/15.
+  Copyright (c) 2015 Maxim Bilan. All rights reserved.
+*/
+
+"All Photos" = "All Photos";
+"Favorites" = "Favorites";
+"Panoramas" = "Panoramas";
+"Videos" = "Videos";
+"Time Lapse" = "Time Lapse";
+"Recently Deleted" = "Recently Deleted";
+"User Album" = "User Album";
+"Photos" = "Photos";
+"Cancel" = "Cancel";
+"Done" = "Done";

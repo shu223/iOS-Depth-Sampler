@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4D7FEC5A6D1DAFCE88D110 /* Pods_iOS_Depth_Sampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB82C9008285D580EA95E40 /* Pods_iOS_Depth_Sampler.framework */; };
+		8A171F0B2148FE4100121E80 /* RealtimeDepthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A171F062148FE4100121E80 /* RealtimeDepthViewController.swift */; };
+		8A171F0C2148FE4100121E80 /* RealtimeDepth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A171F072148FE4100121E80 /* RealtimeDepth.storyboard */; };
+		8A171F13214905D400121E80 /* CVPixelBuffer+CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A171F12214905D400121E80 /* CVPixelBuffer+CIImage.swift */; };
+		8A171F15214928BB00121E80 /* AVDepthData+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A171F14214928BB00121E80 /* AVDepthData+Utils.swift */; };
+		8A171F1A214930D100121E80 /* RealtimeDepthMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A171F17214930D100121E80 /* RealtimeDepthMaskViewController.swift */; };
+		8A171F1B214930D100121E80 /* RealtimeDepthMask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A171F18214930D100121E80 /* RealtimeDepthMask.storyboard */; };
+		8A603D87214945A900F848A4 /* PortraitMatteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A603D85214945A900F848A4 /* PortraitMatteViewController.swift */; };
+		8A603D88214945A900F848A4 /* PortraitMatte.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A603D86214945A900F848A4 /* PortraitMatte.storyboard */; };
+		8A603D8A2149460E00F848A4 /* PhotosUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A603D892149460E00F848A4 /* PhotosUtils.swift */; };
+		8A603D8C2149590F00F848A4 /* UIAlertController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A603D8B2149590F00F848A4 /* UIAlertController+Utils.swift */; };
+		8A702F98212A3BD3004039F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702F97212A3BD3004039F7 /* AppDelegate.swift */; };
+		8A702F9F212A3BD5004039F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A702F9E212A3BD5004039F7 /* Assets.xcassets */; };
+		8A702FA2212A3BD5004039F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A702FA0212A3BD5004039F7 /* LaunchScreen.storyboard */; };
+		8A702FAD212A3CDE004039F7 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702FAA212A3CDE004039F7 /* VideoCameraType.swift */; };
+		8A702FAE212A3CDE004039F7 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702FAB212A3CDE004039F7 /* VideoCapture.swift */; };
+		8A702FAF212A3CDE004039F7 /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702FAC212A3CDE004039F7 /* AVCaptureDevice+Extension.swift */; };
+		8A7F88042148199000170436 /* ARKitDepth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7F88022148199000170436 /* ARKitDepth.storyboard */; };
+		8A7F88052148199000170436 /* ARKitDepthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F88032148199000170436 /* ARKitDepthViewController.swift */; };
+		8A7F8807214819FF00170436 /* TrackingState+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F8806214819FF00170436 /* TrackingState+Description.swift */; };
+		8AAF370F21480CAC006A551B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF370E21480CAC006A551B /* Main.storyboard */; };
+		8AAF371321480D32006A551B /* RootViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371021480D31006A551B /* RootViewCell.swift */; };
+		8AAF371421480D32006A551B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371121480D32006A551B /* RootViewController.swift */; };
+		8AAF371521480D32006A551B /* SampleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371221480D32006A551B /* SampleDataSource.swift */; };
+		8AAF371B21481369006A551B /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371821481369006A551B /* UIImage+CVPixelBuffer.swift */; };
+		8AAF371C21481369006A551B /* DepthFromCameraRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371921481369006A551B /* DepthFromCameraRollViewController.swift */; };
+		8AAF371D2148136A006A551B /* CGImageSource+Depth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371A21481369006A551B /* CGImageSource+Depth.swift */; };
+		8AAF371F214814BE006A551B /* DepthFromCameraRoll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */; };
+		8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB76028213628440051C3D1 /* MetalRenderer.swift */; };
+		8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7602A213631AD0051C3D1 /* PassThrough.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A171F062148FE4100121E80 /* RealtimeDepthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeDepthViewController.swift; sourceTree = "<group>"; };
+		8A171F082148FE4100121E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RealtimeDepth.storyboard; sourceTree = "<group>"; };
+		8A171F12214905D400121E80 /* CVPixelBuffer+CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+CIImage.swift"; sourceTree = "<group>"; };
+		8A171F14214928BB00121E80 /* AVDepthData+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVDepthData+Utils.swift"; sourceTree = "<group>"; };
+		8A171F17214930D100121E80 /* RealtimeDepthMaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeDepthMaskViewController.swift; sourceTree = "<group>"; };
+		8A171F19214930D100121E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RealtimeDepthMask.storyboard; sourceTree = "<group>"; };
+		8A603D85214945A900F848A4 /* PortraitMatteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitMatteViewController.swift; sourceTree = "<group>"; };
+		8A603D86214945A900F848A4 /* PortraitMatte.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PortraitMatte.storyboard; sourceTree = "<group>"; };
+		8A603D892149460E00F848A4 /* PhotosUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUtils.swift; sourceTree = "<group>"; };
+		8A603D8B2149590F00F848A4 /* UIAlertController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Utils.swift"; sourceTree = "<group>"; };
+		8A702F94212A3BD3004039F7 /* iOS-Depth-Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Depth-Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A702F97212A3BD3004039F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A702F9E212A3BD5004039F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A702FA1212A3BD5004039F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A702FA3212A3BD5004039F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A702FAA212A3CDE004039F7 /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
+		8A702FAB212A3CDE004039F7 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		8A702FAC212A3CDE004039F7 /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		8A7F88022148199000170436 /* ARKitDepth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ARKitDepth.storyboard; sourceTree = "<group>"; };
+		8A7F88032148199000170436 /* ARKitDepthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKitDepthViewController.swift; sourceTree = "<group>"; };
+		8A7F8806214819FF00170436 /* TrackingState+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrackingState+Description.swift"; sourceTree = "<group>"; };
+		8AABBCCC2136463900C938EE /* iOS-Depth-Sampler-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-Depth-Sampler-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AAF370E21480CAC006A551B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8AAF371021480D31006A551B /* RootViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewCell.swift; sourceTree = "<group>"; };
+		8AAF371121480D32006A551B /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8AAF371221480D32006A551B /* SampleDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataSource.swift; sourceTree = "<group>"; };
+		8AAF371821481369006A551B /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		8AAF371921481369006A551B /* DepthFromCameraRollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFromCameraRollViewController.swift; sourceTree = "<group>"; };
+		8AAF371A21481369006A551B /* CGImageSource+Depth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImageSource+Depth.swift"; sourceTree = "<group>"; };
+		8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DepthFromCameraRoll.storyboard; sourceTree = "<group>"; };
+		8AB76028213628440051C3D1 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		8AB7602A213631AD0051C3D1 /* PassThrough.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
+		8FA83CA5E0F8F1F5F2E5DF63 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
+		DDC3399A5A9E8877FB64BCD8 /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB82C9008285D580EA95E40 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Depth_Sampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A702F91212A3BD3004039F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4D7FEC5A6D1DAFCE88D110 /* Pods_iOS_Depth_Sampler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2824CEA4531F10AD95165322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3399A5A9E8877FB64BCD8 /* Pods-iOS-Depth-Sampler.debug.xcconfig */,
+				8FA83CA5E0F8F1F5F2E5DF63 /* Pods-iOS-Depth-Sampler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ECE07E18B1808EB59C8741A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDB82C9008285D580EA95E40 /* Pods_iOS_Depth_Sampler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A171F052148FE4100121E80 /* Realtime-Depth */ = {
+			isa = PBXGroup;
+			children = (
+				8A171F062148FE4100121E80 /* RealtimeDepthViewController.swift */,
+				8A171F072148FE4100121E80 /* RealtimeDepth.storyboard */,
+			);
+			path = "Realtime-Depth";
+			sourceTree = "<group>";
+		};
+		8A171F11214905A400121E80 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A171F12214905D400121E80 /* CVPixelBuffer+CIImage.swift */,
+				8AAF371A21481369006A551B /* CGImageSource+Depth.swift */,
+				8AAF371821481369006A551B /* UIImage+CVPixelBuffer.swift */,
+				8A171F14214928BB00121E80 /* AVDepthData+Utils.swift */,
+				8A603D892149460E00F848A4 /* PhotosUtils.swift */,
+				8A603D8B2149590F00F848A4 /* UIAlertController+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A171F16214930D100121E80 /* Realtime-Mask */ = {
+			isa = PBXGroup;
+			children = (
+				8A171F17214930D100121E80 /* RealtimeDepthMaskViewController.swift */,
+				8A171F18214930D100121E80 /* RealtimeDepthMask.storyboard */,
+			);
+			path = "Realtime-Mask";
+			sourceTree = "<group>";
+		};
+		8A3D1A74213E5F2F0061470F /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				8AB7602A213631AD0051C3D1 /* PassThrough.metal */,
+				8AB76028213628440051C3D1 /* MetalRenderer.swift */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		8A603D84214945A900F848A4 /* Portrait Matte */ = {
+			isa = PBXGroup;
+			children = (
+				8A603D85214945A900F848A4 /* PortraitMatteViewController.swift */,
+				8A603D86214945A900F848A4 /* PortraitMatte.storyboard */,
+			);
+			path = "Portrait Matte";
+			sourceTree = "<group>";
+		};
+		8A603D8D21495B8A00F848A4 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				8A171F052148FE4100121E80 /* Realtime-Depth */,
+				8A171F16214930D100121E80 /* Realtime-Mask */,
+				8AAF371721481369006A551B /* Depth-from-Camera-Roll */,
+				8A603D84214945A900F848A4 /* Portrait Matte */,
+				8A7F88012148199000170436 /* ARKit */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		8A702F8B212A3BD3004039F7 = {
+			isa = PBXGroup;
+			children = (
+				8A702F96212A3BD3004039F7 /* iOS-Depth-Sampler */,
+				8A702F95212A3BD3004039F7 /* Products */,
+				2824CEA4531F10AD95165322 /* Pods */,
+				6ECE07E18B1808EB59C8741A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A702F95212A3BD3004039F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A702F94212A3BD3004039F7 /* iOS-Depth-Sampler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A702F96212A3BD3004039F7 /* iOS-Depth-Sampler */ = {
+			isa = PBXGroup;
+			children = (
+				8AABBCCC2136463900C938EE /* iOS-Depth-Sampler-Bridging-Header.h */,
+				8A702FA3212A3BD5004039F7 /* Info.plist */,
+				8A702F9E212A3BD5004039F7 /* Assets.xcassets */,
+				8A702FA0212A3BD5004039F7 /* LaunchScreen.storyboard */,
+				8AAF370E21480CAC006A551B /* Main.storyboard */,
+				8A702F97212A3BD3004039F7 /* AppDelegate.swift */,
+				8AAF371021480D31006A551B /* RootViewCell.swift */,
+				8AAF371121480D32006A551B /* RootViewController.swift */,
+				8AAF371221480D32006A551B /* SampleDataSource.swift */,
+				8A171F11214905A400121E80 /* Utils */,
+				8A702FA9212A3CDE004039F7 /* VideoCapture */,
+				8A3D1A74213E5F2F0061470F /* Renderer */,
+				8A603D8D21495B8A00F848A4 /* Samples */,
+			);
+			path = "iOS-Depth-Sampler";
+			sourceTree = "<group>";
+		};
+		8A702FA9212A3CDE004039F7 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				8A702FAA212A3CDE004039F7 /* VideoCameraType.swift */,
+				8A702FAB212A3CDE004039F7 /* VideoCapture.swift */,
+				8A702FAC212A3CDE004039F7 /* AVCaptureDevice+Extension.swift */,
+			);
+			path = VideoCapture;
+			sourceTree = "<group>";
+		};
+		8A7F88012148199000170436 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				8A7F8806214819FF00170436 /* TrackingState+Description.swift */,
+				8A7F88022148199000170436 /* ARKitDepth.storyboard */,
+				8A7F88032148199000170436 /* ARKitDepthViewController.swift */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		8AAF371721481369006A551B /* Depth-from-Camera-Roll */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF371921481369006A551B /* DepthFromCameraRollViewController.swift */,
+				8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */,
+			);
+			path = "Depth-from-Camera-Roll";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A702F93212A3BD3004039F7 /* iOS-Depth-Sampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A702FA6212A3BD5004039F7 /* Build configuration list for PBXNativeTarget "iOS-Depth-Sampler" */;
+			buildPhases = (
+				04E184A9F0C6982EBCC0B6C1 /* [CP] Check Pods Manifest.lock */,
+				8A702F90212A3BD3004039F7 /* Sources */,
+				8A702F91212A3BD3004039F7 /* Frameworks */,
+				8A702F92212A3BD3004039F7 /* Resources */,
+				8D362FBD9C4404F36E8734DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Depth-Sampler";
+			productName = "iOS-Depth-Sampler";
+			productReference = 8A702F94212A3BD3004039F7 /* iOS-Depth-Sampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A702F8C212A3BD3004039F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shuichi Tsutsumi";
+				TargetAttributes = {
+					8A702F93212A3BD3004039F7 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 8A702F8F212A3BD3004039F7 /* Build configuration list for PBXProject "iOS-Depth-Sampler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A702F8B212A3BD3004039F7;
+			productRefGroup = 8A702F95212A3BD3004039F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A702F93212A3BD3004039F7 /* iOS-Depth-Sampler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A702F92212A3BD3004039F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A603D88214945A900F848A4 /* PortraitMatte.storyboard in Resources */,
+				8A702FA2212A3BD5004039F7 /* LaunchScreen.storyboard in Resources */,
+				8A171F0C2148FE4100121E80 /* RealtimeDepth.storyboard in Resources */,
+				8A171F1B214930D100121E80 /* RealtimeDepthMask.storyboard in Resources */,
+				8A702F9F212A3BD5004039F7 /* Assets.xcassets in Resources */,
+				8AAF370F21480CAC006A551B /* Main.storyboard in Resources */,
+				8A7F88042148199000170436 /* ARKitDepth.storyboard in Resources */,
+				8AAF371F214814BE006A551B /* DepthFromCameraRoll.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E184A9F0C6982EBCC0B6C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Depth-Sampler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D362FBD9C4404F36E8734DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftAssetsPickerController/SwiftAssetsPickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Vivid/Vivid.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CheckMarkView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftAssetsPickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Vivid.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A702F90212A3BD3004039F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A702FAE212A3CDE004039F7 /* VideoCapture.swift in Sources */,
+				8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */,
+				8A7F88052148199000170436 /* ARKitDepthViewController.swift in Sources */,
+				8AAF371421480D32006A551B /* RootViewController.swift in Sources */,
+				8AAF371C21481369006A551B /* DepthFromCameraRollViewController.swift in Sources */,
+				8A171F13214905D400121E80 /* CVPixelBuffer+CIImage.swift in Sources */,
+				8AAF371B21481369006A551B /* UIImage+CVPixelBuffer.swift in Sources */,
+				8AAF371521480D32006A551B /* SampleDataSource.swift in Sources */,
+				8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */,
+				8A7F8807214819FF00170436 /* TrackingState+Description.swift in Sources */,
+				8A603D8A2149460E00F848A4 /* PhotosUtils.swift in Sources */,
+				8A171F0B2148FE4100121E80 /* RealtimeDepthViewController.swift in Sources */,
+				8AAF371321480D32006A551B /* RootViewCell.swift in Sources */,
+				8A603D8C2149590F00F848A4 /* UIAlertController+Utils.swift in Sources */,
+				8AAF371D2148136A006A551B /* CGImageSource+Depth.swift in Sources */,
+				8A171F15214928BB00121E80 /* AVDepthData+Utils.swift in Sources */,
+				8A702F98212A3BD3004039F7 /* AppDelegate.swift in Sources */,
+				8A171F1A214930D100121E80 /* RealtimeDepthMaskViewController.swift in Sources */,
+				8A603D87214945A900F848A4 /* PortraitMatteViewController.swift in Sources */,
+				8A702FAF212A3CDE004039F7 /* AVCaptureDevice+Extension.swift in Sources */,
+				8A702FAD212A3CDE004039F7 /* VideoCameraType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A171F072148FE4100121E80 /* RealtimeDepth.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A171F082148FE4100121E80 /* Base */,
+			);
+			name = RealtimeDepth.storyboard;
+			sourceTree = "<group>";
+		};
+		8A171F18214930D100121E80 /* RealtimeDepthMask.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A171F19214930D100121E80 /* Base */,
+			);
+			name = RealtimeDepthMask.storyboard;
+			sourceTree = "<group>";
+		};
+		8A702FA0212A3BD5004039F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A702FA1212A3BD5004039F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A702FA4212A3BD5004039F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A702FA5212A3BD5004039F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A702FA7212A3BD5004039F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC3399A5A9E8877FB64BCD8 /* Pods-iOS-Depth-Sampler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-Depth-Sampler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-Depth-Sampler/iOS-Depth-Sampler-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A702FA8212A3BD5004039F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA83CA5E0F8F1F5F2E5DF63 /* Pods-iOS-Depth-Sampler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-Depth-Sampler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-Depth-Sampler/iOS-Depth-Sampler-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A702F8F212A3BD3004039F7 /* Build configuration list for PBXProject "iOS-Depth-Sampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A702FA4212A3BD5004039F7 /* Debug */,
+				8A702FA5212A3BD5004039F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A702FA6212A3BD5004039F7 /* Build configuration list for PBXNativeTarget "iOS-Depth-Sampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A702FA7212A3BD5004039F7 /* Debug */,
+				8A702FA8212A3BD5004039F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A702F8C212A3BD3004039F7 /* Project object */;
+}
