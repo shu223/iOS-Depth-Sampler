@@ -10,6 +10,10 @@
 
 Code examples of Depth APIs in iOS
 
+## Requirement
+
+Use devices which has a **dual camera** (e.g. iPhone 8 Plus) or a **TrueDepth camera** (e.g. iPhone X)
+
 ## How to build
 
 Open `ARKit-Sampler.xcworkspace` with Xcode 10 and build it!
@@ -35,7 +39,7 @@ Blending a background image with a mask created from depth.
 
 Depth visualization from pictures in the camera roll.
 
-![](README_resources/depth_baby_histoeq.png)
+![](README_resources/depth_baby_histoeq.jpg)
 
 Plaease try this after taking **a picture with the Camera app using the PORTRAIT mode**.
 
