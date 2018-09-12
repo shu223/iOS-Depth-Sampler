@@ -39,7 +39,7 @@ Blending a background image with a mask created from depth.
 
 Depth visualization from pictures in the camera roll.
 
-![](README_resources/depth_baby_histoeq.jpg)
+<img src="README_resources/depth_baby_histoeq.jpg" width="600">
 
 Plaease try this after taking **a picture with the Camera app using the PORTRAIT mode**.
 
