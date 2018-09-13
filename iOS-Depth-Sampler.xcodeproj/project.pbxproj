@@ -27,6 +27,7 @@
 		8A7F88042148199000170436 /* ARKitDepth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7F88022148199000170436 /* ARKitDepth.storyboard */; };
 		8A7F88052148199000170436 /* ARKitDepthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F88032148199000170436 /* ARKitDepthViewController.swift */; };
 		8A7F8807214819FF00170436 /* TrackingState+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F8806214819FF00170436 /* TrackingState+Description.swift */; };
+		8A9A09DA214BA92E00432B1A /* PointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A09D8214BA92E00432B1A /* PointCloud.swift */; };
 		8AAF370F21480CAC006A551B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF370E21480CAC006A551B /* Main.storyboard */; };
 		8AAF371321480D32006A551B /* RootViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371021480D31006A551B /* RootViewCell.swift */; };
 		8AAF371421480D32006A551B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371121480D32006A551B /* RootViewController.swift */; };
@@ -39,6 +40,9 @@
 		8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7602A213631AD0051C3D1 /* PassThrough.metal */; };
 		8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */; };
 		8AFD6512214AFB1F0085F997 /* image-with-matte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */; };
+		8AFD6516214B08EB0085F997 /* PointCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD6514214B08EB0085F997 /* PointCloudViewController.swift */; };
+		8AFD6517214B08EB0085F997 /* PointCloud.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD6515214B08EB0085F997 /* PointCloud.storyboard */; };
+		8AFD6519214B0CC80085F997 /* CIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD6518214B0CC80085F997 /* CIImage+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +67,7 @@
 		8A7F88022148199000170436 /* ARKitDepth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ARKitDepth.storyboard; sourceTree = "<group>"; };
 		8A7F88032148199000170436 /* ARKitDepthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKitDepthViewController.swift; sourceTree = "<group>"; };
 		8A7F8806214819FF00170436 /* TrackingState+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrackingState+Description.swift"; sourceTree = "<group>"; };
+		8A9A09D8214BA92E00432B1A /* PointCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloud.swift; sourceTree = "<group>"; };
 		8AABBCCC2136463900C938EE /* iOS-Depth-Sampler-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-Depth-Sampler-Bridging-Header.h"; sourceTree = "<group>"; };
 		8AAF370E21480CAC006A551B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8AAF371021480D31006A551B /* RootViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewCell.swift; sourceTree = "<group>"; };
@@ -76,6 +81,9 @@
 		8AB7602A213631AD0051C3D1 /* PassThrough.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
 		8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
 		8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-matte.jpg"; sourceTree = "<group>"; };
+		8AFD6514214B08EB0085F997 /* PointCloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloudViewController.swift; sourceTree = "<group>"; };
+		8AFD6515214B08EB0085F997 /* PointCloud.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PointCloud.storyboard; sourceTree = "<group>"; };
+		8AFD6518214B0CC80085F997 /* CIImage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Utils.swift"; sourceTree = "<group>"; };
 		8FA83CA5E0F8F1F5F2E5DF63 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
 		DDC3399A5A9E8877FB64BCD8 /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
 		FDB82C9008285D580EA95E40 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Depth_Sampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +136,7 @@
 				8A171F14214928BB00121E80 /* AVDepthData+Utils.swift */,
 				8A603D892149460E00F848A4 /* PhotosUtils.swift */,
 				8A603D8B2149590F00F848A4 /* UIAlertController+Utils.swift */,
+				8AFD6518214B0CC80085F997 /* CIImage+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -150,13 +159,13 @@
 			path = Renderer;
 			sourceTree = "<group>";
 		};
-		8A603D84214945A900F848A4 /* Portrait Matte */ = {
+		8A603D84214945A900F848A4 /* Portrait-Matte */ = {
 			isa = PBXGroup;
 			children = (
 				8A603D85214945A900F848A4 /* PortraitMatteViewController.swift */,
 				8A603D86214945A900F848A4 /* PortraitMatte.storyboard */,
 			);
-			path = "Portrait Matte";
+			path = "Portrait-Matte";
 			sourceTree = "<group>";
 		};
 		8A603D8D21495B8A00F848A4 /* Samples */ = {
@@ -165,8 +174,9 @@
 				8A171F052148FE4100121E80 /* Realtime-Depth */,
 				8A171F16214930D100121E80 /* Realtime-Mask */,
 				8AAF371721481369006A551B /* Depth-from-Camera-Roll */,
-				8A603D84214945A900F848A4 /* Portrait Matte */,
+				8A603D84214945A900F848A4 /* Portrait-Matte */,
 				8A7F88012148199000170436 /* ARKit */,
+				8AFD6513214B08EB0085F997 /* PointCloud */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -248,6 +258,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8AFD6513214B08EB0085F997 /* PointCloud */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A09D8214BA92E00432B1A /* PointCloud.swift */,
+				8AFD6514214B08EB0085F997 /* PointCloudViewController.swift */,
+				8AFD6515214B08EB0085F997 /* PointCloud.storyboard */,
+			);
+			path = PointCloud;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,6 +334,7 @@
 				8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */,
 				8A702FA2212A3BD5004039F7 /* LaunchScreen.storyboard in Resources */,
 				8A171F0C2148FE4100121E80 /* RealtimeDepth.storyboard in Resources */,
+				8AFD6517214B08EB0085F997 /* PointCloud.storyboard in Resources */,
 				8A171F1B214930D100121E80 /* RealtimeDepthMask.storyboard in Resources */,
 				8A702F9F212A3BD5004039F7 /* Assets.xcassets in Resources */,
 				8AAF370F21480CAC006A551B /* Main.storyboard in Resources */,
@@ -376,10 +397,12 @@
 				8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */,
 				8A7F88052148199000170436 /* ARKitDepthViewController.swift in Sources */,
 				8AAF371421480D32006A551B /* RootViewController.swift in Sources */,
+				8A9A09DA214BA92E00432B1A /* PointCloud.swift in Sources */,
 				8AAF371C21481369006A551B /* DepthFromCameraRollViewController.swift in Sources */,
 				8A171F13214905D400121E80 /* CVPixelBuffer+CIImage.swift in Sources */,
 				8AAF371B21481369006A551B /* UIImage+CVPixelBuffer.swift in Sources */,
 				8AAF371521480D32006A551B /* SampleDataSource.swift in Sources */,
+				8AFD6516214B08EB0085F997 /* PointCloudViewController.swift in Sources */,
 				8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */,
 				8A7F8807214819FF00170436 /* TrackingState+Description.swift in Sources */,
 				8A603D8A2149460E00F848A4 /* PhotosUtils.swift in Sources */,
@@ -393,6 +416,7 @@
 				8A603D87214945A900F848A4 /* PortraitMatteViewController.swift in Sources */,
 				8A702FAF212A3CDE004039F7 /* AVCaptureDevice+Extension.swift in Sources */,
 				8A702FAD212A3CDE004039F7 /* VideoCameraType.swift in Sources */,
+				8AFD6519214B0CC80085F997 /* CIImage+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

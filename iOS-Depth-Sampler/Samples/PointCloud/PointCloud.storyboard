@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Point Cloudl View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="PointCloudlViewController" customModule="iOS_Depth_Sampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MhN-6A-Pa1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OtL-GN-ZSn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Ie-V0-YgW">
+                                <rect key="frame" x="16" y="40" width="343" height="29"/>
+                                <segments>
+                                    <segment title="2D"/>
+                                    <segment title="3D"/>
+                                </segments>
+                                <connections>
+                                    <action selector="typeSegmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="KiL-Mt-1H8"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcE-WA-x3Y">
+                                <rect key="frame" x="142" y="615" width="91" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Open Picker"/>
+                                <connections>
+                                    <action selector="pickerBtnTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="q2R-GC-lZp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7Ie-V0-YgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7E3-LK-McK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ie-V0-YgW" secondAttribute="trailing" constant="16" id="EiH-MV-Jgg"/>
+                            <constraint firstAttribute="bottom" secondItem="OtL-GN-ZSn" secondAttribute="bottom" id="FgZ-vE-qvg"/>
+                            <constraint firstItem="PcE-WA-x3Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Goj-mB-VZ5"/>
+                            <constraint firstItem="OtL-GN-ZSn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HuF-pH-y9K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PcE-WA-x3Y" secondAttribute="bottom" constant="20" id="In9-1W-mGa"/>
+                            <constraint firstItem="MhN-6A-Pa1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NSG-27-s6R"/>
+                            <constraint firstAttribute="trailing" secondItem="OtL-GN-ZSn" secondAttribute="trailing" id="caT-bo-eFr"/>
+                            <constraint firstAttribute="bottom" secondItem="MhN-6A-Pa1" secondAttribute="bottom" id="eKA-ec-E0N"/>
+                            <constraint firstAttribute="trailing" secondItem="MhN-6A-Pa1" secondAttribute="trailing" id="eMU-gE-H2p"/>
+                            <constraint firstItem="MhN-6A-Pa1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="idX-Vv-xGB"/>
+                            <constraint firstItem="7Ie-V0-YgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="kFg-81-8NM"/>
+                            <constraint firstItem="OtL-GN-ZSn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rhV-Uk-jG4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="MhN-6A-Pa1" id="zwX-Y4-Ifp"/>
+                        <outlet property="scnView" destination="OtL-GN-ZSn" id="bHL-jy-Juc"/>
+                        <outlet property="typeSegmentedCtl" destination="7Ie-V0-YgW" id="Sqn-pn-RBU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

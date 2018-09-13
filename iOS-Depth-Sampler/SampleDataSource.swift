@@ -48,5 +48,10 @@ struct SampleDataSource {
             detail: "Depth visualization on ARKit",
             classPrefix: "ARKitDepth"
         ),
+        Sample(
+            title: "2D image in 3D space",
+            detail: "A demo to render a 2D image in 3D space",
+            classPrefix: "PointCloud"
+        ),
         ]
 }
