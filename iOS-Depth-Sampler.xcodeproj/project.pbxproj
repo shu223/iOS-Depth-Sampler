@@ -37,6 +37,7 @@
 		8AAF371F214814BE006A551B /* DepthFromCameraRoll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */; };
 		8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB76028213628440051C3D1 /* MetalRenderer.swift */; };
 		8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7602A213631AD0051C3D1 /* PassThrough.metal */; };
+		8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DepthFromCameraRoll.storyboard; sourceTree = "<group>"; };
 		8AB76028213628440051C3D1 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
 		8AB7602A213631AD0051C3D1 /* PassThrough.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
+		8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
 		8FA83CA5E0F8F1F5F2E5DF63 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
 		DDC3399A5A9E8877FB64BCD8 /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
 		FDB82C9008285D580EA95E40 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Depth_Sampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +190,7 @@
 		8A702F96212A3BD3004039F7 /* iOS-Depth-Sampler */ = {
 			isa = PBXGroup;
 			children = (
+				8AFD650C214AF5620085F997 /* Resources */,
 				8AABBCCC2136463900C938EE /* iOS-Depth-Sampler-Bridging-Header.h */,
 				8A702FA3212A3BD5004039F7 /* Info.plist */,
 				8A702F9E212A3BD5004039F7 /* Assets.xcassets */,
@@ -232,6 +235,14 @@
 				8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */,
 			);
 			path = "Depth-from-Camera-Roll";
+			sourceTree = "<group>";
+		};
+		8AFD650C214AF5620085F997 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A603D88214945A900F848A4 /* PortraitMatte.storyboard in Resources */,
+				8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */,
 				8A702FA2212A3BD5004039F7 /* LaunchScreen.storyboard in Resources */,
 				8A171F0C2148FE4100121E80 /* RealtimeDepth.storyboard in Resources */,
 				8A171F1B214930D100121E80 /* RealtimeDepthMask.storyboard in Resources */,
