@@ -14,27 +14,13 @@ class PortraitMatteViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var typeSegmentedCtl: UISegmentedControl!
 
-    private var asset: PHAsset? {
-        didSet {
-            if let asset = asset {
-                asset.requestColorImage { image in
-                    self.image = image
-                    self.drawImage(image)
-                }
-                asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
-                    self.imageSource = contentEditingInput?.createImageSource()
-                    self.getPortraitMatte()
-                }
-            } else {
-                resetControls()
-            }
-        }
-    }
     private var image: UIImage?
     private var imageSource: CGImageSource? {
         didSet {
             let isEnabled = imageSource != nil
-            typeSegmentedCtl.isEnabled = isEnabled
+            DispatchQueue.main.async(execute: {
+                self.typeSegmentedCtl.isEnabled = isEnabled
+            })
         }
     }
     private var mattePixelBuffer: CVPixelBuffer?
@@ -47,23 +33,33 @@ class PortraitMatteViewController: UIViewController {
         PHPhotoLibrary.requestAuthorization({ status in
             switch status {
             case .authorized:
-                self.openPickerIfNeeded()
+                let url = Bundle.main.url(forResource: "image-with-matte", withExtension: "jpg")!
+                self.loadImage(at: url)
             default:
                 fatalError()
             }
         })
     }
-
-    private func openPickerIfNeeded() {
-        // Are there pictures with depth?
-        let assets = PHAsset.fetchAssetsWithDepth()
-        if assets.isEmpty {
-            UIAlertController.showAlert(title: "No pictures with portrait matte", message: "Plaease take pictures of a HUMAN with 'Camera' app using the PORTRAIT mode.", on: self)
-        } else {
-            pickerBtnTapped()
+    
+    private func loadImage(at url: URL) {
+        self.imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
+        self.getPortraitMatte()
+        guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
+        self.image = image
+        self.drawImage(image)
+    }
+    
+    private func loadAsset(_ asset: PHAsset) {
+        asset.requestColorImage { image in
+            self.image = image
+            self.drawImage(image)
+        }
+        asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
+            self.imageSource = contentEditingInput?.createImageSource()
+            self.getPortraitMatte()
         }
     }
-
+    
     private func showNoPortraitMatteAlert() {
         UIAlertController.showAlert(title: "No Portrait Matte", message: "This picture doesn't have portrait matte info. Plaease take a picture of a HUMAN with PORTRAIT mode.", on: self)
     }
@@ -133,9 +129,8 @@ class PortraitMatteViewController: UIViewController {
     @IBAction func pickerBtnTapped() {
         let picker = AssetsPickerController()
         picker.didSelectAssets = {(assets: Array<PHAsset?>) -> () in
-            if let asset = assets.first {
-                self.asset = asset
-                
+            if let asset_ = assets.first, let asset = asset_ {
+                self.loadAsset(asset)
                 self.typeSegmentedCtl.selectedSegmentIndex = 0
             }
         }

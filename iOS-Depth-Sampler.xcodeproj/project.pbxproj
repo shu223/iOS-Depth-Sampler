@@ -38,6 +38,7 @@
 		8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB76028213628440051C3D1 /* MetalRenderer.swift */; };
 		8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7602A213631AD0051C3D1 /* PassThrough.metal */; };
 		8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */; };
+		8AFD6512214AFB1F0085F997 /* image-with-matte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		8AB76028213628440051C3D1 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
 		8AB7602A213631AD0051C3D1 /* PassThrough.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
 		8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
+		8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-matte.jpg"; sourceTree = "<group>"; };
 		8FA83CA5E0F8F1F5F2E5DF63 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
 		DDC3399A5A9E8877FB64BCD8 /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Depth-Sampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
 		FDB82C9008285D580EA95E40 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Depth_Sampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */,
+				8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A603D88214945A900F848A4 /* PortraitMatte.storyboard in Resources */,
+				8AFD6512214AFB1F0085F997 /* image-with-matte.jpg in Resources */,
 				8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */,
 				8A702FA2212A3BD5004039F7 /* LaunchScreen.storyboard in Resources */,
 				8A171F0C2148FE4100121E80 /* RealtimeDepth.storyboard in Resources */,
