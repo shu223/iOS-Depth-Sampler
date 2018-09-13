@@ -25,16 +25,19 @@ class DepthFromCameraRollViewController: UIViewController {
             switch status {
             case .authorized:
                 let url = Bundle.main.url(forResource: "image-with-depth", withExtension: "jpg")!
-                let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
-                self.getDisparity(from: imageSource)
-                self.getDepth(from: imageSource)
-                guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
-                self.image = image
-                self.drawImage(image)
+                self.loadImage(at: url)
             default:
                 fatalError()
             }
         })
+    }
+
+    private func loadImage(at url: URL) {
+        let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
+        self.processImageSource(imageSource)
+        guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
+        self.image = image
+        self.drawImage(image)
     }
     
     private func drawImage(_ image: UIImage?) {
@@ -59,28 +62,11 @@ class DepthFromCameraRollViewController: UIViewController {
         drawImage(image)
     }
     
-    private func getDisparity(from imageSource: CGImageSource) {
-        var depthDataMap: CVPixelBuffer? = nil
-        if let disparityData = imageSource.getDisparityData() {
-            depthDataMap = disparityData.depthDataMap
-        } else if let depthData = imageSource.getDepthData() {
-            // Depthの場合はDisparityに変換
-            depthDataMap = depthData.convertToDisparity().depthDataMap
-        }
-        disparityPixelBuffer = depthDataMap
+    private func processImageSource(_ imageSource: CGImageSource) {
+        self.disparityPixelBuffer = imageSource.getDisparity()
+        self.depthPixelBuffer = imageSource.getDepth()
     }
-
-    private func getDepth(from imageSource: CGImageSource) {
-        var depthDataMap: CVPixelBuffer? = nil
-        if let depthData = imageSource.getDepthData() {
-            depthDataMap = depthData.depthDataMap
-        } else if let depthData = imageSource.getDisparityData() {
-            // Disparityの場合はDepthに変換
-            depthDataMap = depthData.convertToDepth().depthDataMap
-        }
-        depthPixelBuffer = depthDataMap
-    }
-
+    
     private func update() {
         switch typeSegmentedCtl.selectedSegmentIndex {
         case 0:
@@ -110,8 +96,7 @@ class DepthFromCameraRollViewController: UIViewController {
             }
             asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
                 let imageSource = contentEditingInput!.createImageSource()
-                self.getDisparity(from: imageSource)
-                self.getDepth(from: imageSource)
+                self.processImageSource(imageSource)
             }
             self.typeSegmentedCtl.selectedSegmentIndex = 0
         }
