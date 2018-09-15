@@ -45,9 +45,19 @@ class ARKitDepthViewController: UIViewController {
         }
         faceNode.geometry = faceGeometry
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)        
         let configuration = ARFaceTrackingConfiguration()
         configuration.isLightEstimationEnabled = true
-        sceneView.session.run(configuration)
+        sceneView.session.run(configuration, options: [.resetTracking, .removeExistingAnchors])
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        sceneView.session.pause()
+        mtkView.delegate = nil
+        super.viewWillDisappear(animated)
     }
 }
 
