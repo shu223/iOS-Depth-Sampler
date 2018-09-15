@@ -59,7 +59,7 @@ Depth visualization on ARKit. The depth on ARKit is available only when using `A
 
 ![](README_resources/arkit-depth.gif)
 
-### 2D image in 3D space",
+### 2D image in 3D space
 
 A demo to render a 2D image in 3D space.
 
