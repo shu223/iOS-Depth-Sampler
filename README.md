@@ -29,7 +29,7 @@ Depth visualization in real time using AV Foundation.
 
 ![](README_resources/depth_1.gif)
 
-### Real-time Dpeth Mask
+### Real-time Depth Mask
 
 Blending a background image with a mask created from depth.
 
