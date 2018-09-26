@@ -32,7 +32,7 @@
 		8AAF371321480D32006A551B /* RootViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371021480D31006A551B /* RootViewCell.swift */; };
 		8AAF371421480D32006A551B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371121480D32006A551B /* RootViewController.swift */; };
 		8AAF371521480D32006A551B /* SampleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371221480D32006A551B /* SampleDataSource.swift */; };
-		8AAF371B21481369006A551B /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371821481369006A551B /* UIImage+CVPixelBuffer.swift */; };
+		8AAF371B21481369006A551B /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371821481369006A551B /* UIImage+Utils.swift */; };
 		8AAF371C21481369006A551B /* DepthFromCameraRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371921481369006A551B /* DepthFromCameraRollViewController.swift */; };
 		8AAF371D2148136A006A551B /* CGImageSource+Depth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF371A21481369006A551B /* CGImageSource+Depth.swift */; };
 		8AAF371F214814BE006A551B /* DepthFromCameraRoll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */; };
@@ -73,7 +73,7 @@
 		8AAF371021480D31006A551B /* RootViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewCell.swift; sourceTree = "<group>"; };
 		8AAF371121480D32006A551B /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		8AAF371221480D32006A551B /* SampleDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataSource.swift; sourceTree = "<group>"; };
-		8AAF371821481369006A551B /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		8AAF371821481369006A551B /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
 		8AAF371921481369006A551B /* DepthFromCameraRollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFromCameraRollViewController.swift; sourceTree = "<group>"; };
 		8AAF371A21481369006A551B /* CGImageSource+Depth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImageSource+Depth.swift"; sourceTree = "<group>"; };
 		8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DepthFromCameraRoll.storyboard; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			children = (
 				8A171F12214905D400121E80 /* CVPixelBuffer+CIImage.swift */,
 				8AAF371A21481369006A551B /* CGImageSource+Depth.swift */,
-				8AAF371821481369006A551B /* UIImage+CVPixelBuffer.swift */,
+				8AAF371821481369006A551B /* UIImage+Utils.swift */,
 				8A171F14214928BB00121E80 /* AVDepthData+Utils.swift */,
 				8A603D892149460E00F848A4 /* PhotosUtils.swift */,
 				8A603D8B2149590F00F848A4 /* UIAlertController+Utils.swift */,
@@ -400,7 +400,7 @@
 				8A9A09DA214BA92E00432B1A /* PointCloud.swift in Sources */,
 				8AAF371C21481369006A551B /* DepthFromCameraRollViewController.swift in Sources */,
 				8A171F13214905D400121E80 /* CVPixelBuffer+CIImage.swift in Sources */,
-				8AAF371B21481369006A551B /* UIImage+CVPixelBuffer.swift in Sources */,
+				8AAF371B21481369006A551B /* UIImage+Utils.swift in Sources */,
 				8AAF371521480D32006A551B /* SampleDataSource.swift in Sources */,
 				8AFD6516214B08EB0085F997 /* PointCloudViewController.swift in Sources */,
 				8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */,

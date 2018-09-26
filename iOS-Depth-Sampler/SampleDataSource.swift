@@ -29,7 +29,7 @@ struct SampleDataSource {
             classPrefix: "RealtimeDepth"
         ),
         Sample(
-            title: "Real-time Dpeth Mask",
+            title: "Real-time Depth Mask",
             detail: "Blending a background image with a mask created from depth",
             classPrefix: "RealtimeDepthMask"
         ),
