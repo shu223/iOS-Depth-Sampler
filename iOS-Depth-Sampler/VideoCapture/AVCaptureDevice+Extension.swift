@@ -33,13 +33,14 @@ extension AVCaptureDevice {
         guard let selectedFormat = formatWithHighestResolution(availableFormats) else { fatalError() }
 
         let depthFormats = selectedFormat.supportedDepthDataFormats
-        let depth32formats = depthFormats.filter({
+        let depth32formats = depthFormats.filter {
             CMFormatDescriptionGetMediaSubType($0.formatDescription) == kCVPixelFormatType_DepthFloat32
-        })
+        }
         guard !depth32formats.isEmpty else { fatalError() }
-        let selectedDepthFormat = depth32formats.max(by: { first, second in
-            CMVideoFormatDescriptionGetDimensions(first.formatDescription).width <
-                CMVideoFormatDescriptionGetDimensions(second.formatDescription).width })!
+        let selectedDepthFormat = depth32formats.max(by: {
+            CMVideoFormatDescriptionGetDimensions($0.formatDescription).width
+                < CMVideoFormatDescriptionGetDimensions($1.formatDescription).width
+        })!
 
         print("selected format: \(selectedFormat), depth format: \(selectedDepthFormat)")
         try! lockForConfiguration()
