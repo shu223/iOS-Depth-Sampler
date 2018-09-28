@@ -74,8 +74,8 @@ class DepthFromCameraRollViewController: UIViewController {
     }
     
     private func processImageSource(_ imageSource: CGImageSource) {
-        self.disparityPixelBuffer = imageSource.getDisparity()
-        self.depthPixelBuffer = imageSource.getDepth()
+        self.disparityPixelBuffer = imageSource.getDisparityData()?.depthDataMap
+        self.depthPixelBuffer = imageSource.getDepthData()?.depthDataMap
     }
     
     private func update() {

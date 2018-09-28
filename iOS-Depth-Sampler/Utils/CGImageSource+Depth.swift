@@ -41,14 +41,14 @@ extension CGImageSource {
         return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypePortraitEffectsMatte) as? [String : AnyObject]
     }
     
-    private var disparityData: AVDepthData? {
+    var disparityData: AVDepthData? {
         if let disparityDataInfo = disparityDataInfo {
             return try! AVDepthData(fromDictionaryRepresentation: disparityDataInfo)
         }
         return nil
     }
     
-    private var depthData: AVDepthData? {
+    var depthData: AVDepthData? {
         if let depthDataInfo = depthDataInfo {
             return try! AVDepthData(fromDictionaryRepresentation: depthDataInfo)
         }
@@ -63,23 +63,23 @@ extension CGImageSource {
         return nil
     }
     
-    func getDisparity() -> CVPixelBuffer {
-        var depthDataMap: CVPixelBuffer!
+    func getDisparityData() -> AVDepthData? {
+        var data: AVDepthData? = nil
         if let disparityData = disparityData {
-            depthDataMap = disparityData.depthDataMap
+            data = disparityData
         } else if let depthData = depthData {
-            depthDataMap = depthData.convertToDisparity().depthDataMap
+            data = depthData.convertToDisparity()
         }
-        return depthDataMap
+        return data
     }
 
-    func getDepth() -> CVPixelBuffer {
-        var depthDataMap: CVPixelBuffer!
+    func getDepthData() -> AVDepthData? {
+        var data: AVDepthData? = nil
         if let depthData = depthData {
-            depthDataMap = depthData.depthDataMap
+            data = depthData
         } else if let depthData = disparityData {
-            depthDataMap = depthData.convertToDepth().depthDataMap
+            data = depthData.convertToDepth()
         }
-        return depthDataMap
+        return data
     }
 }

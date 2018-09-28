@@ -72,8 +72,8 @@ class PointCloudlViewController: UIViewController {
     
     private func loadImage(at url: URL) {
         let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
-        self.disparityPixelBuffer = imageSource.getDisparity()
-        self.depthPixelBuffer = imageSource.getDepth()
+        self.disparityPixelBuffer = imageSource.getDisparityData()?.depthDataMap
+        self.depthPixelBuffer = imageSource.getDepthData()?.depthDataMap
         guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
         self.image = image
         self.drawImage(image)
@@ -86,8 +86,8 @@ class PointCloudlViewController: UIViewController {
         }
         asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
             let imageSource = contentEditingInput!.createImageSource()
-            self.disparityPixelBuffer = imageSource.getDisparity()
-            self.depthPixelBuffer = imageSource.getDepth()
+            self.disparityPixelBuffer = imageSource.getDisparityData()?.depthDataMap
+            self.depthPixelBuffer = imageSource.getDepthData()?.depthDataMap
         }
     }
     
