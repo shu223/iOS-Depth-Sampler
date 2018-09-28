@@ -17,8 +17,7 @@ class PointCloudlViewController: UIViewController {
     @IBOutlet weak var typeSegmentedCtl: UISegmentedControl!
 
     private var image: UIImage?
-    private var disparityPixelBuffer: CVPixelBuffer?
-    private var depthPixelBuffer: CVPixelBuffer?
+    private var depthData: AVDepthData?
 
     @IBOutlet weak var scnView: SCNView!
     private let scene = SCNScene()
@@ -72,11 +71,11 @@ class PointCloudlViewController: UIViewController {
     
     private func loadImage(at url: URL) {
         let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
-        self.disparityPixelBuffer = imageSource.getDisparityData()?.depthDataMap
-        self.depthPixelBuffer = imageSource.getDepthData()?.depthDataMap
+        depthData = imageSource.getDisparityData()
+//        depthData = imageSource.getDepthData()
         guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
         self.image = image
-        self.drawImage(image)
+        drawImage(image)
     }
     
     private func loadAsset(_ asset: PHAsset) {
@@ -86,8 +85,7 @@ class PointCloudlViewController: UIViewController {
         }
         asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
             let imageSource = contentEditingInput!.createImageSource()
-            self.disparityPixelBuffer = imageSource.getDisparityData()?.depthDataMap
-            self.depthPixelBuffer = imageSource.getDepthData()?.depthDataMap
+            self.depthData = imageSource.getDisparityData()
         }
     }
     
@@ -99,7 +97,9 @@ class PointCloudlViewController: UIViewController {
     
     private func drawPointCloud() {
         guard let colorImage = image, let cgColorImage = colorImage.cgImage else { fatalError() }
-        guard let depthPixelBuffer = disparityPixelBuffer else { fatalError() }
+        guard let depthData = depthData else { fatalError() }
+        
+        let depthPixelBuffer = depthData.depthDataMap
         let width  = CVPixelBufferGetWidth(depthPixelBuffer)
         let height = CVPixelBufferGetHeight(depthPixelBuffer)
 
