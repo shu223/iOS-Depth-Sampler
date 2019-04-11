@@ -46,12 +46,12 @@ open class AssetsPickerController: UITableViewController, PHPhotoLibraryChangeOb
 		
 		// Navigation bar
 		navigationItem.title = NSLocalizedString("Photos", comment: "")
-		navigationItem.leftBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Cancel", comment: ""), style: UIBarButtonItemStyle.plain, target: self, action: #selector(AssetsPickerController.cancelAction))
-		navigationItem.rightBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Done", comment: ""), style: UIBarButtonItemStyle.done, target: self, action: #selector(AssetsPickerController.doneAction))
+		navigationItem.leftBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Cancel", comment: ""), style: UIBarButtonItem.Style.plain, target: self, action: #selector(AssetsPickerController.cancelAction))
+		navigationItem.rightBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Done", comment: ""), style: UIBarButtonItem.Style.done, target: self, action: #selector(AssetsPickerController.doneAction))
 		navigationItem.rightBarButtonItem?.isEnabled = false
 		
 		// Activity indicator
-		activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+		activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
 		activityIndicator.hidesWhenStopped = true
 		activityIndicator.center = self.view.center
 		self.view.addSubview(activityIndicator)
@@ -149,7 +149,7 @@ open class AssetsPickerController: UITableViewController, PHPhotoLibraryChangeOb
 	}
 	
 	override open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: reuseIdentifier)
+		let cell: UITableViewCell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: reuseIdentifier)
 		
 		cell.imageView?.image = items[(indexPath as NSIndexPath).row].image
 		cell.textLabel?.text = NSLocalizedString(items[(indexPath as NSIndexPath).row].title, comment: "")

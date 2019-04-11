@@ -302,7 +302,7 @@
 				TargetAttributes = {
 					8A702F93212A3BD3004039F7 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -370,7 +370,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftAssetsPickerController/SwiftAssetsPickerController.framework",
 				"${BUILT_PRODUCTS_DIR}/Vivid/Vivid.framework",
@@ -383,7 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -584,7 +584,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS-Depth-Sampler/iOS-Depth-Sampler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -606,7 +606,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-Depth-Sampler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS-Depth-Sampler/iOS-Depth-Sampler-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

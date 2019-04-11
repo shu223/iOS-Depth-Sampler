@@ -172,9 +172,14 @@ extension CVPixelBuffer {
             let rowData = CVPixelBufferGetBaseAddress(self)! + yMap * CVPixelBufferGetBytesPerRow(self)
             let data = UnsafeMutableBufferPointer<Float32>(start: rowData.assumingMemoryBound(to: Float32.self), count: width)
             for index in 0 ..< width {
-                if data[index] > 0 && data[index] <= cutOff {
+                let depth = data[index]
+                if depth.isNaN {
+                    data[index] = 1.0
+                } else if depth <= cutOff {
+                    // 前景
                     data[index] = 1.0
                 } else {
+                    // 背景
                     data[index] = 0.0
                 }
             }

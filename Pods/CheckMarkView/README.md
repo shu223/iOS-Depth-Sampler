@@ -3,9 +3,11 @@
 [![Version](https://img.shields.io/cocoapods/v/CheckMarkView.svg?style=flat)](http://cocoadocs.org/docsets/CheckMarkView)
 [![License](https://img.shields.io/cocoapods/l/CheckMarkView.svg?style=flat)](http://cocoadocs.org/docsets/CheckMarkView)
 [![Platform](https://img.shields.io/cocoapods/p/CheckMarkView.svg?style=flat)](http://cocoadocs.org/docsets/CheckMarkView)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/CheckMarkView.svg)](https://cocoapods.org/pods/CheckMarkView)
+[![CocoaPods](https://img.shields.io/cocoapods/dm/CheckMarkView.svg)](https://cocoapods.org/pods/CheckMarkView)
 
 Unfortunately <i>Apple</i> doesn't provide accessory type property for <i>UICollectionViewCell</i>, such as for <i>UITableViewCell</i>, so I provide custom way to create checkmark.
-Just simple view which draws programmatically checkmark with some styles.
+A just simple view which draws programmatically checkmark with some styles.
 
 ![alt tag](https://raw.github.com/maximbilan/CheckMarkView/master/img/img1.png)
 
@@ -13,11 +15,7 @@ Just simple view which draws programmatically checkmark with some styles.
 
 <b>CocoaPods:</b>
 <pre>
-<b>Swift 3.0</b>:
-pod 'CheckMarkView', '~> 0.3.0'
-
-<b>Swift 4.0</b>:
-pod 'CheckMarkView', '~> 0.4.0'
+pod 'CheckMarkView'
 </pre>
 
 <b>Manual:</b>
@@ -38,9 +36,9 @@ And <i>style</i> property for unchecked view. There are some styles:
 
 <pre>
 enum CheckMarkStyle: Int {
-    case Nothing
-    case OpenCircle
-    case GrayedOut
+    case nothing
+    case openCircle
+    case grayedOut
 }
 </pre>
 
