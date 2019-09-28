@@ -7,6 +7,7 @@
 //
 
 import Photos
+import UIKit
 
 extension PHAsset {
     class func fetchAssetsWithDepth() -> [PHAsset] {
