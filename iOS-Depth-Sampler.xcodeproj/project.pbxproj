@@ -369,17 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftAssetsPickerController/SwiftAssetsPickerController.framework",
-				"${BUILT_PRODUCTS_DIR}/Vivid/Vivid.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CheckMarkView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftAssetsPickerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Vivid.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

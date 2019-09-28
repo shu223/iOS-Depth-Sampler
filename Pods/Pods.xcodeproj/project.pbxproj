@@ -7,114 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05258031CACCD32A2583F5E6C75F62BF /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D9AD538027199AEF6FBDAF28462867 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06DD7E06AE19200B639DC0CF37AECFC2 /* YUCIFlashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E7ADF9F9D3AD1C1F5DFF03E97E0123 /* YUCIFlashTransition.m */; };
-		09F71E6148049317EEDCF08F54DE2A72 /* YUCIColorLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 466B5A0D59455C18B73F02DD31B314DB /* YUCIColorLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C0357653A10E0566E318029F7443F06 /* YUCIColorLookupTableDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DFAF2617C49E790AB841DF2D23D581 /* YUCIColorLookupTableDefault.png */; };
-		0EC08708DB5760B938AF642A71EAD3B7 /* YUCITriangularPixellate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE02821784C7076B14821DE718ED04D /* YUCITriangularPixellate.m */; };
-		0ECCE434304C66F37EF6811E8E73F043 /* YUCICrossZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A5797A3028C62C6D40935641999AE197 /* YUCICrossZoomTransition.m */; };
-		0F71997E2AB0EA62FDAC65F5E6EA72DB /* YUCIFXAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 037F93DA2AB2E3F3C125DACD21F44EB8 /* YUCIFXAA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C9233EB068A6EE8DA41ADE90A6EB96 /* YUCIFilmBurnTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4A7877C541160460B6DCCC4DB4E1D /* YUCIFilmBurnTransition.m */; };
-		14E151359F560B93A1F465EA45FCC314 /* Pods-iOS-Depth-Sampler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBAF7A8AF804E2E01BB4201E1585A0 /* Pods-iOS-Depth-Sampler-dummy.m */; };
-		1664B9259339DC6A9B744788A34D4E37 /* YUCIColorLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3752C51629EBF1DE93DB6D644858A /* YUCIColorLookup.m */; };
-		167501B648DA189D6DAFA83ECFBFB61B /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 40364E9CC1FB1A684C578347B2E4C1C1 /* YUCIFilmBurnTransition.cikernel */; };
-		1A7459D25225DEC84F9A95E3CB9B8E85 /* timelapse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB7ECF316DDAEEB6FA5E7175AC5FBD35 /* timelapse-icon.png */; };
-		1BDB0456A7712F51356498BA2BD07F77 /* YUCIBlobsGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9160744B9031ABFE445401C9D1BC5E60 /* YUCIBlobsGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EB39A55A2F143C1C60677466289FEA9 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */; };
-		2191FF5826692B27B334236D842C86F9 /* SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4BEDD0AD29EFBBACA13BD9E8281A28 /* SwiftAssetsPickerController-dummy.m */; };
-		24DDA3B3895D466F74A2D427A27B6CDC /* Vivid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D121F0E41316B0B06556C506B0D24646 /* Vivid-dummy.m */; };
-		28E3FC272FAD53DF19F71C9179C4DA35 /* YUCIReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B55315C465553938C4B307865CC8F989 /* YUCIReflectedTile.m */; };
-		321CD2124E763C7606AB616F05BB6688 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A75F61B5E9F5865729E05DA2E155D719 /* Base.lproj */; };
-		328FBFD72DD59D2A022F14A4428C46AC /* YUCIRGBToHSL.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = D8714798FADA01903F2421EA6C0552AC /* YUCIRGBToHSL.cikernel */; };
-		34DD54E2A69AA49E2F6CF7699B8871A5 /* YUCIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DB8CF996CD6895E63871A170AF40A8B /* YUCIBilateralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF597559BA638661E2863F16163454 /* YUCIBilateralFilter.m */; };
-		3E1515BF866BE23707705A1BCDD4B30C /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2B36D8E39D06611538D02B5B93E489DE /* en.lproj */; };
-		40269AA4A293D4D913085C04A33C3817 /* YUCIBilateralFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E7F71FD26C398AE08097C937DBFDC718 /* YUCIBilateralFilter.cikernel */; };
-		41C517D0AA8167E6C9D37CB0D12BCB40 /* YUCIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */; };
-		4413DF26109BE2AC2CBCA412502338DF /* CheckMarkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0785A9ED4F46F6E3826EB3F9B245F /* CheckMarkView.framework */; };
-		494C834A1F1E8C2E4F402E1FD2DC7232 /* YUCIBilateralFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A842346ACFA9F89350CBBB3D4B1110 /* YUCIBilateralFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F849ABA61276DE3FFA3E55299CB0164 /* Pods-iOS-Depth-Sampler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD68F0F492E36EEC4E00046360F4E894 /* Pods-iOS-Depth-Sampler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522A111A3D27A8AB55F4A44E6F2668A7 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = BB6F2CB2D35B4A67ECC74DB1E9852E81 /* YUCIBlobsGenerator.cikernel */; };
-		53C07FBF3731BA450655F7E3C513C626 /* YUCIFlashTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CC4882FE88368C688C65868AECB840 /* YUCIFlashTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59D6F4032136F693FFE9698EDD8D295B /* YUCIStarfieldGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = C806D12AE4097BB9EA6CF9DA68BEB7EE /* YUCIStarfieldGenerator.cikernel */; };
-		5C24FB2B83C5CDE5CBAD263330FB0F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		66453241984CB1337795A88A7D745A99 /* YUCIFilterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E25164E7481B87549F40DADB478BE /* YUCIFilterUtilities.m */; };
-		673E76B93E310BF488CB10C90D3543FC /* YUCIFilterPreviewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A86429DFC66985D38382843D7A2919 /* YUCIFilterPreviewGenerator.m */; };
-		6D042EE1BB0D8E6BD7F206D8BC8667CA /* YUCISkyGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 18CDFB887F148DEF26A5F65BE7C5CB09 /* YUCISkyGenerator.cikernel */; };
-		6D29CD981802FB09DB2983C7E43F907D /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D381FB0E03D33DB5BE448EB2FD91964A /* CheckMarkView-dummy.m */; };
-		6F6D107FA2B1D49F736FE5BD34F7D42E /* YUCICLAHE.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 616ABDD2A6C9DFF196947141B3E6D9A2 /* YUCICLAHE.cikernel */; };
-		6FA740852BE129FBE1C4545D3145A142 /* YUCIFXAA.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 40209A3B60F86B3E9AF56DBCCD89AA15 /* YUCIFXAA.cikernel */; };
-		76A7E6B286DF273D48CA62633654297C /* YUCISkyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BC1EF8C8282D29A60CB8E1082F2C5C /* YUCISkyGenerator.m */; };
-		799C14DD633A8885E781732FD0D11C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		79ABCC54745EEAE8965ED7051F8E1B89 /* YUCIReflectedTileROICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F3F33E7479DA29224A0395B8E8A44 /* YUCIReflectedTileROICalculator.m */; };
-		7AB8296B8534CF0D5ADFF055B0781FE7 /* YUCIFilterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6D137D5E865628943341ADDDF98E6B /* YUCIFilterConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BB2459F1FD118896861CB91D8600967 /* YUCIRGBToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4286722C85ACFC41FA2868729EBDF7 /* YUCIRGBToneCurve.m */; };
-		7E3F9DA937526BE82632096A3851AD2E /* YUCISurfaceBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCDF7BE3969DA1F5A7666A2BF622359 /* YUCISurfaceBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B067D0A643D5CB0C7845339D0A60123 /* YUCIReflectedTileROICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC4C262A86A1E05515AFAD2FEEAC48A /* YUCIReflectedTileROICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BF1B576BC9A2D2C680CC46FF6381F88 /* Vivid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E272ED80ED90C1C96CCF23E5742668 /* Vivid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C3B153979750ABE58470E95B0A51263 /* AssetsPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */; };
-		910165E6A82445CF2B93D38FF43396FD /* YUCISurfaceBlur.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = A629E48DA6BE3B31EF12FE32CD5AAE68 /* YUCISurfaceBlur.cikernel */; };
-		95A8769CB36F0654C342CB827592272C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		95AC274B4135FE7FD9E0B27560C29F9B /* YUCIFilterUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FB39FFE8CDF22E084BCABC05C02DED /* YUCIFilterUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97D604033424A3CA75F3C0F139A7CFFB /* YUCICrossZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27138FA18FC3F5D6C5B811C6128022 /* YUCICrossZoomTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DEDF70E657157BEF6F729B82E421457 /* YUCIReflectedTile.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E6E37EA0D4582D4443069883B576A53A /* YUCIReflectedTile.cikernel */; };
-		A12C3EA64991F3DBAA0B8A8B49E89FFE /* YUCIColorLookup.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB44AC2AB1AFFE3F7246BBDFE36423 /* YUCIColorLookup.cikernel */; };
-		A13E61065500FD3375A41DBD40F5C15B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		A5282EBA3012787167AB44F2BECDECEC /* YUCIFilmBurnTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEEFE08FA35A3DEE6A9A6F8C9839A99 /* YUCIFilmBurnTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB45521F1A74A350C2558A939A501783 /* YUCITriangularPixellate.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 946F6ED033AFA924F1FA667926EC52E3 /* YUCITriangularPixellate.cikernel */; };
-		ACCE606F6B74E5234D66171127409C80 /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 332B10DD12A2D1C0022E8730D9B25C4B /* video-icon.png */; };
-		AFEC8011613958B37D24105CD6832B6F /* panorama-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EE827C5D3B477FAA625DBD048D449 /* panorama-icon.png */; };
-		B3A6A17B752982CBC03368E4106577F3 /* YUCISkyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C84377645F99F26386571F96200C858 /* YUCISkyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B77DEE0539B1F250CD8AB38C99ACF54D /* YUCICrossZoomTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E8E4972C7B610CD570DFC84411358F87 /* YUCICrossZoomTransition.cikernel */; };
-		C19A86BC448959919CF7AEB77E059EE8 /* YUCIFXAA.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAC8E90773CB8284D62C4A2B56FE46C /* YUCIFXAA.m */; };
-		CAC872CF53D54858213CA116A84B631C /* YUCIFilterPreviewGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE4FC362FC9F3276A39D4BA34936BD4 /* YUCIFilterPreviewGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC78A4BF753F7E3E3DE04905789AD243 /* SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BED3F55CCD3E951A459A8AD76B39379 /* SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2BA150329431480F121708FE433D05E /* AssetsPickerGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */; };
-		D3198FF7B393064E3376213ACA0D2096 /* YUCIStarfieldGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ED39A13101757ED9F7D383C134D9719C /* YUCIStarfieldGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3B62FE44F8DC827935E9BB0826E323D /* YUCICLAHE.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D25ED3DAA6399ACA4764D5747F2F35 /* YUCICLAHE.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D49A065524E94855D20C01993F475B6B /* YUCIFlashTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = CC4850EE0DF60ABB169764AF7F4DE44D /* YUCIFlashTransition.cikernel */; };
-		D54D7E208757B5D0C214D2245782B789 /* YUCIHSLToRGB.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E92D2D82983A90C2E8E0CD5491CA /* YUCIHSLToRGB.cikernel */; };
-		D5B27DAE1959A6B2178BA47E43C74D81 /* YUCIReflectedTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB969F8B4C1109E8D247FDF2245CEC /* YUCIReflectedTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D667C4BDD884899A968C962E781AC270 /* YUCIRGBToneCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = B824A65A866C8DC93C28DEB8EE5A8F32 /* YUCIRGBToneCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA44C757A90F85526BD42DE9FA64A010 /* YUCISurfaceBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6DD5274C9BB889153E4C591AE5BB /* YUCISurfaceBlur.m */; };
-		DCE8A2BC4FD0AE5ACBE6BD4792AEC141 /* YUCIFilterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B449D21E5986EFF85A6841FDF260FB /* YUCIFilterConstructor.m */; };
-		E1D2F8A388E8E552C702A5A887F14701 /* YUCICLAHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B8209F718E934923BAC336B300C6C /* YUCICLAHE.m */; };
-		E86BCD8EC7A72D5FFDB6A9F87E5249C7 /* YUCIHistogramEqualization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9841C2DEF7253CB17C022999C6DD456B /* YUCIHistogramEqualization.m */; };
-		F0670F05000AB821C4E821B8AFA97624 /* YUCIBlobsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27419039F1605BC915BBA2B9F59FD8AB /* YUCIBlobsGenerator.m */; };
-		F2EE000A4A5F42BDDF4181983DF3DCF7 /* YUCIRGBToneCurve.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 456DBFD2C2FACADC9449D6210AC0089A /* YUCIRGBToneCurve.cikernel */; };
-		F8D8CAB7CF262AFF35E010F9CA9268DA /* YUCIStarfieldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0F84746D825A7E12A114E349191E9 /* YUCIStarfieldGenerator.m */; };
-		F97A8E684C75D770124AD307E07C64B4 /* YUCIHistogramEqualization.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DF0F154620A777A9D39FF8DB507D2D /* YUCIHistogramEqualization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDD8BDA082C5C6D7401F200181D74B3D /* YUCITriangularPixellate.h in Headers */ = {isa = PBXBuildFile; fileRef = 11706A733FF991D96831513A04BC6CFB /* YUCITriangularPixellate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02D45E4CDD4CB327AE75AC2DC6BA6295 /* YUCIFXAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 037F93DA2AB2E3F3C125DACD21F44EB8 /* YUCIFXAA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047D46F87D998DDE29532A9439B87C53 /* YUCICLAHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B8209F718E934923BAC336B300C6C /* YUCICLAHE.m */; };
+		0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		0ACD417360142FB797B87A9FD0224EA9 /* YUCIRGBToHSL.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = D8714798FADA01903F2421EA6C0552AC /* YUCIRGBToHSL.cikernel */; };
+		0AEB1EF936D450A6EEC55C11F6F970A6 /* YUCISkyGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 18CDFB887F148DEF26A5F65BE7C5CB09 /* YUCISkyGenerator.cikernel */; };
+		0D534E830FCD511ACDDDFF0DF5BE39E7 /* YUCIReflectedTile.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E6E37EA0D4582D4443069883B576A53A /* YUCIReflectedTile.cikernel */; };
+		0DEAE1BE16EE03A57F8146742F97D6E8 /* AssetsPickerGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */; };
+		0E7C6D14160E3CC9DE45D70843C72CBF /* YUCIReflectedTileROICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F3F33E7479DA29224A0395B8E8A44 /* YUCIReflectedTileROICalculator.m */; };
+		1BDE39CF847A5BBC5887B18B196F678C /* YUCIRGBToneCurve.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 456DBFD2C2FACADC9449D6210AC0089A /* YUCIRGBToneCurve.cikernel */; };
+		1D3CEBC867511752B9574D0A10FA123E /* timelapse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B648833C7EE9107DF530F35BFAA7DA4D /* timelapse-icon.png */; };
+		2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */; };
+		24E87C81D5387EA42C310711C6391144 /* Pods-iOS-Depth-Sampler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0BCC6A24AE4D2FE6199DFE28DEF813 /* Pods-iOS-Depth-Sampler-dummy.m */; };
+		26506173D4857231F07A2C87273C0D63 /* YUCIFlashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E7ADF9F9D3AD1C1F5DFF03E97E0123 /* YUCIFlashTransition.m */; };
+		278E9267A14A72BC62C7AEA05E2C5145 /* YUCICrossZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A5797A3028C62C6D40935641999AE197 /* YUCICrossZoomTransition.m */; };
+		29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F23ADEEFA5FFA67E15745BCD1F905DA1 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA81692AA6CBA6C848A7372BEE1AC47 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = BB6F2CB2D35B4A67ECC74DB1E9852E81 /* YUCIBlobsGenerator.cikernel */; };
+		33E08F4B71DDFCE7A2FA9E3A17391F4D /* YUCIBilateralFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E7F71FD26C398AE08097C937DBFDC718 /* YUCIBilateralFilter.cikernel */; };
+		37BBE7DD28E2E44A1B986F1A683D1B97 /* YUCIColorLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3752C51629EBF1DE93DB6D644858A /* YUCIColorLookup.m */; };
+		3C962E1A068D33FD44E2C01C1C9C5476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		3E176D1F1B7154F7CFF3509E5769766A /* YUCIStarfieldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0F84746D825A7E12A114E349191E9 /* YUCIStarfieldGenerator.m */; };
+		3EC8E513D47F562A45CCBF2085818CE3 /* YUCIStarfieldGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = C806D12AE4097BB9EA6CF9DA68BEB7EE /* YUCIStarfieldGenerator.cikernel */; };
+		3FD7F1A5152A9FB696708A31D1631179 /* YUCITriangularPixellate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE02821784C7076B14821DE718ED04D /* YUCITriangularPixellate.m */; };
+		46EC1D08BFD022E8209109685B2C8FC5 /* YUCIFilterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E25164E7481B87549F40DADB478BE /* YUCIFilterUtilities.m */; };
+		5102150114D1E67EFD7DFCEAB47CCFC0 /* AssetsPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */; };
+		52E78FCDE3030B1C8868BE1D89A2C044 /* YUCIFilterPreviewGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE4FC362FC9F3276A39D4BA34936BD4 /* YUCIFilterPreviewGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		534176806C5865E104B6C832E1E986D8 /* YUCIFilterPreviewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A86429DFC66985D38382843D7A2919 /* YUCIFilterPreviewGenerator.m */; };
+		5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C24230E499679C93607E2E68B1782 /* CheckMarkView-dummy.m */; };
+		65EF93924282B460006BAA63141A7F58 /* YUCICrossZoomTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E8E4972C7B610CD570DFC84411358F87 /* YUCICrossZoomTransition.cikernel */; };
+		69D01D1DE32C3BB6F8243658DA1D1124 /* YUCITriangularPixellate.h in Headers */ = {isa = PBXBuildFile; fileRef = 11706A733FF991D96831513A04BC6CFB /* YUCITriangularPixellate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9BEA1E3E89DD744A43C8F07A631589 /* YUCIHistogramEqualization.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DF0F154620A777A9D39FF8DB507D2D /* YUCIHistogramEqualization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFA8DF49385A21DF50389C6306163C5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E3A1A30E7E06E46F84FD7163CB31479E /* Base.lproj */; };
+		7EC9FF47BD470D0D7DFC5B8FAF06376A /* YUCISurfaceBlur.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = A629E48DA6BE3B31EF12FE32CD5AAE68 /* YUCISurfaceBlur.cikernel */; };
+		7FDCA2BCA11BDC124C077C21EB27595D /* YUCIFilterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6D137D5E865628943341ADDDF98E6B /* YUCIFilterConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E7F69F9AE511F2BA16544BD7FF4311 /* YUCIColorLookup.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB44AC2AB1AFFE3F7246BBDFE36423 /* YUCIColorLookup.cikernel */; };
+		8532649D24BDBA81FE34A4D9E6B6D23B /* SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 976CC9319804FDE33133ECC7CA54F2C7 /* SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867A1CFA9A3E1F05A6C6BCA0548FFF10 /* YUCIReflectedTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB969F8B4C1109E8D247FDF2245CEC /* YUCIReflectedTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E14B19BB3AFA90C2ABB53D2443858D /* YUCIRGBToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4286722C85ACFC41FA2868729EBDF7 /* YUCIRGBToneCurve.m */; };
+		8B2A6B9456504603B1888BE1AB5C4A3C /* YUCIBilateralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF597559BA638661E2863F16163454 /* YUCIBilateralFilter.m */; };
+		8B8AF394DA880457B5547B16D36F9971 /* YUCISkyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BC1EF8C8282D29A60CB8E1082F2C5C /* YUCISkyGenerator.m */; };
+		8EE9F22083104D16F319010915CAA3A3 /* YUCIHistogramEqualization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9841C2DEF7253CB17C022999C6DD456B /* YUCIHistogramEqualization.m */; };
+		8F05AA6C9D051482C76556E886BCDD8E /* YUCIBlobsGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9160744B9031ABFE445401C9D1BC5E60 /* YUCIBlobsGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94476CA393F129F40F31AFF1869ED41E /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C5D87D434E9751768E7F2D903C02 /* video-icon.png */; };
+		96BBD874A98875A30A46AFF843ACBC7C /* YUCICrossZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27138FA18FC3F5D6C5B811C6128022 /* YUCICrossZoomTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987C1777394DBC6391E26BBE5FDB113D /* Vivid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF863FA3A05EADF09661E2E95A1AFBC /* Vivid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991295117C52078ABAC78385D04916A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		A3612713B0F7762B2CA5E34D109907E3 /* YUCIFilmBurnTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4A7877C541160460B6DCCC4DB4E1D /* YUCIFilmBurnTransition.m */; };
+		A8CADE0AA0A2377E0CEE7AFFC4106F27 /* YUCIStarfieldGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ED39A13101757ED9F7D383C134D9719C /* YUCIStarfieldGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC31672A9E521F89698C978B5F90851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		AF0C5786E5A9106DC4F84D3A11788A69 /* YUCICLAHE.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 616ABDD2A6C9DFF196947141B3E6D9A2 /* YUCICLAHE.cikernel */; };
+		BF58FABC93A613F9AF431CEEAA806A73 /* YUCISurfaceBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCDF7BE3969DA1F5A7666A2BF622359 /* YUCISurfaceBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0BEE9D7BB6CC936BE0DF3AC1E614ACA /* YUCIFlashTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CC4882FE88368C688C65868AECB840 /* YUCIFlashTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42EFAA88A689994F52DD69D14A609E3 /* panorama-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8264E14C7EFE2A0A9269C137A4820525 /* panorama-icon.png */; };
+		C7A103E1931EF1E882C9901D39500C30 /* CheckMarkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */; };
+		C7BE2FBA2A08C133D50D09DC5AF2A52B /* YUCIReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B55315C465553938C4B307865CC8F989 /* YUCIReflectedTile.m */; };
+		C7C2E472F366914ABE42AF5802A682CD /* Pods-iOS-Depth-Sampler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871C716D51741F42C7EEAD9CA63F7522 /* Pods-iOS-Depth-Sampler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3D83FAA570BD7B3D45240E36381F13 /* YUCIBlobsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27419039F1605BC915BBA2B9F59FD8AB /* YUCIBlobsGenerator.m */; };
+		D00D3FCD81662696DCFDD6F343DC93C8 /* Vivid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD5F0E87EAC0D13123EC691D8438AFD /* Vivid-dummy.m */; };
+		D4CEE97DF221B85471226B8B1DDA5992 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DE50BCC5992C2B937D4163E23F4AD3FF /* en.lproj */; };
+		D5AC33000F3C43922C5201F6DF2F00ED /* YUCIColorLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 466B5A0D59455C18B73F02DD31B314DB /* YUCIColorLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EE725A510D4496D7CE0E95AFE9A81A /* YUCIBilateralFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A842346ACFA9F89350CBBB3D4B1110 /* YUCIBilateralFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92C5F4EC8A45A6E76BB177539D68BFE /* SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287B01CD11BD22012E85C89A88471F4 /* SwiftAssetsPickerController-dummy.m */; };
+		D9ED00B5A86B39F4A7126CE4F6251E86 /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 40364E9CC1FB1A684C578347B2E4C1C1 /* YUCIFilmBurnTransition.cikernel */; };
+		E115E2EACEE07ED66FD7D68C686D1E13 /* YUCIFilmBurnTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEEFE08FA35A3DEE6A9A6F8C9839A99 /* YUCIFilmBurnTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DE92504C655FA11CC3BB72E553296F /* YUCISkyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C84377645F99F26386571F96200C858 /* YUCISkyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C4F06BFB018A1C39C3E93E6AC71902 /* YUCIFilterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B449D21E5986EFF85A6841FDF260FB /* YUCIFilterConstructor.m */; };
+		E6FB321891E2A641A8D0F388407A40B0 /* YUCIFXAA.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 40209A3B60F86B3E9AF56DBCCD89AA15 /* YUCIFXAA.cikernel */; };
+		E83A6A20984A391E742D4A70679D5210 /* YUCIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F14A044064DE2BBBE27B6A4CFCCB2A08 /* YUCIFlashTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = CC4850EE0DF60ABB169764AF7F4DE44D /* YUCIFlashTransition.cikernel */; };
+		F20374B78E907A1BF78E35B3A585A44E /* YUCIRGBToneCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = B824A65A866C8DC93C28DEB8EE5A8F32 /* YUCIRGBToneCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2105E545E9E5830E4E124302C14BA16 /* YUCISurfaceBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6DD5274C9BB889153E4C591AE5BB /* YUCISurfaceBlur.m */; };
+		F48D41FB741CE03C4DD592BB74BFBF41 /* YUCIFilterUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FB39FFE8CDF22E084BCABC05C02DED /* YUCIFilterUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70F719C6F0FFB1B7D59B6E119292B34 /* YUCITriangularPixellate.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 946F6ED033AFA924F1FA667926EC52E3 /* YUCITriangularPixellate.cikernel */; };
+		F7299ABCE2A682FE3E10F1FC1020CD58 /* YUCIColorLookupTableDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DFAF2617C49E790AB841DF2D23D581 /* YUCIColorLookupTableDefault.png */; };
+		F78F772FDAD43391845EF6C23975AFF0 /* YUCIReflectedTileROICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC4C262A86A1E05515AFAD2FEEAC48A /* YUCIReflectedTileROICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8456081023DB6F09BAA0E7B837EC780 /* YUCIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */; };
+		F86C96DBA4E5F5D3170A6CBA8A71AE31 /* YUCIFXAA.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAC8E90773CB8284D62C4A2B56FE46C /* YUCIFXAA.m */; };
+		F951CE81EE315F3B55A7B74260F6C77B /* YUCICLAHE.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D25ED3DAA6399ACA4764D5747F2F35 /* YUCICLAHE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6ECE886F379C7FF91D0DFA1EF7608A /* YUCIHSLToRGB.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E92D2D82983A90C2E8E0CD5491CA /* YUCIHSLToRGB.cikernel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6FB08922B227CCA5932BAB51919C4C30 /* PBXContainerItemProxy */ = {
+		51B9DBE859F4201C274F4BB935322153 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6994EF1DB6516853B64F822B594D2553;
+			remoteGlobalIDString = 00F7E26D53F57EF2BAE3FDCD21AB2A69;
 			remoteInfo = CheckMarkView;
 		};
-		795CB20C110A3A6DD9A981F16C9ADD76 /* PBXContainerItemProxy */ = {
+		5F02D1C80FCDDAA621C6BE06765C5045 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24BC566F42B741AA8FE87C168BB3CB06;
-			remoteInfo = SwiftAssetsPickerController;
+			remoteGlobalIDString = 00F7E26D53F57EF2BAE3FDCD21AB2A69;
+			remoteInfo = CheckMarkView;
 		};
-		93A4524234208D28C87FC551D67BC025 /* PBXContainerItemProxy */ = {
+		E91522BB0C10353E1068E8023C1A5068 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83D5E7E6DFBF181861D50A59B2223290;
+			remoteGlobalIDString = F81D7CCD8E3FC4AC5DD8A62C40D412DA;
 			remoteInfo = Vivid;
 		};
-		C9EB0194F9BD14BE55625CA7B6E4C739 /* PBXContainerItemProxy */ = {
+		FE259A589F325E1271FE2D1F620E6772 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6994EF1DB6516853B64F822B594D2553;
-			remoteInfo = CheckMarkView;
+			remoteGlobalIDString = E5FA193ECDC1A8A0C62D0DD2EA89E422;
+			remoteInfo = SwiftAssetsPickerController;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -126,131 +126,131 @@
 		11706A733FF991D96831513A04BC6CFB /* YUCITriangularPixellate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCITriangularPixellate.h; path = Sources/YUCITriangularPixellate.h; sourceTree = "<group>"; };
 		147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerController.swift; sourceTree = "<group>"; };
 		14DE6DD5274C9BB889153E4C591AE5BB /* YUCISurfaceBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCISurfaceBlur.m; path = Sources/YUCISurfaceBlur.m; sourceTree = "<group>"; };
+		17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAssetsPickerController.framework; path = SwiftAssetsPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182C24230E499679C93607E2E68B1782 /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
 		183B8209F718E934923BAC336B300C6C /* YUCICLAHE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCICLAHE.m; path = Sources/YUCICLAHE.m; sourceTree = "<group>"; };
 		18CDFB887F148DEF26A5F65BE7C5CB09 /* YUCISkyGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCISkyGenerator.cikernel; path = Sources/YUCISkyGenerator.cikernel; sourceTree = "<group>"; };
+		1AF863FA3A05EADF09661E2E95A1AFBC /* Vivid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-umbrella.h"; sourceTree = "<group>"; };
 		1FEEFE08FA35A3DEE6A9A6F8C9839A99 /* YUCIFilmBurnTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilmBurnTransition.h; path = Sources/YUCIFilmBurnTransition.h; sourceTree = "<group>"; };
-		25DEF039E6D2DC0A863BB9E607875232 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Depth_Sampler.framework; path = "Pods-iOS-Depth-Sampler.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272059386DD227797C2FCC120A0922E8 /* Vivid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-prefix.pch"; sourceTree = "<group>"; };
 		27419039F1605BC915BBA2B9F59FD8AB /* YUCIBlobsGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIBlobsGenerator.m; path = Sources/YUCIBlobsGenerator.m; sourceTree = "<group>"; };
-		2B36D8E39D06611538D02B5B93E489DE /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = SwiftAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
+		2A10A2A08D17BE510A50EC1C2B5EB4C7 /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
 		2BCDF7BE3969DA1F5A7666A2BF622359 /* YUCISurfaceBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCISurfaceBlur.h; path = Sources/YUCISurfaceBlur.h; sourceTree = "<group>"; };
-		2C6879AFC495503E747D1919289D1831 /* SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAssetsPickerController.framework; path = SwiftAssetsPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC4C262A86A1E05515AFAD2FEEAC48A /* YUCIReflectedTileROICalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIReflectedTileROICalculator.h; path = Sources/YUCIReflectedTileROICalculator.h; sourceTree = "<group>"; };
-		332B10DD12A2D1C0022E8730D9B25C4B /* video-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-icon.png"; path = "SwiftAssetsPickerController/Resources/video-icon.png"; sourceTree = "<group>"; };
-		33BBAF7A8AF804E2E01BB4201E1585A0 /* Pods-iOS-Depth-Sampler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Depth-Sampler-dummy.m"; sourceTree = "<group>"; };
-		3C4BEDD0AD29EFBBACA13BD9E8281A28 /* SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
-		3D6EE827C5D3B477FAA625DBD048D449 /* panorama-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "panorama-icon.png"; path = "SwiftAssetsPickerController/Resources/panorama-icon.png"; sourceTree = "<group>"; };
+		2EFC98790D8A290774C471DEB5B7901B /* Pods-iOS-Depth-Sampler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Depth-Sampler-acknowledgements.plist"; sourceTree = "<group>"; };
+		33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
+		3A7642064F6F7AAADB45297FC33FEAA9 /* Pods-iOS-Depth-Sampler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Depth-Sampler-Info.plist"; sourceTree = "<group>"; };
 		3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
 		40209A3B60F86B3E9AF56DBCCD89AA15 /* YUCIFXAA.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFXAA.cikernel; path = Sources/YUCIFXAA.cikernel; sourceTree = "<group>"; };
 		40364E9CC1FB1A684C578347B2E4C1C1 /* YUCIFilmBurnTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFilmBurnTransition.cikernel; path = Sources/YUCIFilmBurnTransition.cikernel; sourceTree = "<group>"; };
-		41B1BB90A48CE0761C2BF2C6ACF3B58A /* SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
 		456DBFD2C2FACADC9449D6210AC0089A /* YUCIRGBToneCurve.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIRGBToneCurve.cikernel; path = Sources/YUCIRGBToneCurve.cikernel; sourceTree = "<group>"; };
+		45A6D629984D15A2F38B397B84E7EAAB /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
 		466B5A0D59455C18B73F02DD31B314DB /* YUCIColorLookup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIColorLookup.h; path = Sources/YUCIColorLookup.h; sourceTree = "<group>"; };
+		47B4A383CF23285A3428F863B6DC1D30 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Depth_Sampler.framework; path = "Pods-iOS-Depth-Sampler.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D25ED3DAA6399ACA4764D5747F2F35 /* YUCICLAHE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCICLAHE.h; path = Sources/YUCICLAHE.h; sourceTree = "<group>"; };
-		49A7CD951F2DB79AEFA13D67F5D1CB6B /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
+		4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C84377645F99F26386571F96200C858 /* YUCISkyGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCISkyGenerator.h; path = Sources/YUCISkyGenerator.h; sourceTree = "<group>"; };
-		4F906DB8E07173B67221D9BC5E35B224 /* Pods-iOS-Depth-Sampler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Depth-Sampler-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52CC4882FE88368C688C65868AECB840 /* YUCIFlashTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFlashTransition.h; path = Sources/YUCIFlashTransition.h; sourceTree = "<group>"; };
-		57E272ED80ED90C1C96CCF23E5742668 /* Vivid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-umbrella.h"; sourceTree = "<group>"; };
-		598F5F1835E60B88A34A0396407C9ECD /* SwiftAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
-		5AD2823070C0E3649809E1206A413845 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
-		5BED3F55CCD3E951A459A8AD76B39379 /* SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
 		5CB3752C51629EBF1DE93DB6D644858A /* YUCIColorLookup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIColorLookup.m; path = Sources/YUCIColorLookup.m; sourceTree = "<group>"; };
-		5E23FF85D0F5078736522D9D885CA875 /* Vivid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Vivid.framework; path = Vivid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B449D21E5986EFF85A6841FDF260FB /* YUCIFilterConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterConstructor.m; path = Sources/YUCIFilterConstructor.m; sourceTree = "<group>"; };
 		616ABDD2A6C9DFF196947141B3E6D9A2 /* YUCICLAHE.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCICLAHE.cikernel; path = Sources/YUCICLAHE.cikernel; sourceTree = "<group>"; };
-		6338A4CE9BDB5A58EA16D05218205EFC /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
 		63AB969F8B4C1109E8D247FDF2245CEC /* YUCIReflectedTile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIReflectedTile.h; path = Sources/YUCIReflectedTile.h; sourceTree = "<group>"; };
-		6893A2BFAF8E4B379B19912BE9ECEE7E /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
-		6980ACBF3D13613C92F40C4FB8B0C87B /* Pods-iOS-Depth-Sampler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Depth-Sampler-Info.plist"; sourceTree = "<group>"; };
+		67EE9C240C3E84489E88C80D5A784192 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
 		6D6D137D5E865628943341ADDDF98E6B /* YUCIFilterConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterConstructor.h; path = Sources/YUCIFilterConstructor.h; sourceTree = "<group>"; };
-		718C576B7E3520B314C1020CD3718F4B /* SwiftAssetsPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.xcconfig; sourceTree = "<group>"; };
+		6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E4A7877C541160460B6DCCC4DB4E1D /* YUCIFilmBurnTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilmBurnTransition.m; path = Sources/YUCIFilmBurnTransition.m; sourceTree = "<group>"; };
-		74D9AD538027199AEF6FBDAF28462867 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
 		74DFAF2617C49E790AB841DF2D23D581 /* YUCIColorLookupTableDefault.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = YUCIColorLookupTableDefault.png; path = Sources/YUCIColorLookupTableDefault.png; sourceTree = "<group>"; };
 		75A86429DFC66985D38382843D7A2919 /* YUCIFilterPreviewGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterPreviewGenerator.m; path = Sources/YUCIFilterPreviewGenerator.m; sourceTree = "<group>"; };
-		78290AE7DB099DA01DFFA90C95725DB3 /* Pods-iOS-Depth-Sampler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS-Depth-Sampler.modulemap"; sourceTree = "<group>"; };
+		7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vivid.xcconfig; sourceTree = "<group>"; };
 		7AE4FC362FC9F3276A39D4BA34936BD4 /* YUCIFilterPreviewGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterPreviewGenerator.h; path = Sources/YUCIFilterPreviewGenerator.h; sourceTree = "<group>"; };
+		80D9F9393BBA4A640453B2C8324DA4FF /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
 		81E7E92D2D82983A90C2E8E0CD5491CA /* YUCIHSLToRGB.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIHSLToRGB.cikernel; path = Sources/YUCIHSLToRGB.cikernel; sourceTree = "<group>"; };
-		8530838B81075FE2C9009711D744E40C /* Vivid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Vivid-Info.plist"; sourceTree = "<group>"; };
+		8264E14C7EFE2A0A9269C137A4820525 /* panorama-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "panorama-icon.png"; path = "SwiftAssetsPickerController/Resources/panorama-icon.png"; sourceTree = "<group>"; };
 		85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerGridController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerGridController.swift; sourceTree = "<group>"; };
-		859A4EFA09AAE01CD56BA5A3877D5594 /* Vivid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-prefix.pch"; sourceTree = "<group>"; };
+		871C716D51741F42C7EEAD9CA63F7522 /* Pods-iOS-Depth-Sampler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Depth-Sampler-umbrella.h"; sourceTree = "<group>"; };
+		8DD5F0E87EAC0D13123EC691D8438AFD /* Vivid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vivid-dummy.m"; sourceTree = "<group>"; };
+		9049C12A750797B4B9241EEF04F1F266 /* Pods-iOS-Depth-Sampler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS-Depth-Sampler.modulemap"; sourceTree = "<group>"; };
 		9160744B9031ABFE445401C9D1BC5E60 /* YUCIBlobsGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIBlobsGenerator.h; path = Sources/YUCIBlobsGenerator.h; sourceTree = "<group>"; };
 		91DF0F154620A777A9D39FF8DB507D2D /* YUCIHistogramEqualization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIHistogramEqualization.h; path = Sources/YUCIHistogramEqualization.h; sourceTree = "<group>"; };
+		9287B01CD11BD22012E85C89A88471F4 /* SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
 		946F6ED033AFA924F1FA667926EC52E3 /* YUCITriangularPixellate.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCITriangularPixellate.cikernel; path = Sources/YUCITriangularPixellate.cikernel; sourceTree = "<group>"; };
+		976CC9319804FDE33133ECC7CA54F2C7 /* SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
 		9841C2DEF7253CB17C022999C6DD456B /* YUCIHistogramEqualization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIHistogramEqualization.m; path = Sources/YUCIHistogramEqualization.m; sourceTree = "<group>"; };
 		98BC1EF8C8282D29A60CB8E1082F2C5C /* YUCISkyGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCISkyGenerator.m; path = Sources/YUCISkyGenerator.m; sourceTree = "<group>"; };
+		991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.xcconfig; sourceTree = "<group>"; };
+		9A6A6284A5428BBF2F7AA1ECCBD83D49 /* Pods-iOS-Depth-Sampler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Depth-Sampler-frameworks.sh"; sourceTree = "<group>"; };
 		9B1F3F33E7479DA29224A0395B8E8A44 /* YUCIReflectedTileROICalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIReflectedTileROICalculator.m; path = Sources/YUCIReflectedTileROICalculator.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15D5B7748C53596E17888367764B7C4 /* SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAssetsPickerController.modulemap; sourceTree = "<group>"; };
 		A1BF597559BA638661E2863F16163454 /* YUCIBilateralFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIBilateralFilter.m; path = Sources/YUCIBilateralFilter.m; sourceTree = "<group>"; };
-		A53B323D9CD5B61F66D1AB6EDC7ED984 /* Vivid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vivid.xcconfig; sourceTree = "<group>"; };
 		A5797A3028C62C6D40935641999AE197 /* YUCICrossZoomTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCICrossZoomTransition.m; path = Sources/YUCICrossZoomTransition.m; sourceTree = "<group>"; };
 		A629E48DA6BE3B31EF12FE32CD5AAE68 /* YUCISurfaceBlur.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCISurfaceBlur.cikernel; path = Sources/YUCISurfaceBlur.cikernel; sourceTree = "<group>"; };
-		A75F61B5E9F5865729E05DA2E155D719 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = SwiftAssetsPickerController/Resources/Base.lproj; sourceTree = "<group>"; };
 		AAE02821784C7076B14821DE718ED04D /* YUCITriangularPixellate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCITriangularPixellate.m; path = Sources/YUCITriangularPixellate.m; sourceTree = "<group>"; };
-		B21CFFB87BB28651709030DCCDD53610 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8A7692ACA23C8660E0FF49CFD3D496 /* Vivid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Vivid.framework; path = Vivid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BFF08385EF4A1351F9385A770F6E7B /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
 		B55315C465553938C4B307865CC8F989 /* YUCIReflectedTile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIReflectedTile.m; path = Sources/YUCIReflectedTile.m; sourceTree = "<group>"; };
+		B648833C7EE9107DF530F35BFAA7DA4D /* timelapse-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "timelapse-icon.png"; path = "SwiftAssetsPickerController/Resources/timelapse-icon.png"; sourceTree = "<group>"; };
+		B7CFCC4B31DFCADAF1ACAE1D82AC2BB1 /* Pods-iOS-Depth-Sampler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Depth-Sampler-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B824A65A866C8DC93C28DEB8EE5A8F32 /* YUCIRGBToneCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIRGBToneCurve.h; path = Sources/YUCIRGBToneCurve.h; sourceTree = "<group>"; };
 		B8A842346ACFA9F89350CBBB3D4B1110 /* YUCIBilateralFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIBilateralFilter.h; path = Sources/YUCIBilateralFilter.h; sourceTree = "<group>"; };
-		BA0E6F206BFA44A4917D3B3430AE05E0 /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
 		BB6F2CB2D35B4A67ECC74DB1E9852E81 /* YUCIBlobsGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIBlobsGenerator.cikernel; path = Sources/YUCIBlobsGenerator.cikernel; sourceTree = "<group>"; };
 		BE4286722C85ACFC41FA2868729EBDF7 /* YUCIRGBToneCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIRGBToneCurve.m; path = Sources/YUCIRGBToneCurve.m; sourceTree = "<group>"; };
-		C3C514AA31B315D070659E4F77E7D58C /* SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAssetsPickerController.modulemap; sourceTree = "<group>"; };
+		BFDBAAE3EE738EA286B564AEF9A5203E /* Vivid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Vivid.modulemap; sourceTree = "<group>"; };
+		C5CF5B409C5D4FBCF36F6D9509CD01E7 /* Vivid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Vivid-Info.plist"; sourceTree = "<group>"; };
 		C806D12AE4097BB9EA6CF9DA68BEB7EE /* YUCIStarfieldGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIStarfieldGenerator.cikernel; path = Sources/YUCIStarfieldGenerator.cikernel; sourceTree = "<group>"; };
-		CB7ECF316DDAEEB6FA5E7175AC5FBD35 /* timelapse-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "timelapse-icon.png"; path = "SwiftAssetsPickerController/Resources/timelapse-icon.png"; sourceTree = "<group>"; };
 		CC27138FA18FC3F5D6C5B811C6128022 /* YUCICrossZoomTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCICrossZoomTransition.h; path = Sources/YUCICrossZoomTransition.h; sourceTree = "<group>"; };
 		CC4850EE0DF60ABB169764AF7F4DE44D /* YUCIFlashTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFlashTransition.cikernel; path = Sources/YUCIFlashTransition.cikernel; sourceTree = "<group>"; };
-		CD68F0F492E36EEC4E00046360F4E894 /* Pods-iOS-Depth-Sampler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Depth-Sampler-umbrella.h"; sourceTree = "<group>"; };
-		CE7FA19E648EC1DB8E891E1DFADF3751 /* Pods-iOS-Depth-Sampler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Depth-Sampler-frameworks.sh"; sourceTree = "<group>"; };
-		D121F0E41316B0B06556C506B0D24646 /* Vivid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vivid-dummy.m"; sourceTree = "<group>"; };
-		D381FB0E03D33DB5BE448EB2FD91964A /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
+		CD7B2641478035A4B6D8D93BDF0ED3AD /* SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
 		D7FB39FFE8CDF22E084BCABC05C02DED /* YUCIFilterUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterUtilities.h; path = Sources/YUCIFilterUtilities.h; sourceTree = "<group>"; };
 		D8714798FADA01903F2421EA6C0552AC /* YUCIRGBToHSL.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIRGBToHSL.cikernel; path = Sources/YUCIRGBToHSL.cikernel; sourceTree = "<group>"; };
 		DAAC8E90773CB8284D62C4A2B56FE46C /* YUCIFXAA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFXAA.m; path = Sources/YUCIFXAA.m; sourceTree = "<group>"; };
 		DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIUtilities.h; path = Sources/YUCIUtilities.h; sourceTree = "<group>"; };
-		E410D68F1E701A96B0D174CE4E2C10D2 /* Vivid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Vivid.modulemap; sourceTree = "<group>"; };
+		DD0BCC6A24AE4D2FE6199DFE28DEF813 /* Pods-iOS-Depth-Sampler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Depth-Sampler-dummy.m"; sourceTree = "<group>"; };
+		DE50BCC5992C2B937D4163E23F4AD3FF /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = SwiftAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
+		E3A1A30E7E06E46F84FD7163CB31479E /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = SwiftAssetsPickerController/Resources/Base.lproj; sourceTree = "<group>"; };
+		E59947D72365916E4F337781A163E780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E6E37EA0D4582D4443069883B576A53A /* YUCIReflectedTile.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIReflectedTile.cikernel; path = Sources/YUCIReflectedTile.cikernel; sourceTree = "<group>"; };
-		E7BE427198E3EC6AE0E5C7A44FDC541A /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
 		E7F71FD26C398AE08097C937DBFDC718 /* YUCIBilateralFilter.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIBilateralFilter.cikernel; path = Sources/YUCIBilateralFilter.cikernel; sourceTree = "<group>"; };
 		E8E4972C7B610CD570DFC84411358F87 /* YUCICrossZoomTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCICrossZoomTransition.cikernel; path = Sources/YUCICrossZoomTransition.cikernel; sourceTree = "<group>"; };
 		EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIUtilities.m; path = Sources/YUCIUtilities.m; sourceTree = "<group>"; };
-		EB8448D300EA71E76D91B5D08C10FF31 /* Pods-iOS-Depth-Sampler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Depth-Sampler-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED39A13101757ED9F7D383C134D9719C /* YUCIStarfieldGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIStarfieldGenerator.h; path = Sources/YUCIStarfieldGenerator.h; sourceTree = "<group>"; };
+		F23ADEEFA5FFA67E15745BCD1F905DA1 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
+		F62A25C798F45A4D86C66F80E5E6A17B /* SwiftAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
 		F6E7ADF9F9D3AD1C1F5DFF03E97E0123 /* YUCIFlashTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFlashTransition.m; path = Sources/YUCIFlashTransition.m; sourceTree = "<group>"; };
-		FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FFC0785A9ED4F46F6E3826EB3F9B245F /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A0C5D87D434E9751768E7F2D903C02 /* video-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-icon.png"; path = "SwiftAssetsPickerController/Resources/video-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69AF240B34393199D9D7724C9C19C513 /* Frameworks */ = {
+		045C24D6A0EA5908BED732D3630FCF68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A13E61065500FD3375A41DBD40F5C15B /* Foundation.framework in Frameworks */,
+				991295117C52078ABAC78385D04916A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86AF92CE6BAD65305AB29BE05EB3B39D /* Frameworks */ = {
+		1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				799C14DD633A8885E781732FD0D11C25 /* Foundation.framework in Frameworks */,
+				0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD2084B17A61A478D709397888DAF4E5 /* Frameworks */ = {
+		5FB4E0E01EACBB7938E34E81DE31D487 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4413DF26109BE2AC2CBCA412502338DF /* CheckMarkView.framework in Frameworks */,
-				95A8769CB36F0654C342CB827592272C /* Foundation.framework in Frameworks */,
+				C7A103E1931EF1E882C9901D39500C30 /* CheckMarkView.framework in Frameworks */,
+				3C962E1A068D33FD44E2C01C1C9C5476 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD8344E42C2A3D7AC22878C8EBBE4F91 /* Frameworks */ = {
+		EA15533FA801844F9618EF718F001F50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C24FB2B83C5CDE5CBAD263330FB0F2B /* Foundation.framework in Frameworks */,
+				AEC31672A9E521F89698C978B5F90851 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,63 +284,32 @@
 		2E758788D4666725F5D7732081103B78 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A85A788C00F1171C410736E15996C17 /* Pods-iOS-Depth-Sampler */,
+				CA3C5A4D67A0362C233EC08AF37221E2 /* Pods-iOS-Depth-Sampler */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		34AFAE8F8B8011D01E56187B5EA8EC23 /* Frameworks */ = {
+		5C9BD753DB22BB670EE05D46A6173E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFC0785A9ED4F46F6E3826EB3F9B245F /* CheckMarkView.framework */,
-				DA81DC81B8A9F65E472BACF16901A499 /* iOS */,
+				6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */,
+				E2400505CC1CBDAAEAA03EBB6D67C8F9 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3EE660629E1E0A6CE81D4B1DF4AAE43A /* Support Files */ = {
+		5E24D2B2DEEFEEAF7BF9719357B9C3DE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E410D68F1E701A96B0D174CE4E2C10D2 /* Vivid.modulemap */,
-				A53B323D9CD5B61F66D1AB6EDC7ED984 /* Vivid.xcconfig */,
-				D121F0E41316B0B06556C506B0D24646 /* Vivid-dummy.m */,
-				8530838B81075FE2C9009711D744E40C /* Vivid-Info.plist */,
-				859A4EFA09AAE01CD56BA5A3877D5594 /* Vivid-prefix.pch */,
-				57E272ED80ED90C1C96CCF23E5742668 /* Vivid-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Vivid";
-			sourceTree = "<group>";
-		};
-		4B8CC26A61BFD787D8AC1D8E8B8E70CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA0E6F206BFA44A4917D3B3430AE05E0 /* CheckMarkView.modulemap */,
-				49A7CD951F2DB79AEFA13D67F5D1CB6B /* CheckMarkView.xcconfig */,
-				D381FB0E03D33DB5BE448EB2FD91964A /* CheckMarkView-dummy.m */,
-				6893A2BFAF8E4B379B19912BE9ECEE7E /* CheckMarkView-Info.plist */,
-				6338A4CE9BDB5A58EA16D05218205EFC /* CheckMarkView-prefix.pch */,
-				74D9AD538027199AEF6FBDAF28462867 /* CheckMarkView-umbrella.h */,
+				45A6D629984D15A2F38B397B84E7EAAB /* CheckMarkView.modulemap */,
+				33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */,
+				182C24230E499679C93607E2E68B1782 /* CheckMarkView-dummy.m */,
+				B2BFF08385EF4A1351F9385A770F6E7B /* CheckMarkView-Info.plist */,
+				80D9F9393BBA4A640453B2C8324DA4FF /* CheckMarkView-prefix.pch */,
+				F23ADEEFA5FFA67E15745BCD1F905DA1 /* CheckMarkView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CheckMarkView";
-			sourceTree = "<group>";
-		};
-		5A85A788C00F1171C410736E15996C17 /* Pods-iOS-Depth-Sampler */ = {
-			isa = PBXGroup;
-			children = (
-				78290AE7DB099DA01DFFA90C95725DB3 /* Pods-iOS-Depth-Sampler.modulemap */,
-				4F906DB8E07173B67221D9BC5E35B224 /* Pods-iOS-Depth-Sampler-acknowledgements.markdown */,
-				EB8448D300EA71E76D91B5D08C10FF31 /* Pods-iOS-Depth-Sampler-acknowledgements.plist */,
-				33BBAF7A8AF804E2E01BB4201E1585A0 /* Pods-iOS-Depth-Sampler-dummy.m */,
-				CE7FA19E648EC1DB8E891E1DFADF3751 /* Pods-iOS-Depth-Sampler-frameworks.sh */,
-				6980ACBF3D13613C92F40C4FB8B0C87B /* Pods-iOS-Depth-Sampler-Info.plist */,
-				CD68F0F492E36EEC4E00046360F4E894 /* Pods-iOS-Depth-Sampler-umbrella.h */,
-				E7BE427198E3EC6AE0E5C7A44FDC541A /* Pods-iOS-Depth-Sampler.debug.xcconfig */,
-				5AD2823070C0E3649809E1206A413845 /* Pods-iOS-Depth-Sampler.release.xcconfig */,
-			);
-			name = "Pods-iOS-Depth-Sampler";
-			path = "Target Support Files/Pods-iOS-Depth-Sampler";
 			sourceTree = "<group>";
 		};
 		649FDB0EF238E588CCF6E853A65C418F /* Vivid */ = {
@@ -387,66 +356,75 @@
 				DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */,
 				EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */,
 				1FBC66648F98BEAE5878CB33F9DF04D1 /* Resources */,
-				3EE660629E1E0A6CE81D4B1DF4AAE43A /* Support Files */,
+				E12E63EC96B77244C214BCA430DA9F04 /* Support Files */,
 			);
 			name = Vivid;
 			path = Vivid;
 			sourceTree = "<group>";
 		};
-		6D7910AB765C7771D6993233345DADA0 /* Products */ = {
+		8E72CBF7FA1B2BCDAB74CB9E43DE7FC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B21CFFB87BB28651709030DCCDD53610 /* CheckMarkView.framework */,
-				25DEF039E6D2DC0A863BB9E607875232 /* Pods_iOS_Depth_Sampler.framework */,
-				2C6879AFC495503E747D1919289D1831 /* SwiftAssetsPickerController.framework */,
-				5E23FF85D0F5078736522D9D885CA875 /* Vivid.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		974ED3AE08490CB8A6C7FF02A6ECDFAC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A75F61B5E9F5865729E05DA2E155D719 /* Base.lproj */,
-				2B36D8E39D06611538D02B5B93E489DE /* en.lproj */,
-				3D6EE827C5D3B477FAA625DBD048D449 /* panorama-icon.png */,
-				CB7ECF316DDAEEB6FA5E7175AC5FBD35 /* timelapse-icon.png */,
-				332B10DD12A2D1C0022E8730D9B25C4B /* video-icon.png */,
+				E3A1A30E7E06E46F84FD7163CB31479E /* Base.lproj */,
+				DE50BCC5992C2B937D4163E23F4AD3FF /* en.lproj */,
+				8264E14C7EFE2A0A9269C137A4820525 /* panorama-icon.png */,
+				B648833C7EE9107DF530F35BFAA7DA4D /* timelapse-icon.png */,
+				F7A0C5D87D434E9751768E7F2D903C02 /* video-icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C034D20740BB529B54C206A67F0ADA62 /* Support Files */ = {
+		A5D84BA1F1EC0D61B42FCF032877457D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3C514AA31B315D070659E4F77E7D58C /* SwiftAssetsPickerController.modulemap */,
-				718C576B7E3520B314C1020CD3718F4B /* SwiftAssetsPickerController.xcconfig */,
-				3C4BEDD0AD29EFBBACA13BD9E8281A28 /* SwiftAssetsPickerController-dummy.m */,
-				41B1BB90A48CE0761C2BF2C6ACF3B58A /* SwiftAssetsPickerController-Info.plist */,
-				598F5F1835E60B88A34A0396407C9ECD /* SwiftAssetsPickerController-prefix.pch */,
-				5BED3F55CCD3E951A459A8AD76B39379 /* SwiftAssetsPickerController-umbrella.h */,
+				4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */,
+				47B4A383CF23285A3428F863B6DC1D30 /* Pods_iOS_Depth_Sampler.framework */,
+				17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */,
+				AB8A7692ACA23C8660E0FF49CFD3D496 /* Vivid.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E5555516B2C0D6030E6CC694F3B905 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15D5B7748C53596E17888367764B7C4 /* SwiftAssetsPickerController.modulemap */,
+				991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */,
+				9287B01CD11BD22012E85C89A88471F4 /* SwiftAssetsPickerController-dummy.m */,
+				CD7B2641478035A4B6D8D93BDF0ED3AD /* SwiftAssetsPickerController-Info.plist */,
+				F62A25C798F45A4D86C66F80E5E6A17B /* SwiftAssetsPickerController-prefix.pch */,
+				976CC9319804FDE33133ECC7CA54F2C7 /* SwiftAssetsPickerController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftAssetsPickerController";
+			sourceTree = "<group>";
+		};
+		CA3C5A4D67A0362C233EC08AF37221E2 /* Pods-iOS-Depth-Sampler */ = {
+			isa = PBXGroup;
+			children = (
+				9049C12A750797B4B9241EEF04F1F266 /* Pods-iOS-Depth-Sampler.modulemap */,
+				B7CFCC4B31DFCADAF1ACAE1D82AC2BB1 /* Pods-iOS-Depth-Sampler-acknowledgements.markdown */,
+				2EFC98790D8A290774C471DEB5B7901B /* Pods-iOS-Depth-Sampler-acknowledgements.plist */,
+				DD0BCC6A24AE4D2FE6199DFE28DEF813 /* Pods-iOS-Depth-Sampler-dummy.m */,
+				9A6A6284A5428BBF2F7AA1ECCBD83D49 /* Pods-iOS-Depth-Sampler-frameworks.sh */,
+				3A7642064F6F7AAADB45297FC33FEAA9 /* Pods-iOS-Depth-Sampler-Info.plist */,
+				871C716D51741F42C7EEAD9CA63F7522 /* Pods-iOS-Depth-Sampler-umbrella.h */,
+				2A10A2A08D17BE510A50EC1C2B5EB4C7 /* Pods-iOS-Depth-Sampler.debug.xcconfig */,
+				67EE9C240C3E84489E88C80D5A784192 /* Pods-iOS-Depth-Sampler.release.xcconfig */,
+			);
+			name = "Pods-iOS-Depth-Sampler";
+			path = "Target Support Files/Pods-iOS-Depth-Sampler";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				34AFAE8F8B8011D01E56187B5EA8EC23 /* Frameworks */,
+				5C9BD753DB22BB670EE05D46A6173E63 /* Frameworks */,
 				FDB37ACDBD62148450786D65A7C4AE79 /* Pods */,
-				6D7910AB765C7771D6993233345DADA0 /* Products */,
+				A5D84BA1F1EC0D61B42FCF032877457D /* Products */,
 				2E758788D4666725F5D7732081103B78 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DA81DC81B8A9F65E472BACF16901A499 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		DCE86A307A40C2D68B35F8880611FCAB /* SwiftAssetsPickerController */ = {
@@ -454,18 +432,40 @@
 			children = (
 				147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */,
 				85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */,
-				974ED3AE08490CB8A6C7FF02A6ECDFAC /* Resources */,
-				C034D20740BB529B54C206A67F0ADA62 /* Support Files */,
+				8E72CBF7FA1B2BCDAB74CB9E43DE7FC1 /* Resources */,
+				A5E5555516B2C0D6030E6CC694F3B905 /* Support Files */,
 			);
 			name = SwiftAssetsPickerController;
 			path = SwiftAssetsPickerController;
+			sourceTree = "<group>";
+		};
+		E12E63EC96B77244C214BCA430DA9F04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFDBAAE3EE738EA286B564AEF9A5203E /* Vivid.modulemap */,
+				7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */,
+				8DD5F0E87EAC0D13123EC691D8438AFD /* Vivid-dummy.m */,
+				C5CF5B409C5D4FBCF36F6D9509CD01E7 /* Vivid-Info.plist */,
+				272059386DD227797C2FCC120A0922E8 /* Vivid-prefix.pch */,
+				1AF863FA3A05EADF09661E2E95A1AFBC /* Vivid-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Vivid";
+			sourceTree = "<group>";
+		};
+		E2400505CC1CBDAAEAA03EBB6D67C8F9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E59947D72365916E4F337781A163E780 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F34D9889A3711135C4781454AE49924B /* CheckMarkView */ = {
 			isa = PBXGroup;
 			children = (
 				3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */,
-				4B8CC26A61BFD787D8AC1D8E8B8E70CF /* Support Files */,
+				5E24D2B2DEEFEEAF7BF9719357B9C3DE /* Support Files */,
 			);
 			name = CheckMarkView;
 			path = CheckMarkView;
@@ -484,88 +484,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A51FD08C612265BCF57EB153555BC0C1 /* Headers */ = {
+		2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05258031CACCD32A2583F5E6C75F62BF /* CheckMarkView-umbrella.h in Headers */,
+				29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA9BD5091864632B3829C1CB464E1C1D /* Headers */ = {
+		2ED6C6D93D0327DFEE1ED6E96148F463 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F849ABA61276DE3FFA3E55299CB0164 /* Pods-iOS-Depth-Sampler-umbrella.h in Headers */,
+				8532649D24BDBA81FE34A4D9E6B6D23B /* SwiftAssetsPickerController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF06F665F8A03496E254D770D1C8D92E /* Headers */ = {
+		480E5D54B23334C9C412AB5C19F204CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF1B576BC9A2D2C680CC46FF6381F88 /* Vivid-umbrella.h in Headers */,
-				494C834A1F1E8C2E4F402E1FD2DC7232 /* YUCIBilateralFilter.h in Headers */,
-				1BDB0456A7712F51356498BA2BD07F77 /* YUCIBlobsGenerator.h in Headers */,
-				D3B62FE44F8DC827935E9BB0826E323D /* YUCICLAHE.h in Headers */,
-				09F71E6148049317EEDCF08F54DE2A72 /* YUCIColorLookup.h in Headers */,
-				97D604033424A3CA75F3C0F139A7CFFB /* YUCICrossZoomTransition.h in Headers */,
-				A5282EBA3012787167AB44F2BECDECEC /* YUCIFilmBurnTransition.h in Headers */,
-				7AB8296B8534CF0D5ADFF055B0781FE7 /* YUCIFilterConstructor.h in Headers */,
-				CAC872CF53D54858213CA116A84B631C /* YUCIFilterPreviewGenerator.h in Headers */,
-				95AC274B4135FE7FD9E0B27560C29F9B /* YUCIFilterUtilities.h in Headers */,
-				53C07FBF3731BA450655F7E3C513C626 /* YUCIFlashTransition.h in Headers */,
-				0F71997E2AB0EA62FDAC65F5E6EA72DB /* YUCIFXAA.h in Headers */,
-				F97A8E684C75D770124AD307E07C64B4 /* YUCIHistogramEqualization.h in Headers */,
-				D5B27DAE1959A6B2178BA47E43C74D81 /* YUCIReflectedTile.h in Headers */,
-				8B067D0A643D5CB0C7845339D0A60123 /* YUCIReflectedTileROICalculator.h in Headers */,
-				D667C4BDD884899A968C962E781AC270 /* YUCIRGBToneCurve.h in Headers */,
-				B3A6A17B752982CBC03368E4106577F3 /* YUCISkyGenerator.h in Headers */,
-				D3198FF7B393064E3376213ACA0D2096 /* YUCIStarfieldGenerator.h in Headers */,
-				7E3F9DA937526BE82632096A3851AD2E /* YUCISurfaceBlur.h in Headers */,
-				FDD8BDA082C5C6D7401F200181D74B3D /* YUCITriangularPixellate.h in Headers */,
-				34DD54E2A69AA49E2F6CF7699B8871A5 /* YUCIUtilities.h in Headers */,
+				987C1777394DBC6391E26BBE5FDB113D /* Vivid-umbrella.h in Headers */,
+				D5EE725A510D4496D7CE0E95AFE9A81A /* YUCIBilateralFilter.h in Headers */,
+				8F05AA6C9D051482C76556E886BCDD8E /* YUCIBlobsGenerator.h in Headers */,
+				F951CE81EE315F3B55A7B74260F6C77B /* YUCICLAHE.h in Headers */,
+				D5AC33000F3C43922C5201F6DF2F00ED /* YUCIColorLookup.h in Headers */,
+				96BBD874A98875A30A46AFF843ACBC7C /* YUCICrossZoomTransition.h in Headers */,
+				E115E2EACEE07ED66FD7D68C686D1E13 /* YUCIFilmBurnTransition.h in Headers */,
+				7FDCA2BCA11BDC124C077C21EB27595D /* YUCIFilterConstructor.h in Headers */,
+				52E78FCDE3030B1C8868BE1D89A2C044 /* YUCIFilterPreviewGenerator.h in Headers */,
+				F48D41FB741CE03C4DD592BB74BFBF41 /* YUCIFilterUtilities.h in Headers */,
+				C0BEE9D7BB6CC936BE0DF3AC1E614ACA /* YUCIFlashTransition.h in Headers */,
+				02D45E4CDD4CB327AE75AC2DC6BA6295 /* YUCIFXAA.h in Headers */,
+				6B9BEA1E3E89DD744A43C8F07A631589 /* YUCIHistogramEqualization.h in Headers */,
+				867A1CFA9A3E1F05A6C6BCA0548FFF10 /* YUCIReflectedTile.h in Headers */,
+				F78F772FDAD43391845EF6C23975AFF0 /* YUCIReflectedTileROICalculator.h in Headers */,
+				F20374B78E907A1BF78E35B3A585A44E /* YUCIRGBToneCurve.h in Headers */,
+				E3DE92504C655FA11CC3BB72E553296F /* YUCISkyGenerator.h in Headers */,
+				A8CADE0AA0A2377E0CEE7AFFC4106F27 /* YUCIStarfieldGenerator.h in Headers */,
+				BF58FABC93A613F9AF431CEEAA806A73 /* YUCISurfaceBlur.h in Headers */,
+				69D01D1DE32C3BB6F8243658DA1D1124 /* YUCITriangularPixellate.h in Headers */,
+				E83A6A20984A391E742D4A70679D5210 /* YUCIUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2AE635DC06C267850CF81E04F6A3EEF /* Headers */ = {
+		9E0F44682180E903126FC633F49AEB6E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC78A4BF753F7E3E3DE04905789AD243 /* SwiftAssetsPickerController-umbrella.h in Headers */,
+				C7C2E472F366914ABE42AF5802A682CD /* Pods-iOS-Depth-Sampler-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24BC566F42B741AA8FE87C168BB3CB06 /* SwiftAssetsPickerController */ = {
+		00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 320DC38D4A34601AB657A0EC8FEB9F53 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */;
+			buildConfigurationList = B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
 			buildPhases = (
-				E2AE635DC06C267850CF81E04F6A3EEF /* Headers */,
-				5C5869F1143250685D2B883146AB5446 /* Sources */,
-				CD2084B17A61A478D709397888DAF4E5 /* Frameworks */,
-				0164B2B7CB83D8B11BE0270D03B6CFD7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6AAB04FFAA574E4E9477FB72BF152DF8 /* PBXTargetDependency */,
-			);
-			name = SwiftAssetsPickerController;
-			productName = SwiftAssetsPickerController;
-			productReference = 2C6879AFC495503E747D1919289D1831 /* SwiftAssetsPickerController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DA06AACE3E1BB2D669C668922F1FFAA /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
-			buildPhases = (
-				A51FD08C612265BCF57EB153555BC0C1 /* Headers */,
-				D404A9AF4B8E150FBED7DCD025D9F042 /* Sources */,
-				CD8344E42C2A3D7AC22878C8EBBE4F91 /* Frameworks */,
-				AE97ED2DE69247D727A2EA7EECF7606C /* Resources */,
+				2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */,
+				31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */,
+				1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */,
+				B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -573,38 +554,57 @@
 			);
 			name = CheckMarkView;
 			productName = CheckMarkView;
-			productReference = B21CFFB87BB28651709030DCCDD53610 /* CheckMarkView.framework */;
+			productReference = 4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		77B78565FC5F4CF2E0A6419AEF6D0384 /* Pods-iOS-Depth-Sampler */ = {
+		2EB77430D80F96480FA2395C5400AAC7 /* Pods-iOS-Depth-Sampler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EDF41656316072F44E5E920EAA841D0 /* Build configuration list for PBXNativeTarget "Pods-iOS-Depth-Sampler" */;
+			buildConfigurationList = 904DBC8BFEB9B195B6B2F7D18202228A /* Build configuration list for PBXNativeTarget "Pods-iOS-Depth-Sampler" */;
 			buildPhases = (
-				DA9BD5091864632B3829C1CB464E1C1D /* Headers */,
-				67C23071D7E48065CC067D61894F5A55 /* Sources */,
-				86AF92CE6BAD65305AB29BE05EB3B39D /* Frameworks */,
-				2651277FFAD5CA5C78A2EBAEE6728F23 /* Resources */,
+				9E0F44682180E903126FC633F49AEB6E /* Headers */,
+				376DB81F35F86B4FB3715CF242B7F77F /* Sources */,
+				045C24D6A0EA5908BED732D3630FCF68 /* Frameworks */,
+				6A08791F9108A7ABE39321D38B967EEF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				23D68239893CF00F1724B6F5695F89A7 /* PBXTargetDependency */,
-				17A7B934E4605BB0ACBD1B4BCA13290B /* PBXTargetDependency */,
-				3383A272F70955973BAFDDF364BA36B4 /* PBXTargetDependency */,
+				09F9ADBF4153CCA8B2C1557295BAF030 /* PBXTargetDependency */,
+				A00DCC594735450BE4E92F4C328A8B3F /* PBXTargetDependency */,
+				B37939826EACF68159FFE95B909EF13C /* PBXTargetDependency */,
 			);
 			name = "Pods-iOS-Depth-Sampler";
 			productName = "Pods-iOS-Depth-Sampler";
-			productReference = 25DEF039E6D2DC0A863BB9E607875232 /* Pods_iOS_Depth_Sampler.framework */;
+			productReference = 47B4A383CF23285A3428F863B6DC1D30 /* Pods_iOS_Depth_Sampler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		83D5E7E6DFBF181861D50A59B2223290 /* Vivid */ = {
+		E5FA193ECDC1A8A0C62D0DD2EA89E422 /* SwiftAssetsPickerController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20B477B71D2C1F490866AF7214578885 /* Build configuration list for PBXNativeTarget "Vivid" */;
+			buildConfigurationList = 9451E86B09BB5ABD82E9D19BD6919847 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */;
 			buildPhases = (
-				DF06F665F8A03496E254D770D1C8D92E /* Headers */,
-				5511C97C09AD28384608003FC98647C7 /* Sources */,
-				69AF240B34393199D9D7724C9C19C513 /* Frameworks */,
-				776172F8072852F105AC80D23DC6C0BC /* Resources */,
+				2ED6C6D93D0327DFEE1ED6E96148F463 /* Headers */,
+				EF1C5B5FE075AF1A075D8D0956F08B1D /* Sources */,
+				5FB4E0E01EACBB7938E34E81DE31D487 /* Frameworks */,
+				CBA597E4DEF771BEE925B739A40597BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3826016A03AA16171EA73E71690A34E1 /* PBXTargetDependency */,
+			);
+			name = SwiftAssetsPickerController;
+			productName = SwiftAssetsPickerController;
+			productReference = 17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F81D7CCD8E3FC4AC5DD8A62C40D412DA /* Vivid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3DCB67A07C06AB2755A3EE80C05080 /* Build configuration list for PBXNativeTarget "Vivid" */;
+			buildPhases = (
+				480E5D54B23334C9C412AB5C19F204CF /* Headers */,
+				2092870E7C093C3BEC0E9832B6F1D547 /* Sources */,
+				EA15533FA801844F9618EF718F001F50 /* Frameworks */,
+				F191E7E3481CD2E592B7C49C7E51CAA6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -612,7 +612,7 @@
 			);
 			name = Vivid;
 			productName = Vivid;
-			productReference = 5E23FF85D0F5078736522D9D885CA875 /* Vivid.framework */;
+			productReference = AB8A7692ACA23C8660E0FF49CFD3D496 /* Vivid.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -621,172 +621,173 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6D7910AB765C7771D6993233345DADA0 /* Products */;
+			productRefGroup = A5D84BA1F1EC0D61B42FCF032877457D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */,
-				77B78565FC5F4CF2E0A6419AEF6D0384 /* Pods-iOS-Depth-Sampler */,
-				24BC566F42B741AA8FE87C168BB3CB06 /* SwiftAssetsPickerController */,
-				83D5E7E6DFBF181861D50A59B2223290 /* Vivid */,
+				00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */,
+				2EB77430D80F96480FA2395C5400AAC7 /* Pods-iOS-Depth-Sampler */,
+				E5FA193ECDC1A8A0C62D0DD2EA89E422 /* SwiftAssetsPickerController */,
+				F81D7CCD8E3FC4AC5DD8A62C40D412DA /* Vivid */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0164B2B7CB83D8B11BE0270D03B6CFD7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				321CD2124E763C7606AB616F05BB6688 /* Base.lproj in Resources */,
-				3E1515BF866BE23707705A1BCDD4B30C /* en.lproj in Resources */,
-				AFEC8011613958B37D24105CD6832B6F /* panorama-icon.png in Resources */,
-				1A7459D25225DEC84F9A95E3CB9B8E85 /* timelapse-icon.png in Resources */,
-				ACCE606F6B74E5234D66171127409C80 /* video-icon.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2651277FFAD5CA5C78A2EBAEE6728F23 /* Resources */ = {
+		6A08791F9108A7ABE39321D38B967EEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		776172F8072852F105AC80D23DC6C0BC /* Resources */ = {
+		B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40269AA4A293D4D913085C04A33C3817 /* YUCIBilateralFilter.cikernel in Resources */,
-				522A111A3D27A8AB55F4A44E6F2668A7 /* YUCIBlobsGenerator.cikernel in Resources */,
-				6F6D107FA2B1D49F736FE5BD34F7D42E /* YUCICLAHE.cikernel in Resources */,
-				A12C3EA64991F3DBAA0B8A8B49E89FFE /* YUCIColorLookup.cikernel in Resources */,
-				0C0357653A10E0566E318029F7443F06 /* YUCIColorLookupTableDefault.png in Resources */,
-				B77DEE0539B1F250CD8AB38C99ACF54D /* YUCICrossZoomTransition.cikernel in Resources */,
-				167501B648DA189D6DAFA83ECFBFB61B /* YUCIFilmBurnTransition.cikernel in Resources */,
-				D49A065524E94855D20C01993F475B6B /* YUCIFlashTransition.cikernel in Resources */,
-				6FA740852BE129FBE1C4545D3145A142 /* YUCIFXAA.cikernel in Resources */,
-				D54D7E208757B5D0C214D2245782B789 /* YUCIHSLToRGB.cikernel in Resources */,
-				9DEDF70E657157BEF6F729B82E421457 /* YUCIReflectedTile.cikernel in Resources */,
-				328FBFD72DD59D2A022F14A4428C46AC /* YUCIRGBToHSL.cikernel in Resources */,
-				F2EE000A4A5F42BDDF4181983DF3DCF7 /* YUCIRGBToneCurve.cikernel in Resources */,
-				6D042EE1BB0D8E6BD7F206D8BC8667CA /* YUCISkyGenerator.cikernel in Resources */,
-				59D6F4032136F693FFE9698EDD8D295B /* YUCIStarfieldGenerator.cikernel in Resources */,
-				910165E6A82445CF2B93D38FF43396FD /* YUCISurfaceBlur.cikernel in Resources */,
-				AB45521F1A74A350C2558A939A501783 /* YUCITriangularPixellate.cikernel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE97ED2DE69247D727A2EA7EECF7606C /* Resources */ = {
+		CBA597E4DEF771BEE925B739A40597BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFA8DF49385A21DF50389C6306163C5 /* Base.lproj in Resources */,
+				D4CEE97DF221B85471226B8B1DDA5992 /* en.lproj in Resources */,
+				C42EFAA88A689994F52DD69D14A609E3 /* panorama-icon.png in Resources */,
+				1D3CEBC867511752B9574D0A10FA123E /* timelapse-icon.png in Resources */,
+				94476CA393F129F40F31AFF1869ED41E /* video-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F191E7E3481CD2E592B7C49C7E51CAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E08F4B71DDFCE7A2FA9E3A17391F4D /* YUCIBilateralFilter.cikernel in Resources */,
+				2AA81692AA6CBA6C848A7372BEE1AC47 /* YUCIBlobsGenerator.cikernel in Resources */,
+				AF0C5786E5A9106DC4F84D3A11788A69 /* YUCICLAHE.cikernel in Resources */,
+				80E7F69F9AE511F2BA16544BD7FF4311 /* YUCIColorLookup.cikernel in Resources */,
+				F7299ABCE2A682FE3E10F1FC1020CD58 /* YUCIColorLookupTableDefault.png in Resources */,
+				65EF93924282B460006BAA63141A7F58 /* YUCICrossZoomTransition.cikernel in Resources */,
+				D9ED00B5A86B39F4A7126CE4F6251E86 /* YUCIFilmBurnTransition.cikernel in Resources */,
+				F14A044064DE2BBBE27B6A4CFCCB2A08 /* YUCIFlashTransition.cikernel in Resources */,
+				E6FB321891E2A641A8D0F388407A40B0 /* YUCIFXAA.cikernel in Resources */,
+				FA6ECE886F379C7FF91D0DFA1EF7608A /* YUCIHSLToRGB.cikernel in Resources */,
+				0D534E830FCD511ACDDDFF0DF5BE39E7 /* YUCIReflectedTile.cikernel in Resources */,
+				0ACD417360142FB797B87A9FD0224EA9 /* YUCIRGBToHSL.cikernel in Resources */,
+				1BDE39CF847A5BBC5887B18B196F678C /* YUCIRGBToneCurve.cikernel in Resources */,
+				0AEB1EF936D450A6EEC55C11F6F970A6 /* YUCISkyGenerator.cikernel in Resources */,
+				3EC8E513D47F562A45CCBF2085818CE3 /* YUCIStarfieldGenerator.cikernel in Resources */,
+				7EC9FF47BD470D0D7DFC5B8FAF06376A /* YUCISurfaceBlur.cikernel in Resources */,
+				F70F719C6F0FFB1B7D59B6E119292B34 /* YUCITriangularPixellate.cikernel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5511C97C09AD28384608003FC98647C7 /* Sources */ = {
+		2092870E7C093C3BEC0E9832B6F1D547 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DDA3B3895D466F74A2D427A27B6CDC /* Vivid-dummy.m in Sources */,
-				3DB8CF996CD6895E63871A170AF40A8B /* YUCIBilateralFilter.m in Sources */,
-				F0670F05000AB821C4E821B8AFA97624 /* YUCIBlobsGenerator.m in Sources */,
-				E1D2F8A388E8E552C702A5A887F14701 /* YUCICLAHE.m in Sources */,
-				1664B9259339DC6A9B744788A34D4E37 /* YUCIColorLookup.m in Sources */,
-				0ECCE434304C66F37EF6811E8E73F043 /* YUCICrossZoomTransition.m in Sources */,
-				11C9233EB068A6EE8DA41ADE90A6EB96 /* YUCIFilmBurnTransition.m in Sources */,
-				DCE8A2BC4FD0AE5ACBE6BD4792AEC141 /* YUCIFilterConstructor.m in Sources */,
-				673E76B93E310BF488CB10C90D3543FC /* YUCIFilterPreviewGenerator.m in Sources */,
-				66453241984CB1337795A88A7D745A99 /* YUCIFilterUtilities.m in Sources */,
-				06DD7E06AE19200B639DC0CF37AECFC2 /* YUCIFlashTransition.m in Sources */,
-				C19A86BC448959919CF7AEB77E059EE8 /* YUCIFXAA.m in Sources */,
-				E86BCD8EC7A72D5FFDB6A9F87E5249C7 /* YUCIHistogramEqualization.m in Sources */,
-				28E3FC272FAD53DF19F71C9179C4DA35 /* YUCIReflectedTile.m in Sources */,
-				79ABCC54745EEAE8965ED7051F8E1B89 /* YUCIReflectedTileROICalculator.m in Sources */,
-				7BB2459F1FD118896861CB91D8600967 /* YUCIRGBToneCurve.m in Sources */,
-				76A7E6B286DF273D48CA62633654297C /* YUCISkyGenerator.m in Sources */,
-				F8D8CAB7CF262AFF35E010F9CA9268DA /* YUCIStarfieldGenerator.m in Sources */,
-				DA44C757A90F85526BD42DE9FA64A010 /* YUCISurfaceBlur.m in Sources */,
-				0EC08708DB5760B938AF642A71EAD3B7 /* YUCITriangularPixellate.m in Sources */,
-				41C517D0AA8167E6C9D37CB0D12BCB40 /* YUCIUtilities.m in Sources */,
+				D00D3FCD81662696DCFDD6F343DC93C8 /* Vivid-dummy.m in Sources */,
+				8B2A6B9456504603B1888BE1AB5C4A3C /* YUCIBilateralFilter.m in Sources */,
+				CC3D83FAA570BD7B3D45240E36381F13 /* YUCIBlobsGenerator.m in Sources */,
+				047D46F87D998DDE29532A9439B87C53 /* YUCICLAHE.m in Sources */,
+				37BBE7DD28E2E44A1B986F1A683D1B97 /* YUCIColorLookup.m in Sources */,
+				278E9267A14A72BC62C7AEA05E2C5145 /* YUCICrossZoomTransition.m in Sources */,
+				A3612713B0F7762B2CA5E34D109907E3 /* YUCIFilmBurnTransition.m in Sources */,
+				E4C4F06BFB018A1C39C3E93E6AC71902 /* YUCIFilterConstructor.m in Sources */,
+				534176806C5865E104B6C832E1E986D8 /* YUCIFilterPreviewGenerator.m in Sources */,
+				46EC1D08BFD022E8209109685B2C8FC5 /* YUCIFilterUtilities.m in Sources */,
+				26506173D4857231F07A2C87273C0D63 /* YUCIFlashTransition.m in Sources */,
+				F86C96DBA4E5F5D3170A6CBA8A71AE31 /* YUCIFXAA.m in Sources */,
+				8EE9F22083104D16F319010915CAA3A3 /* YUCIHistogramEqualization.m in Sources */,
+				C7BE2FBA2A08C133D50D09DC5AF2A52B /* YUCIReflectedTile.m in Sources */,
+				0E7C6D14160E3CC9DE45D70843C72CBF /* YUCIReflectedTileROICalculator.m in Sources */,
+				87E14B19BB3AFA90C2ABB53D2443858D /* YUCIRGBToneCurve.m in Sources */,
+				8B8AF394DA880457B5547B16D36F9971 /* YUCISkyGenerator.m in Sources */,
+				3E176D1F1B7154F7CFF3509E5769766A /* YUCIStarfieldGenerator.m in Sources */,
+				F2105E545E9E5830E4E124302C14BA16 /* YUCISurfaceBlur.m in Sources */,
+				3FD7F1A5152A9FB696708A31D1631179 /* YUCITriangularPixellate.m in Sources */,
+				F8456081023DB6F09BAA0E7B837EC780 /* YUCIUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C5869F1143250685D2B883146AB5446 /* Sources */ = {
+		31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3B153979750ABE58470E95B0A51263 /* AssetsPickerController.swift in Sources */,
-				D2BA150329431480F121708FE433D05E /* AssetsPickerGridController.swift in Sources */,
-				2191FF5826692B27B334236D842C86F9 /* SwiftAssetsPickerController-dummy.m in Sources */,
+				5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */,
+				2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67C23071D7E48065CC067D61894F5A55 /* Sources */ = {
+		376DB81F35F86B4FB3715CF242B7F77F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E151359F560B93A1F465EA45FCC314 /* Pods-iOS-Depth-Sampler-dummy.m in Sources */,
+				24E87C81D5387EA42C310711C6391144 /* Pods-iOS-Depth-Sampler-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D404A9AF4B8E150FBED7DCD025D9F042 /* Sources */ = {
+		EF1C5B5FE075AF1A075D8D0956F08B1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D29CD981802FB09DB2983C7E43F907D /* CheckMarkView-dummy.m in Sources */,
-				1EB39A55A2F143C1C60677466289FEA9 /* CheckMarkView.swift in Sources */,
+				5102150114D1E67EFD7DFCEAB47CCFC0 /* AssetsPickerController.swift in Sources */,
+				0DEAE1BE16EE03A57F8146742F97D6E8 /* AssetsPickerGridController.swift in Sources */,
+				D92C5F4EC8A45A6E76BB177539D68BFE /* SwiftAssetsPickerController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17A7B934E4605BB0ACBD1B4BCA13290B /* PBXTargetDependency */ = {
+		09F9ADBF4153CCA8B2C1557295BAF030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CheckMarkView;
+			target = 00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */;
+			targetProxy = 51B9DBE859F4201C274F4BB935322153 /* PBXContainerItemProxy */;
+		};
+		3826016A03AA16171EA73E71690A34E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CheckMarkView;
+			target = 00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */;
+			targetProxy = 5F02D1C80FCDDAA621C6BE06765C5045 /* PBXContainerItemProxy */;
+		};
+		A00DCC594735450BE4E92F4C328A8B3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftAssetsPickerController;
-			target = 24BC566F42B741AA8FE87C168BB3CB06 /* SwiftAssetsPickerController */;
-			targetProxy = 795CB20C110A3A6DD9A981F16C9ADD76 /* PBXContainerItemProxy */;
+			target = E5FA193ECDC1A8A0C62D0DD2EA89E422 /* SwiftAssetsPickerController */;
+			targetProxy = FE259A589F325E1271FE2D1F620E6772 /* PBXContainerItemProxy */;
 		};
-		23D68239893CF00F1724B6F5695F89A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CheckMarkView;
-			target = 6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */;
-			targetProxy = 6FB08922B227CCA5932BAB51919C4C30 /* PBXContainerItemProxy */;
-		};
-		3383A272F70955973BAFDDF364BA36B4 /* PBXTargetDependency */ = {
+		B37939826EACF68159FFE95B909EF13C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Vivid;
-			target = 83D5E7E6DFBF181861D50A59B2223290 /* Vivid */;
-			targetProxy = 93A4524234208D28C87FC551D67BC025 /* PBXContainerItemProxy */;
-		};
-		6AAB04FFAA574E4E9477FB72BF152DF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CheckMarkView;
-			target = 6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */;
-			targetProxy = C9EB0194F9BD14BE55625CA7B6E4C739 /* PBXContainerItemProxy */;
+			target = F81D7CCD8E3FC4AC5DD8A62C40D412DA /* Vivid */;
+			targetProxy = E91522BB0C10353E1068E8023C1A5068 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BC00B6F1B15BE29B58F4CBAF960AE0A /* Release */ = {
+		1E2D89DAE8E90BAD903CA56F3A1459B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 718C576B7E3520B314C1020CD3718F4B /* SwiftAssetsPickerController.xcconfig */;
+			baseConfigurationReference = 67EE9C240C3E84489E88C80D5A784192 /* Pods-iOS-Depth-Sampler.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -797,9 +798,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -807,13 +807,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
-				PRODUCT_NAME = SwiftAssetsPickerController;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -821,7 +823,7 @@
 			};
 			name = Release;
 		};
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -876,14 +878,128 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		4E7B2EDC1B781C98F84B1A6F7AF8F8A8 /* Debug */ = {
+		2F2AB8AE14856F9A1D2DC43E6AA54145 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49A7CD951F2DB79AEFA13D67F5D1CB6B /* CheckMarkView.xcconfig */;
+			baseConfigurationReference = 2A10A2A08D17BE510A50EC1C2B5EB4C7 /* Pods-iOS-Depth-Sampler.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3401F14F768171DEBB1B5D7B7A4C22CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6508509DFCAFB6E44A284E75BFA5AB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
+				PRODUCT_NAME = SwiftAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97E31C4B1CBBB9B718B73D8FF9B0BE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -917,7 +1033,117 @@
 			};
 			name = Debug;
 		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		9DE406AEC5289C74FC39C20EE5C2149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
+				PRODUCT_NAME = SwiftAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A28D76C7BB1CA92810D01E232B44E260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
+				PRODUCT_MODULE_NAME = Vivid;
+				PRODUCT_NAME = Vivid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A76BB925272E2903C9CA29BB9B631A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
+				PRODUCT_MODULE_NAME = Vivid;
+				PRODUCT_NAME = Vivid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -976,281 +1202,55 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		978DAE824BB52D1236731DFB61E98E7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 718C576B7E3520B314C1020CD3718F4B /* SwiftAssetsPickerController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
-				PRODUCT_NAME = SwiftAssetsPickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9D294C56975570A84891886BC1ABEDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53B323D9CD5B61F66D1AB6EDC7ED984 /* Vivid.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
-				PRODUCT_MODULE_NAME = Vivid;
-				PRODUCT_NAME = Vivid;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C5F58AFF42E17C0F7E5B24B042C0E937 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AD2823070C0E3649809E1206A413845 /* Pods-iOS-Depth-Sampler.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CA2CA84E1BC515645D16238769111FB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7BE427198E3EC6AE0E5C7A44FDC541A /* Pods-iOS-Depth-Sampler.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D8146295052C7F735A0441B8A4F4CB30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53B323D9CD5B61F66D1AB6EDC7ED984 /* Vivid.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
-				PRODUCT_MODULE_NAME = Vivid;
-				PRODUCT_NAME = Vivid;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F551BE212BB966EC50CC18A0CDC04802 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49A7CD951F2DB79AEFA13D67F5D1CB6B /* CheckMarkView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
-				PRODUCT_MODULE_NAME = CheckMarkView;
-				PRODUCT_NAME = CheckMarkView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DA06AACE3E1BB2D669C668922F1FFAA /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E7B2EDC1B781C98F84B1A6F7AF8F8A8 /* Debug */,
-				F551BE212BB966EC50CC18A0CDC04802 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		20B477B71D2C1F490866AF7214578885 /* Build configuration list for PBXNativeTarget "Vivid" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8146295052C7F735A0441B8A4F4CB30 /* Debug */,
-				A9D294C56975570A84891886BC1ABEDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		320DC38D4A34601AB657A0EC8FEB9F53 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				978DAE824BB52D1236731DFB61E98E7A /* Debug */,
-				0BC00B6F1B15BE29B58F4CBAF960AE0A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EDF41656316072F44E5E920EAA841D0 /* Build configuration list for PBXNativeTarget "Pods-iOS-Depth-Sampler" */ = {
+		5B3DCB67A07C06AB2755A3EE80C05080 /* Build configuration list for PBXNativeTarget "Vivid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA2CA84E1BC515645D16238769111FB8 /* Debug */,
-				C5F58AFF42E17C0F7E5B24B042C0E937 /* Release */,
+				A28D76C7BB1CA92810D01E232B44E260 /* Debug */,
+				A76BB925272E2903C9CA29BB9B631A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904DBC8BFEB9B195B6B2F7D18202228A /* Build configuration list for PBXNativeTarget "Pods-iOS-Depth-Sampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2AB8AE14856F9A1D2DC43E6AA54145 /* Debug */,
+				1E2D89DAE8E90BAD903CA56F3A1459B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9451E86B09BB5ABD82E9D19BD6919847 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE406AEC5289C74FC39C20EE5C2149D /* Debug */,
+				6508509DFCAFB6E44A284E75BFA5AB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E31C4B1CBBB9B718B73D8FF9B0BE65 /* Debug */,
+				3401F14F768171DEBB1B5D7B7A4C22CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

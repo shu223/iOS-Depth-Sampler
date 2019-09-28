@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-iOS-Depth-Sampler/Pods-iOS-Depth-Sampler-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework
+${BUILT_PRODUCTS_DIR}/SwiftAssetsPickerController/SwiftAssetsPickerController.framework
+${BUILT_PRODUCTS_DIR}/Vivid/Vivid.framework
