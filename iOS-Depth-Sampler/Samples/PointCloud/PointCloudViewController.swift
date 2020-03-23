@@ -98,8 +98,8 @@ class PointCloudlViewController: UIViewController {
     private func drawPointCloud() {
         guard let colorImage = image, let cgColorImage = colorImage.cgImage else { fatalError() }
         guard let depthData = depthData else { fatalError() }
-        
-        let depthPixelBuffer = depthData.depthDataMap
+                
+        let depthPixelBuffer = depthData.converting(toDepthDataType: kCVPixelFormatType_DepthFloat32).depthDataMap
         let width  = CVPixelBufferGetWidth(depthPixelBuffer)
         let height = CVPixelBufferGetHeight(depthPixelBuffer)
 
@@ -129,7 +129,7 @@ class PointCloudlViewController: UIViewController {
             let x = Float(index % width - width / 2) * xyScale
             let y = Float(height / 2 - index / width) * xyScale
             // z comes as Float32 value
-            let z = Float($0.element) * zScale
+            let z = -Float($0.element) * zScale
             return SCNVector3(x, y, z)
         }
 
@@ -236,8 +236,7 @@ extension CVPixelBuffer {
             let rowData = CVPixelBufferGetBaseAddress(self)! + yMap * CVPixelBufferGetBytesPerRow(self)
             let data = UnsafeMutableBufferPointer<Float>(start: rowData.assumingMemoryBound(to: Float.self), count: width)
             for index in 0 ..< width {
-                // ???: index/2しないと同じ画像が2回繰り返す感じで読まれる。ピクセルの読み方を何か勘違いしてるかもしれない
-                pixelData[index +  width * yMap] = Float32(data[index / 2])
+                pixelData[index +  width * yMap] = Float32(data[index])               
             }
         }
         CVPixelBufferUnlockBaseAddress(self, CVPixelBufferLockFlags(rawValue: 0))
