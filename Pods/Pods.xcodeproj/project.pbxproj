@@ -7,84 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D45E4CDD4CB327AE75AC2DC6BA6295 /* YUCIFXAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 037F93DA2AB2E3F3C125DACD21F44EB8 /* YUCIFXAA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		047D46F87D998DDE29532A9439B87C53 /* YUCICLAHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B8209F718E934923BAC336B300C6C /* YUCICLAHE.m */; };
+		02D45E4CDD4CB327AE75AC2DC6BA6295 /* YUCIFXAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A9E7A7EE85820D844CF5DB68682FC2 /* YUCIFXAA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047D46F87D998DDE29532A9439B87C53 /* YUCICLAHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 252751D4D78FD2E49357F62834A67BD4 /* YUCICLAHE.m */; };
 		0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
-		0ACD417360142FB797B87A9FD0224EA9 /* YUCIRGBToHSL.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = D8714798FADA01903F2421EA6C0552AC /* YUCIRGBToHSL.cikernel */; };
-		0AEB1EF936D450A6EEC55C11F6F970A6 /* YUCISkyGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 18CDFB887F148DEF26A5F65BE7C5CB09 /* YUCISkyGenerator.cikernel */; };
-		0D534E830FCD511ACDDDFF0DF5BE39E7 /* YUCIReflectedTile.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E6E37EA0D4582D4443069883B576A53A /* YUCIReflectedTile.cikernel */; };
-		0DEAE1BE16EE03A57F8146742F97D6E8 /* AssetsPickerGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */; };
-		0E7C6D14160E3CC9DE45D70843C72CBF /* YUCIReflectedTileROICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F3F33E7479DA29224A0395B8E8A44 /* YUCIReflectedTileROICalculator.m */; };
-		1BDE39CF847A5BBC5887B18B196F678C /* YUCIRGBToneCurve.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 456DBFD2C2FACADC9449D6210AC0089A /* YUCIRGBToneCurve.cikernel */; };
-		1D3CEBC867511752B9574D0A10FA123E /* timelapse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B648833C7EE9107DF530F35BFAA7DA4D /* timelapse-icon.png */; };
-		2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */; };
+		0ACD417360142FB797B87A9FD0224EA9 /* YUCIRGBToHSL.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 418E6E3CD33D7BD28BCBCAD542098E96 /* YUCIRGBToHSL.cikernel */; };
+		0AEB1EF936D450A6EEC55C11F6F970A6 /* YUCISkyGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = EE372759D671882DD66A1A18634A94D3 /* YUCISkyGenerator.cikernel */; };
+		0D534E830FCD511ACDDDFF0DF5BE39E7 /* YUCIReflectedTile.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4C55EB8092806D7B896949EB0DE0E21C /* YUCIReflectedTile.cikernel */; };
+		0DEAE1BE16EE03A57F8146742F97D6E8 /* AssetsPickerGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112497C1C9387A854AF3C3103AA478E7 /* AssetsPickerGridController.swift */; };
+		0E7C6D14160E3CC9DE45D70843C72CBF /* YUCIReflectedTileROICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2201D724A9686CAC458683473C8DDC /* YUCIReflectedTileROICalculator.m */; };
+		1BDE39CF847A5BBC5887B18B196F678C /* YUCIRGBToneCurve.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 7CE41894F3E62F3DD22708C1822018BA /* YUCIRGBToneCurve.cikernel */; };
+		1D3CEBC867511752B9574D0A10FA123E /* timelapse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E34C154682F0B7F536D67DD69402C7D /* timelapse-icon.png */; };
+		2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFD440888BE696FA2492356ACC26E5 /* CheckMarkView.swift */; };
 		24E87C81D5387EA42C310711C6391144 /* Pods-iOS-Depth-Sampler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0BCC6A24AE4D2FE6199DFE28DEF813 /* Pods-iOS-Depth-Sampler-dummy.m */; };
-		26506173D4857231F07A2C87273C0D63 /* YUCIFlashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E7ADF9F9D3AD1C1F5DFF03E97E0123 /* YUCIFlashTransition.m */; };
-		278E9267A14A72BC62C7AEA05E2C5145 /* YUCICrossZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A5797A3028C62C6D40935641999AE197 /* YUCICrossZoomTransition.m */; };
-		29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F23ADEEFA5FFA67E15745BCD1F905DA1 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AA81692AA6CBA6C848A7372BEE1AC47 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = BB6F2CB2D35B4A67ECC74DB1E9852E81 /* YUCIBlobsGenerator.cikernel */; };
-		33E08F4B71DDFCE7A2FA9E3A17391F4D /* YUCIBilateralFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E7F71FD26C398AE08097C937DBFDC718 /* YUCIBilateralFilter.cikernel */; };
-		37BBE7DD28E2E44A1B986F1A683D1B97 /* YUCIColorLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3752C51629EBF1DE93DB6D644858A /* YUCIColorLookup.m */; };
+		26506173D4857231F07A2C87273C0D63 /* YUCIFlashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D45AEAAAAB93167035284007E3ADA /* YUCIFlashTransition.m */; };
+		278E9267A14A72BC62C7AEA05E2C5145 /* YUCICrossZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 848632F646E2B8DC29555F4B73B9B28F /* YUCICrossZoomTransition.m */; };
+		29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2DD12BBA735B7246144C503CF1E1A2 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA81692AA6CBA6C848A7372BEE1AC47 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 79D41B4EA41AD767120E4FA72153394A /* YUCIBlobsGenerator.cikernel */; };
+		33E08F4B71DDFCE7A2FA9E3A17391F4D /* YUCIBilateralFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = D88F7586C46FFF1B33226BB6A9D3E4C7 /* YUCIBilateralFilter.cikernel */; };
+		37BBE7DD28E2E44A1B986F1A683D1B97 /* YUCIColorLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321A99966578F024861E3BE3328BFB4 /* YUCIColorLookup.m */; };
 		3C962E1A068D33FD44E2C01C1C9C5476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
-		3E176D1F1B7154F7CFF3509E5769766A /* YUCIStarfieldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0F84746D825A7E12A114E349191E9 /* YUCIStarfieldGenerator.m */; };
-		3EC8E513D47F562A45CCBF2085818CE3 /* YUCIStarfieldGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = C806D12AE4097BB9EA6CF9DA68BEB7EE /* YUCIStarfieldGenerator.cikernel */; };
-		3FD7F1A5152A9FB696708A31D1631179 /* YUCITriangularPixellate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE02821784C7076B14821DE718ED04D /* YUCITriangularPixellate.m */; };
-		46EC1D08BFD022E8209109685B2C8FC5 /* YUCIFilterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E25164E7481B87549F40DADB478BE /* YUCIFilterUtilities.m */; };
-		5102150114D1E67EFD7DFCEAB47CCFC0 /* AssetsPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */; };
-		52E78FCDE3030B1C8868BE1D89A2C044 /* YUCIFilterPreviewGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE4FC362FC9F3276A39D4BA34936BD4 /* YUCIFilterPreviewGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		534176806C5865E104B6C832E1E986D8 /* YUCIFilterPreviewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A86429DFC66985D38382843D7A2919 /* YUCIFilterPreviewGenerator.m */; };
-		5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C24230E499679C93607E2E68B1782 /* CheckMarkView-dummy.m */; };
-		65EF93924282B460006BAA63141A7F58 /* YUCICrossZoomTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E8E4972C7B610CD570DFC84411358F87 /* YUCICrossZoomTransition.cikernel */; };
-		69D01D1DE32C3BB6F8243658DA1D1124 /* YUCITriangularPixellate.h in Headers */ = {isa = PBXBuildFile; fileRef = 11706A733FF991D96831513A04BC6CFB /* YUCITriangularPixellate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B9BEA1E3E89DD744A43C8F07A631589 /* YUCIHistogramEqualization.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DF0F154620A777A9D39FF8DB507D2D /* YUCIHistogramEqualization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FFA8DF49385A21DF50389C6306163C5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E3A1A30E7E06E46F84FD7163CB31479E /* Base.lproj */; };
-		7EC9FF47BD470D0D7DFC5B8FAF06376A /* YUCISurfaceBlur.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = A629E48DA6BE3B31EF12FE32CD5AAE68 /* YUCISurfaceBlur.cikernel */; };
-		7FDCA2BCA11BDC124C077C21EB27595D /* YUCIFilterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6D137D5E865628943341ADDDF98E6B /* YUCIFilterConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80E7F69F9AE511F2BA16544BD7FF4311 /* YUCIColorLookup.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB44AC2AB1AFFE3F7246BBDFE36423 /* YUCIColorLookup.cikernel */; };
-		8532649D24BDBA81FE34A4D9E6B6D23B /* SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 976CC9319804FDE33133ECC7CA54F2C7 /* SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		867A1CFA9A3E1F05A6C6BCA0548FFF10 /* YUCIReflectedTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB969F8B4C1109E8D247FDF2245CEC /* YUCIReflectedTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87E14B19BB3AFA90C2ABB53D2443858D /* YUCIRGBToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4286722C85ACFC41FA2868729EBDF7 /* YUCIRGBToneCurve.m */; };
-		8B2A6B9456504603B1888BE1AB5C4A3C /* YUCIBilateralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF597559BA638661E2863F16163454 /* YUCIBilateralFilter.m */; };
-		8B8AF394DA880457B5547B16D36F9971 /* YUCISkyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BC1EF8C8282D29A60CB8E1082F2C5C /* YUCISkyGenerator.m */; };
-		8EE9F22083104D16F319010915CAA3A3 /* YUCIHistogramEqualization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9841C2DEF7253CB17C022999C6DD456B /* YUCIHistogramEqualization.m */; };
-		8F05AA6C9D051482C76556E886BCDD8E /* YUCIBlobsGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9160744B9031ABFE445401C9D1BC5E60 /* YUCIBlobsGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94476CA393F129F40F31AFF1869ED41E /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C5D87D434E9751768E7F2D903C02 /* video-icon.png */; };
-		96BBD874A98875A30A46AFF843ACBC7C /* YUCICrossZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27138FA18FC3F5D6C5B811C6128022 /* YUCICrossZoomTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987C1777394DBC6391E26BBE5FDB113D /* Vivid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF863FA3A05EADF09661E2E95A1AFBC /* Vivid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E176D1F1B7154F7CFF3509E5769766A /* YUCIStarfieldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40024D552A1B081AA415D41568F55E05 /* YUCIStarfieldGenerator.m */; };
+		3EC8E513D47F562A45CCBF2085818CE3 /* YUCIStarfieldGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = FA03106C11A84AFE1799E384BC2891DF /* YUCIStarfieldGenerator.cikernel */; };
+		3FD7F1A5152A9FB696708A31D1631179 /* YUCITriangularPixellate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18777AD09488A33A23CCA87DFBBA6B4F /* YUCITriangularPixellate.m */; };
+		46EC1D08BFD022E8209109685B2C8FC5 /* YUCIFilterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB99C5E260D7235CA28977934689428 /* YUCIFilterUtilities.m */; };
+		5102150114D1E67EFD7DFCEAB47CCFC0 /* AssetsPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83248F1A9545D825FB8AFA47DB675770 /* AssetsPickerController.swift */; };
+		52E78FCDE3030B1C8868BE1D89A2C044 /* YUCIFilterPreviewGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4763ACD16A91DCA0B6073FCA0FFAD535 /* YUCIFilterPreviewGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		534176806C5865E104B6C832E1E986D8 /* YUCIFilterPreviewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE9B3409F70CB0D94DB064990BE138 /* YUCIFilterPreviewGenerator.m */; };
+		5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4129457B49FAA70A02167B5D4A6AB0EC /* CheckMarkView-dummy.m */; };
+		65EF93924282B460006BAA63141A7F58 /* YUCICrossZoomTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 0C599B9430949DBE6F4688ADF7F9738B /* YUCICrossZoomTransition.cikernel */; };
+		69D01D1DE32C3BB6F8243658DA1D1124 /* YUCITriangularPixellate.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BE14B463D4361C055589FF9373BA30 /* YUCITriangularPixellate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9BEA1E3E89DD744A43C8F07A631589 /* YUCIHistogramEqualization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D20DAACD35967E99BE8FF8081A2383F /* YUCIHistogramEqualization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFA8DF49385A21DF50389C6306163C5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B2BC7D15E240E0105AB3D087D06032E3 /* Base.lproj */; };
+		7EC9FF47BD470D0D7DFC5B8FAF06376A /* YUCISurfaceBlur.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = D7252ACBE794CB5F50ED63AD86B9B1CC /* YUCISurfaceBlur.cikernel */; };
+		7FDCA2BCA11BDC124C077C21EB27595D /* YUCIFilterConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 37237A7A8FFB708B056A4D48AF56FF28 /* YUCIFilterConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E7F69F9AE511F2BA16544BD7FF4311 /* YUCIColorLookup.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 0D3FEA6370D82B4B935DC746159A514D /* YUCIColorLookup.cikernel */; };
+		8532649D24BDBA81FE34A4D9E6B6D23B /* SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F969D6C4108BC4E3670CCE026CB158 /* SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867A1CFA9A3E1F05A6C6BCA0548FFF10 /* YUCIReflectedTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CE9B52771AE1FE609DF444AF7533DF /* YUCIReflectedTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E14B19BB3AFA90C2ABB53D2443858D /* YUCIRGBToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 716BE695911623BFE59E2250E6EBFBB5 /* YUCIRGBToneCurve.m */; };
+		8B2A6B9456504603B1888BE1AB5C4A3C /* YUCIBilateralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 965762ABF10E1B86119242F003AB4C19 /* YUCIBilateralFilter.m */; };
+		8B8AF394DA880457B5547B16D36F9971 /* YUCISkyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A464268AE180665E24C689211A726 /* YUCISkyGenerator.m */; };
+		8EE9F22083104D16F319010915CAA3A3 /* YUCIHistogramEqualization.m in Sources */ = {isa = PBXBuildFile; fileRef = 268368E03B85786DBEC5D0F5EC79972C /* YUCIHistogramEqualization.m */; };
+		8F05AA6C9D051482C76556E886BCDD8E /* YUCIBlobsGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB5824C583C33F1EDBB443371BCCA51 /* YUCIBlobsGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94476CA393F129F40F31AFF1869ED41E /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 011CCB3956167B07BB6A358C277F7153 /* video-icon.png */; };
+		96BBD874A98875A30A46AFF843ACBC7C /* YUCICrossZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 513DBA90AA6BDA1BDD85B9FEB9F5BB75 /* YUCICrossZoomTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987C1777394DBC6391E26BBE5FDB113D /* Vivid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE661C490E0EF1C6F21E43C449D81A6F /* Vivid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		991295117C52078ABAC78385D04916A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
-		A3612713B0F7762B2CA5E34D109907E3 /* YUCIFilmBurnTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4A7877C541160460B6DCCC4DB4E1D /* YUCIFilmBurnTransition.m */; };
-		A8CADE0AA0A2377E0CEE7AFFC4106F27 /* YUCIStarfieldGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ED39A13101757ED9F7D383C134D9719C /* YUCIStarfieldGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3612713B0F7762B2CA5E34D109907E3 /* YUCIFilmBurnTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F5D380B2371F3FD8F9C7079235C00 /* YUCIFilmBurnTransition.m */; };
+		A8CADE0AA0A2377E0CEE7AFFC4106F27 /* YUCIStarfieldGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A0BEB9A34FC2FAA8AE487967B832BE /* YUCIStarfieldGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEC31672A9E521F89698C978B5F90851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
-		AF0C5786E5A9106DC4F84D3A11788A69 /* YUCICLAHE.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 616ABDD2A6C9DFF196947141B3E6D9A2 /* YUCICLAHE.cikernel */; };
-		BF58FABC93A613F9AF431CEEAA806A73 /* YUCISurfaceBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCDF7BE3969DA1F5A7666A2BF622359 /* YUCISurfaceBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0BEE9D7BB6CC936BE0DF3AC1E614ACA /* YUCIFlashTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CC4882FE88368C688C65868AECB840 /* YUCIFlashTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C42EFAA88A689994F52DD69D14A609E3 /* panorama-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8264E14C7EFE2A0A9269C137A4820525 /* panorama-icon.png */; };
+		AF0C5786E5A9106DC4F84D3A11788A69 /* YUCICLAHE.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5DE07E78BBBDFC2BFE2FF86DDCF38E0D /* YUCICLAHE.cikernel */; };
+		BF58FABC93A613F9AF431CEEAA806A73 /* YUCISurfaceBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EB5D0AB272DC4EFE029E0C9E3D433E /* YUCISurfaceBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0BEE9D7BB6CC936BE0DF3AC1E614ACA /* YUCIFlashTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D0218D7FA9C8F8F961DC3D64774062 /* YUCIFlashTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42EFAA88A689994F52DD69D14A609E3 /* panorama-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A6A5563D31BC44ADFE8D69440A5B66 /* panorama-icon.png */; };
 		C7A103E1931EF1E882C9901D39500C30 /* CheckMarkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */; };
-		C7BE2FBA2A08C133D50D09DC5AF2A52B /* YUCIReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B55315C465553938C4B307865CC8F989 /* YUCIReflectedTile.m */; };
+		C7BE2FBA2A08C133D50D09DC5AF2A52B /* YUCIReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = EE400E83CAE6869D0AFAF0BA8C4CFAC7 /* YUCIReflectedTile.m */; };
 		C7C2E472F366914ABE42AF5802A682CD /* Pods-iOS-Depth-Sampler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871C716D51741F42C7EEAD9CA63F7522 /* Pods-iOS-Depth-Sampler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC3D83FAA570BD7B3D45240E36381F13 /* YUCIBlobsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27419039F1605BC915BBA2B9F59FD8AB /* YUCIBlobsGenerator.m */; };
-		D00D3FCD81662696DCFDD6F343DC93C8 /* Vivid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD5F0E87EAC0D13123EC691D8438AFD /* Vivid-dummy.m */; };
-		D4CEE97DF221B85471226B8B1DDA5992 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DE50BCC5992C2B937D4163E23F4AD3FF /* en.lproj */; };
-		D5AC33000F3C43922C5201F6DF2F00ED /* YUCIColorLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 466B5A0D59455C18B73F02DD31B314DB /* YUCIColorLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5EE725A510D4496D7CE0E95AFE9A81A /* YUCIBilateralFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A842346ACFA9F89350CBBB3D4B1110 /* YUCIBilateralFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D92C5F4EC8A45A6E76BB177539D68BFE /* SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287B01CD11BD22012E85C89A88471F4 /* SwiftAssetsPickerController-dummy.m */; };
-		D9ED00B5A86B39F4A7126CE4F6251E86 /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 40364E9CC1FB1A684C578347B2E4C1C1 /* YUCIFilmBurnTransition.cikernel */; };
-		E115E2EACEE07ED66FD7D68C686D1E13 /* YUCIFilmBurnTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEEFE08FA35A3DEE6A9A6F8C9839A99 /* YUCIFilmBurnTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3DE92504C655FA11CC3BB72E553296F /* YUCISkyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C84377645F99F26386571F96200C858 /* YUCISkyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4C4F06BFB018A1C39C3E93E6AC71902 /* YUCIFilterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B449D21E5986EFF85A6841FDF260FB /* YUCIFilterConstructor.m */; };
-		E6FB321891E2A641A8D0F388407A40B0 /* YUCIFXAA.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 40209A3B60F86B3E9AF56DBCCD89AA15 /* YUCIFXAA.cikernel */; };
-		E83A6A20984A391E742D4A70679D5210 /* YUCIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F14A044064DE2BBBE27B6A4CFCCB2A08 /* YUCIFlashTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = CC4850EE0DF60ABB169764AF7F4DE44D /* YUCIFlashTransition.cikernel */; };
-		F20374B78E907A1BF78E35B3A585A44E /* YUCIRGBToneCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = B824A65A866C8DC93C28DEB8EE5A8F32 /* YUCIRGBToneCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2105E545E9E5830E4E124302C14BA16 /* YUCISurfaceBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE6DD5274C9BB889153E4C591AE5BB /* YUCISurfaceBlur.m */; };
-		F48D41FB741CE03C4DD592BB74BFBF41 /* YUCIFilterUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FB39FFE8CDF22E084BCABC05C02DED /* YUCIFilterUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70F719C6F0FFB1B7D59B6E119292B34 /* YUCITriangularPixellate.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 946F6ED033AFA924F1FA667926EC52E3 /* YUCITriangularPixellate.cikernel */; };
-		F7299ABCE2A682FE3E10F1FC1020CD58 /* YUCIColorLookupTableDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DFAF2617C49E790AB841DF2D23D581 /* YUCIColorLookupTableDefault.png */; };
-		F78F772FDAD43391845EF6C23975AFF0 /* YUCIReflectedTileROICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC4C262A86A1E05515AFAD2FEEAC48A /* YUCIReflectedTileROICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8456081023DB6F09BAA0E7B837EC780 /* YUCIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */; };
-		F86C96DBA4E5F5D3170A6CBA8A71AE31 /* YUCIFXAA.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAC8E90773CB8284D62C4A2B56FE46C /* YUCIFXAA.m */; };
-		F951CE81EE315F3B55A7B74260F6C77B /* YUCICLAHE.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D25ED3DAA6399ACA4764D5747F2F35 /* YUCICLAHE.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA6ECE886F379C7FF91D0DFA1EF7608A /* YUCIHSLToRGB.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E92D2D82983A90C2E8E0CD5491CA /* YUCIHSLToRGB.cikernel */; };
+		CC3D83FAA570BD7B3D45240E36381F13 /* YUCIBlobsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77756C4BF63754351F4ABAC4A6FB1D76 /* YUCIBlobsGenerator.m */; };
+		D00D3FCD81662696DCFDD6F343DC93C8 /* Vivid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8132307A4AE2A1CCD9A662E0E8106BBB /* Vivid-dummy.m */; };
+		D4CEE97DF221B85471226B8B1DDA5992 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A29E230A9CC48F1C08B0158852F6FD16 /* en.lproj */; };
+		D5AC33000F3C43922C5201F6DF2F00ED /* YUCIColorLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8D0201AAC517F222FE3FCEBC5F3AD2 /* YUCIColorLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EE725A510D4496D7CE0E95AFE9A81A /* YUCIBilateralFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AED0AC1B40D359392409A8563A7FE2 /* YUCIBilateralFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92C5F4EC8A45A6E76BB177539D68BFE /* SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F0417DEA74B0D972D06925A54150A /* SwiftAssetsPickerController-dummy.m */; };
+		D9ED00B5A86B39F4A7126CE4F6251E86 /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 7D0F3D82FE8AA82CA31B656F52CD8B6A /* YUCIFilmBurnTransition.cikernel */; };
+		E115E2EACEE07ED66FD7D68C686D1E13 /* YUCIFilmBurnTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D16E13440440C72A913A5624CB7E62 /* YUCIFilmBurnTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DE92504C655FA11CC3BB72E553296F /* YUCISkyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED0C589212441C969508553ABE00D18 /* YUCISkyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C4F06BFB018A1C39C3E93E6AC71902 /* YUCIFilterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664A5EC1ED1C50C86C505BFF2416E88 /* YUCIFilterConstructor.m */; };
+		E6FB321891E2A641A8D0F388407A40B0 /* YUCIFXAA.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF8B21EB873604997839F5CF8DAAAA /* YUCIFXAA.cikernel */; };
+		E83A6A20984A391E742D4A70679D5210 /* YUCIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CB344F4C007780FB05B04145908DB327 /* YUCIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F14A044064DE2BBBE27B6A4CFCCB2A08 /* YUCIFlashTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2720175F156C9935E28965F46177 /* YUCIFlashTransition.cikernel */; };
+		F20374B78E907A1BF78E35B3A585A44E /* YUCIRGBToneCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A3FC6B3A60FC952B6D98B4B9D72636 /* YUCIRGBToneCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2105E545E9E5830E4E124302C14BA16 /* YUCISurfaceBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 711192799B87E1B3FCF612036CDFABCB /* YUCISurfaceBlur.m */; };
+		F48D41FB741CE03C4DD592BB74BFBF41 /* YUCIFilterUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B29B359B33D9FD11CCF4123AE11802FF /* YUCIFilterUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70F719C6F0FFB1B7D59B6E119292B34 /* YUCITriangularPixellate.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = D8F860E624A60BC3A26073D1FEC62F54 /* YUCITriangularPixellate.cikernel */; };
+		F7299ABCE2A682FE3E10F1FC1020CD58 /* YUCIColorLookupTableDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F17EC08E1E9E42E53F9302A0E37025 /* YUCIColorLookupTableDefault.png */; };
+		F78F772FDAD43391845EF6C23975AFF0 /* YUCIReflectedTileROICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AAA0A10C8FB82932C39F7DC6076276 /* YUCIReflectedTileROICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8456081023DB6F09BAA0E7B837EC780 /* YUCIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9C6D0AA4DA767C1AC2D9D5C2DB72C6 /* YUCIUtilities.m */; };
+		F86C96DBA4E5F5D3170A6CBA8A71AE31 /* YUCIFXAA.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A9CF76AAF791020708AC034B77B6E /* YUCIFXAA.m */; };
+		F951CE81EE315F3B55A7B74260F6C77B /* YUCICLAHE.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF1A491BFBC0C4593DCE96AA311DCB9 /* YUCICLAHE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6ECE886F379C7FF91D0DFA1EF7608A /* YUCIHSLToRGB.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 6C61CA63EAAD947CB4BD1BCB1809F839 /* YUCIHSLToRGB.cikernel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,105 +119,108 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F0F84746D825A7E12A114E349191E9 /* YUCIStarfieldGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIStarfieldGenerator.m; path = Sources/YUCIStarfieldGenerator.m; sourceTree = "<group>"; };
-		037F93DA2AB2E3F3C125DACD21F44EB8 /* YUCIFXAA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFXAA.h; path = Sources/YUCIFXAA.h; sourceTree = "<group>"; };
-		0EAB44AC2AB1AFFE3F7246BBDFE36423 /* YUCIColorLookup.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIColorLookup.cikernel; path = Sources/YUCIColorLookup.cikernel; sourceTree = "<group>"; };
-		110E25164E7481B87549F40DADB478BE /* YUCIFilterUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterUtilities.m; path = Sources/YUCIFilterUtilities.m; sourceTree = "<group>"; };
-		11706A733FF991D96831513A04BC6CFB /* YUCITriangularPixellate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCITriangularPixellate.h; path = Sources/YUCITriangularPixellate.h; sourceTree = "<group>"; };
-		147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerController.swift; sourceTree = "<group>"; };
-		14DE6DD5274C9BB889153E4C591AE5BB /* YUCISurfaceBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCISurfaceBlur.m; path = Sources/YUCISurfaceBlur.m; sourceTree = "<group>"; };
+		011CCB3956167B07BB6A358C277F7153 /* video-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-icon.png"; path = "SwiftAssetsPickerController/Resources/video-icon.png"; sourceTree = "<group>"; };
+		04F17EC08E1E9E42E53F9302A0E37025 /* YUCIColorLookupTableDefault.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = YUCIColorLookupTableDefault.png; path = Sources/YUCIColorLookupTableDefault.png; sourceTree = "<group>"; };
+		0C599B9430949DBE6F4688ADF7F9738B /* YUCICrossZoomTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCICrossZoomTransition.cikernel; path = Sources/YUCICrossZoomTransition.cikernel; sourceTree = "<group>"; };
+		0D3FEA6370D82B4B935DC746159A514D /* YUCIColorLookup.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIColorLookup.cikernel; path = Sources/YUCIColorLookup.cikernel; sourceTree = "<group>"; };
+		10E48B515F5AE146C7A0B156CF323691 /* SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAssetsPickerController.modulemap; sourceTree = "<group>"; };
+		112497C1C9387A854AF3C3103AA478E7 /* AssetsPickerGridController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerGridController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerGridController.swift; sourceTree = "<group>"; };
+		147C53077FCD10669AFDDDFD13CE2D2A /* CheckMarkView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.debug.xcconfig; sourceTree = "<group>"; };
 		17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAssetsPickerController.framework; path = SwiftAssetsPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		182C24230E499679C93607E2E68B1782 /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
-		183B8209F718E934923BAC336B300C6C /* YUCICLAHE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCICLAHE.m; path = Sources/YUCICLAHE.m; sourceTree = "<group>"; };
-		18CDFB887F148DEF26A5F65BE7C5CB09 /* YUCISkyGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCISkyGenerator.cikernel; path = Sources/YUCISkyGenerator.cikernel; sourceTree = "<group>"; };
-		1AF863FA3A05EADF09661E2E95A1AFBC /* Vivid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-umbrella.h"; sourceTree = "<group>"; };
-		1FEEFE08FA35A3DEE6A9A6F8C9839A99 /* YUCIFilmBurnTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilmBurnTransition.h; path = Sources/YUCIFilmBurnTransition.h; sourceTree = "<group>"; };
-		272059386DD227797C2FCC120A0922E8 /* Vivid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-prefix.pch"; sourceTree = "<group>"; };
-		27419039F1605BC915BBA2B9F59FD8AB /* YUCIBlobsGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIBlobsGenerator.m; path = Sources/YUCIBlobsGenerator.m; sourceTree = "<group>"; };
+		18777AD09488A33A23CCA87DFBBA6B4F /* YUCITriangularPixellate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCITriangularPixellate.m; path = Sources/YUCITriangularPixellate.m; sourceTree = "<group>"; };
+		19AED0AC1B40D359392409A8563A7FE2 /* YUCIBilateralFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIBilateralFilter.h; path = Sources/YUCIBilateralFilter.h; sourceTree = "<group>"; };
+		19FD3C9E8504A155248E9126C1C2DF1B /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
+		1A2DD12BBA735B7246144C503CF1E1A2 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
+		231E663CBBB3B954659D92C91E442F68 /* Vivid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Vivid.modulemap; sourceTree = "<group>"; };
+		252751D4D78FD2E49357F62834A67BD4 /* YUCICLAHE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCICLAHE.m; path = Sources/YUCICLAHE.m; sourceTree = "<group>"; };
+		268368E03B85786DBEC5D0F5EC79972C /* YUCIHistogramEqualization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIHistogramEqualization.m; path = Sources/YUCIHistogramEqualization.m; sourceTree = "<group>"; };
 		2A10A2A08D17BE510A50EC1C2B5EB4C7 /* Pods-iOS-Depth-Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Depth-Sampler.debug.xcconfig"; sourceTree = "<group>"; };
-		2BCDF7BE3969DA1F5A7666A2BF622359 /* YUCISurfaceBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCISurfaceBlur.h; path = Sources/YUCISurfaceBlur.h; sourceTree = "<group>"; };
-		2DC4C262A86A1E05515AFAD2FEEAC48A /* YUCIReflectedTileROICalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIReflectedTileROICalculator.h; path = Sources/YUCIReflectedTileROICalculator.h; sourceTree = "<group>"; };
 		2EFC98790D8A290774C471DEB5B7901B /* Pods-iOS-Depth-Sampler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Depth-Sampler-acknowledgements.plist"; sourceTree = "<group>"; };
-		33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
+		2F3D0CCAA759935FF39548C6D2ACDF3D /* CheckMarkView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.release.xcconfig; sourceTree = "<group>"; };
+		32A68609EA75E4E98653844104281FB1 /* Vivid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vivid.debug.xcconfig; sourceTree = "<group>"; };
+		33A6A5563D31BC44ADFE8D69440A5B66 /* panorama-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "panorama-icon.png"; path = "SwiftAssetsPickerController/Resources/panorama-icon.png"; sourceTree = "<group>"; };
+		37237A7A8FFB708B056A4D48AF56FF28 /* YUCIFilterConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterConstructor.h; path = Sources/YUCIFilterConstructor.h; sourceTree = "<group>"; };
+		3A545557B078C7E81B7218205728966A /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
 		3A7642064F6F7AAADB45297FC33FEAA9 /* Pods-iOS-Depth-Sampler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Depth-Sampler-Info.plist"; sourceTree = "<group>"; };
-		3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
-		40209A3B60F86B3E9AF56DBCCD89AA15 /* YUCIFXAA.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFXAA.cikernel; path = Sources/YUCIFXAA.cikernel; sourceTree = "<group>"; };
-		40364E9CC1FB1A684C578347B2E4C1C1 /* YUCIFilmBurnTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFilmBurnTransition.cikernel; path = Sources/YUCIFilmBurnTransition.cikernel; sourceTree = "<group>"; };
-		456DBFD2C2FACADC9449D6210AC0089A /* YUCIRGBToneCurve.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIRGBToneCurve.cikernel; path = Sources/YUCIRGBToneCurve.cikernel; sourceTree = "<group>"; };
-		45A6D629984D15A2F38B397B84E7EAAB /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
-		466B5A0D59455C18B73F02DD31B314DB /* YUCIColorLookup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIColorLookup.h; path = Sources/YUCIColorLookup.h; sourceTree = "<group>"; };
+		3C3A464268AE180665E24C689211A726 /* YUCISkyGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCISkyGenerator.m; path = Sources/YUCISkyGenerator.m; sourceTree = "<group>"; };
+		3CBFD440888BE696FA2492356ACC26E5 /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
+		40024D552A1B081AA415D41568F55E05 /* YUCIStarfieldGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIStarfieldGenerator.m; path = Sources/YUCIStarfieldGenerator.m; sourceTree = "<group>"; };
+		4129457B49FAA70A02167B5D4A6AB0EC /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
+		418E6E3CD33D7BD28BCBCAD542098E96 /* YUCIRGBToHSL.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIRGBToHSL.cikernel; path = Sources/YUCIRGBToHSL.cikernel; sourceTree = "<group>"; };
+		4763ACD16A91DCA0B6073FCA0FFAD535 /* YUCIFilterPreviewGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterPreviewGenerator.h; path = Sources/YUCIFilterPreviewGenerator.h; sourceTree = "<group>"; };
 		47B4A383CF23285A3428F863B6DC1D30 /* Pods_iOS_Depth_Sampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Depth_Sampler.framework; path = "Pods-iOS-Depth-Sampler.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47D25ED3DAA6399ACA4764D5747F2F35 /* YUCICLAHE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCICLAHE.h; path = Sources/YUCICLAHE.h; sourceTree = "<group>"; };
 		4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C84377645F99F26386571F96200C858 /* YUCISkyGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCISkyGenerator.h; path = Sources/YUCISkyGenerator.h; sourceTree = "<group>"; };
-		52CC4882FE88368C688C65868AECB840 /* YUCIFlashTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFlashTransition.h; path = Sources/YUCIFlashTransition.h; sourceTree = "<group>"; };
-		5CB3752C51629EBF1DE93DB6D644858A /* YUCIColorLookup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIColorLookup.m; path = Sources/YUCIColorLookup.m; sourceTree = "<group>"; };
-		60B449D21E5986EFF85A6841FDF260FB /* YUCIFilterConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterConstructor.m; path = Sources/YUCIFilterConstructor.m; sourceTree = "<group>"; };
-		616ABDD2A6C9DFF196947141B3E6D9A2 /* YUCICLAHE.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCICLAHE.cikernel; path = Sources/YUCICLAHE.cikernel; sourceTree = "<group>"; };
-		63AB969F8B4C1109E8D247FDF2245CEC /* YUCIReflectedTile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIReflectedTile.h; path = Sources/YUCIReflectedTile.h; sourceTree = "<group>"; };
+		4C55EB8092806D7B896949EB0DE0E21C /* YUCIReflectedTile.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIReflectedTile.cikernel; path = Sources/YUCIReflectedTile.cikernel; sourceTree = "<group>"; };
+		4D20DAACD35967E99BE8FF8081A2383F /* YUCIHistogramEqualization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIHistogramEqualization.h; path = Sources/YUCIHistogramEqualization.h; sourceTree = "<group>"; };
+		4DC7C650714DDDA3E526E1585DFEACF5 /* Vivid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Vivid-Info.plist"; sourceTree = "<group>"; };
+		513DBA90AA6BDA1BDD85B9FEB9F5BB75 /* YUCICrossZoomTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCICrossZoomTransition.h; path = Sources/YUCICrossZoomTransition.h; sourceTree = "<group>"; };
+		58A9E7A7EE85820D844CF5DB68682FC2 /* YUCIFXAA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFXAA.h; path = Sources/YUCIFXAA.h; sourceTree = "<group>"; };
+		5DE07E78BBBDFC2BFE2FF86DDCF38E0D /* YUCICLAHE.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCICLAHE.cikernel; path = Sources/YUCICLAHE.cikernel; sourceTree = "<group>"; };
+		5E5F0417DEA74B0D972D06925A54150A /* SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
+		6321A99966578F024861E3BE3328BFB4 /* YUCIColorLookup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIColorLookup.m; path = Sources/YUCIColorLookup.m; sourceTree = "<group>"; };
+		64D16E13440440C72A913A5624CB7E62 /* YUCIFilmBurnTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilmBurnTransition.h; path = Sources/YUCIFilmBurnTransition.h; sourceTree = "<group>"; };
 		67EE9C240C3E84489E88C80D5A784192 /* Pods-iOS-Depth-Sampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Depth-Sampler.release.xcconfig"; sourceTree = "<group>"; };
-		6D6D137D5E865628943341ADDDF98E6B /* YUCIFilterConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterConstructor.h; path = Sources/YUCIFilterConstructor.h; sourceTree = "<group>"; };
+		6C61CA63EAAD947CB4BD1BCB1809F839 /* YUCIHSLToRGB.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIHSLToRGB.cikernel; path = Sources/YUCIHSLToRGB.cikernel; sourceTree = "<group>"; };
 		6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71E4A7877C541160460B6DCCC4DB4E1D /* YUCIFilmBurnTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilmBurnTransition.m; path = Sources/YUCIFilmBurnTransition.m; sourceTree = "<group>"; };
-		74DFAF2617C49E790AB841DF2D23D581 /* YUCIColorLookupTableDefault.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = YUCIColorLookupTableDefault.png; path = Sources/YUCIColorLookupTableDefault.png; sourceTree = "<group>"; };
-		75A86429DFC66985D38382843D7A2919 /* YUCIFilterPreviewGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterPreviewGenerator.m; path = Sources/YUCIFilterPreviewGenerator.m; sourceTree = "<group>"; };
-		7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vivid.xcconfig; sourceTree = "<group>"; };
-		7AE4FC362FC9F3276A39D4BA34936BD4 /* YUCIFilterPreviewGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterPreviewGenerator.h; path = Sources/YUCIFilterPreviewGenerator.h; sourceTree = "<group>"; };
-		80D9F9393BBA4A640453B2C8324DA4FF /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
-		81E7E92D2D82983A90C2E8E0CD5491CA /* YUCIHSLToRGB.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIHSLToRGB.cikernel; path = Sources/YUCIHSLToRGB.cikernel; sourceTree = "<group>"; };
-		8264E14C7EFE2A0A9269C137A4820525 /* panorama-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "panorama-icon.png"; path = "SwiftAssetsPickerController/Resources/panorama-icon.png"; sourceTree = "<group>"; };
-		85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerGridController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerGridController.swift; sourceTree = "<group>"; };
+		711192799B87E1B3FCF612036CDFABCB /* YUCISurfaceBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCISurfaceBlur.m; path = Sources/YUCISurfaceBlur.m; sourceTree = "<group>"; };
+		716BE695911623BFE59E2250E6EBFBB5 /* YUCIRGBToneCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIRGBToneCurve.m; path = Sources/YUCIRGBToneCurve.m; sourceTree = "<group>"; };
+		750717442D1B2359EB3FD463570E5881 /* SwiftAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
+		77756C4BF63754351F4ABAC4A6FB1D76 /* YUCIBlobsGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIBlobsGenerator.m; path = Sources/YUCIBlobsGenerator.m; sourceTree = "<group>"; };
+		778DC44D1645152C150ADC4A93443DD7 /* SwiftAssetsPickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.release.xcconfig; sourceTree = "<group>"; };
+		79D41B4EA41AD767120E4FA72153394A /* YUCIBlobsGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIBlobsGenerator.cikernel; path = Sources/YUCIBlobsGenerator.cikernel; sourceTree = "<group>"; };
+		7A6F5D380B2371F3FD8F9C7079235C00 /* YUCIFilmBurnTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilmBurnTransition.m; path = Sources/YUCIFilmBurnTransition.m; sourceTree = "<group>"; };
+		7C41C9B948E3969304EDA473F4AF3C57 /* Vivid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vivid.release.xcconfig; sourceTree = "<group>"; };
+		7CE41894F3E62F3DD22708C1822018BA /* YUCIRGBToneCurve.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIRGBToneCurve.cikernel; path = Sources/YUCIRGBToneCurve.cikernel; sourceTree = "<group>"; };
+		7CF1A491BFBC0C4593DCE96AA311DCB9 /* YUCICLAHE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCICLAHE.h; path = Sources/YUCICLAHE.h; sourceTree = "<group>"; };
+		7D0F3D82FE8AA82CA31B656F52CD8B6A /* YUCIFilmBurnTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFilmBurnTransition.cikernel; path = Sources/YUCIFilmBurnTransition.cikernel; sourceTree = "<group>"; };
+		7D8D0201AAC517F222FE3FCEBC5F3AD2 /* YUCIColorLookup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIColorLookup.h; path = Sources/YUCIColorLookup.h; sourceTree = "<group>"; };
+		7EBE9B3409F70CB0D94DB064990BE138 /* YUCIFilterPreviewGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterPreviewGenerator.m; path = Sources/YUCIFilterPreviewGenerator.m; sourceTree = "<group>"; };
+		7ED0C589212441C969508553ABE00D18 /* YUCISkyGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCISkyGenerator.h; path = Sources/YUCISkyGenerator.h; sourceTree = "<group>"; };
+		8132307A4AE2A1CCD9A662E0E8106BBB /* Vivid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vivid-dummy.m"; sourceTree = "<group>"; };
+		83248F1A9545D825FB8AFA47DB675770 /* AssetsPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerController.swift; sourceTree = "<group>"; };
+		848632F646E2B8DC29555F4B73B9B28F /* YUCICrossZoomTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCICrossZoomTransition.m; path = Sources/YUCICrossZoomTransition.m; sourceTree = "<group>"; };
+		85A3FC6B3A60FC952B6D98B4B9D72636 /* YUCIRGBToneCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIRGBToneCurve.h; path = Sources/YUCIRGBToneCurve.h; sourceTree = "<group>"; };
+		8664A5EC1ED1C50C86C505BFF2416E88 /* YUCIFilterConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterConstructor.m; path = Sources/YUCIFilterConstructor.m; sourceTree = "<group>"; };
 		871C716D51741F42C7EEAD9CA63F7522 /* Pods-iOS-Depth-Sampler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Depth-Sampler-umbrella.h"; sourceTree = "<group>"; };
-		8DD5F0E87EAC0D13123EC691D8438AFD /* Vivid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vivid-dummy.m"; sourceTree = "<group>"; };
+		8A2201D724A9686CAC458683473C8DDC /* YUCIReflectedTileROICalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIReflectedTileROICalculator.m; path = Sources/YUCIReflectedTileROICalculator.m; sourceTree = "<group>"; };
+		8CBF8B21EB873604997839F5CF8DAAAA /* YUCIFXAA.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFXAA.cikernel; path = Sources/YUCIFXAA.cikernel; sourceTree = "<group>"; };
 		9049C12A750797B4B9241EEF04F1F266 /* Pods-iOS-Depth-Sampler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS-Depth-Sampler.modulemap"; sourceTree = "<group>"; };
-		9160744B9031ABFE445401C9D1BC5E60 /* YUCIBlobsGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIBlobsGenerator.h; path = Sources/YUCIBlobsGenerator.h; sourceTree = "<group>"; };
-		91DF0F154620A777A9D39FF8DB507D2D /* YUCIHistogramEqualization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIHistogramEqualization.h; path = Sources/YUCIHistogramEqualization.h; sourceTree = "<group>"; };
-		9287B01CD11BD22012E85C89A88471F4 /* SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
-		946F6ED033AFA924F1FA667926EC52E3 /* YUCITriangularPixellate.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCITriangularPixellate.cikernel; path = Sources/YUCITriangularPixellate.cikernel; sourceTree = "<group>"; };
-		976CC9319804FDE33133ECC7CA54F2C7 /* SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
-		9841C2DEF7253CB17C022999C6DD456B /* YUCIHistogramEqualization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIHistogramEqualization.m; path = Sources/YUCIHistogramEqualization.m; sourceTree = "<group>"; };
-		98BC1EF8C8282D29A60CB8E1082F2C5C /* YUCISkyGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCISkyGenerator.m; path = Sources/YUCISkyGenerator.m; sourceTree = "<group>"; };
-		991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.xcconfig; sourceTree = "<group>"; };
+		90AAA0A10C8FB82932C39F7DC6076276 /* YUCIReflectedTileROICalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIReflectedTileROICalculator.h; path = Sources/YUCIReflectedTileROICalculator.h; sourceTree = "<group>"; };
+		90CE9B52771AE1FE609DF444AF7533DF /* YUCIReflectedTile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIReflectedTile.h; path = Sources/YUCIReflectedTile.h; sourceTree = "<group>"; };
+		965762ABF10E1B86119242F003AB4C19 /* YUCIBilateralFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIBilateralFilter.m; path = Sources/YUCIBilateralFilter.m; sourceTree = "<group>"; };
+		99EB5D0AB272DC4EFE029E0C9E3D433E /* YUCISurfaceBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCISurfaceBlur.h; path = Sources/YUCISurfaceBlur.h; sourceTree = "<group>"; };
 		9A6A6284A5428BBF2F7AA1ECCBD83D49 /* Pods-iOS-Depth-Sampler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Depth-Sampler-frameworks.sh"; sourceTree = "<group>"; };
-		9B1F3F33E7479DA29224A0395B8E8A44 /* YUCIReflectedTileROICalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIReflectedTileROICalculator.m; path = Sources/YUCIReflectedTileROICalculator.m; sourceTree = "<group>"; };
+		9D5D45AEAAAAB93167035284007E3ADA /* YUCIFlashTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFlashTransition.m; path = Sources/YUCIFlashTransition.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A15D5B7748C53596E17888367764B7C4 /* SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAssetsPickerController.modulemap; sourceTree = "<group>"; };
-		A1BF597559BA638661E2863F16163454 /* YUCIBilateralFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIBilateralFilter.m; path = Sources/YUCIBilateralFilter.m; sourceTree = "<group>"; };
-		A5797A3028C62C6D40935641999AE197 /* YUCICrossZoomTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCICrossZoomTransition.m; path = Sources/YUCICrossZoomTransition.m; sourceTree = "<group>"; };
-		A629E48DA6BE3B31EF12FE32CD5AAE68 /* YUCISurfaceBlur.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCISurfaceBlur.cikernel; path = Sources/YUCISurfaceBlur.cikernel; sourceTree = "<group>"; };
-		AAE02821784C7076B14821DE718ED04D /* YUCITriangularPixellate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCITriangularPixellate.m; path = Sources/YUCITriangularPixellate.m; sourceTree = "<group>"; };
+		9E34C154682F0B7F536D67DD69402C7D /* timelapse-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "timelapse-icon.png"; path = "SwiftAssetsPickerController/Resources/timelapse-icon.png"; sourceTree = "<group>"; };
+		A1D0218D7FA9C8F8F961DC3D64774062 /* YUCIFlashTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFlashTransition.h; path = Sources/YUCIFlashTransition.h; sourceTree = "<group>"; };
+		A29E230A9CC48F1C08B0158852F6FD16 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = SwiftAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
 		AB8A7692ACA23C8660E0FF49CFD3D496 /* Vivid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Vivid.framework; path = Vivid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2BFF08385EF4A1351F9385A770F6E7B /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
-		B55315C465553938C4B307865CC8F989 /* YUCIReflectedTile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIReflectedTile.m; path = Sources/YUCIReflectedTile.m; sourceTree = "<group>"; };
-		B648833C7EE9107DF530F35BFAA7DA4D /* timelapse-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "timelapse-icon.png"; path = "SwiftAssetsPickerController/Resources/timelapse-icon.png"; sourceTree = "<group>"; };
+		AF2A9CF76AAF791020708AC034B77B6E /* YUCIFXAA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFXAA.m; path = Sources/YUCIFXAA.m; sourceTree = "<group>"; };
+		B1F969D6C4108BC4E3670CCE026CB158 /* SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
+		B29B359B33D9FD11CCF4123AE11802FF /* YUCIFilterUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterUtilities.h; path = Sources/YUCIFilterUtilities.h; sourceTree = "<group>"; };
+		B2BC7D15E240E0105AB3D087D06032E3 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = SwiftAssetsPickerController/Resources/Base.lproj; sourceTree = "<group>"; };
 		B7CFCC4B31DFCADAF1ACAE1D82AC2BB1 /* Pods-iOS-Depth-Sampler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Depth-Sampler-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B824A65A866C8DC93C28DEB8EE5A8F32 /* YUCIRGBToneCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIRGBToneCurve.h; path = Sources/YUCIRGBToneCurve.h; sourceTree = "<group>"; };
-		B8A842346ACFA9F89350CBBB3D4B1110 /* YUCIBilateralFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIBilateralFilter.h; path = Sources/YUCIBilateralFilter.h; sourceTree = "<group>"; };
-		BB6F2CB2D35B4A67ECC74DB1E9852E81 /* YUCIBlobsGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIBlobsGenerator.cikernel; path = Sources/YUCIBlobsGenerator.cikernel; sourceTree = "<group>"; };
-		BE4286722C85ACFC41FA2868729EBDF7 /* YUCIRGBToneCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIRGBToneCurve.m; path = Sources/YUCIRGBToneCurve.m; sourceTree = "<group>"; };
-		BFDBAAE3EE738EA286B564AEF9A5203E /* Vivid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Vivid.modulemap; sourceTree = "<group>"; };
-		C5CF5B409C5D4FBCF36F6D9509CD01E7 /* Vivid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Vivid-Info.plist"; sourceTree = "<group>"; };
-		C806D12AE4097BB9EA6CF9DA68BEB7EE /* YUCIStarfieldGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIStarfieldGenerator.cikernel; path = Sources/YUCIStarfieldGenerator.cikernel; sourceTree = "<group>"; };
-		CC27138FA18FC3F5D6C5B811C6128022 /* YUCICrossZoomTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCICrossZoomTransition.h; path = Sources/YUCICrossZoomTransition.h; sourceTree = "<group>"; };
-		CC4850EE0DF60ABB169764AF7F4DE44D /* YUCIFlashTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFlashTransition.cikernel; path = Sources/YUCIFlashTransition.cikernel; sourceTree = "<group>"; };
-		CD7B2641478035A4B6D8D93BDF0ED3AD /* SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
-		D7FB39FFE8CDF22E084BCABC05C02DED /* YUCIFilterUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIFilterUtilities.h; path = Sources/YUCIFilterUtilities.h; sourceTree = "<group>"; };
-		D8714798FADA01903F2421EA6C0552AC /* YUCIRGBToHSL.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIRGBToHSL.cikernel; path = Sources/YUCIRGBToHSL.cikernel; sourceTree = "<group>"; };
-		DAAC8E90773CB8284D62C4A2B56FE46C /* YUCIFXAA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFXAA.m; path = Sources/YUCIFXAA.m; sourceTree = "<group>"; };
-		DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIUtilities.h; path = Sources/YUCIUtilities.h; sourceTree = "<group>"; };
+		BCB5824C583C33F1EDBB443371BCCA51 /* YUCIBlobsGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIBlobsGenerator.h; path = Sources/YUCIBlobsGenerator.h; sourceTree = "<group>"; };
+		BFFBA8C60E705E139012EE5EBF91EA01 /* SwiftAssetsPickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.debug.xcconfig; sourceTree = "<group>"; };
+		C1D91071CD3D174200798DACFE8D3F93 /* SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
+		CB344F4C007780FB05B04145908DB327 /* YUCIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIUtilities.h; path = Sources/YUCIUtilities.h; sourceTree = "<group>"; };
+		D1A2F6E846D2E9D6329E589AE314B519 /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
+		D2BE14B463D4361C055589FF9373BA30 /* YUCITriangularPixellate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCITriangularPixellate.h; path = Sources/YUCITriangularPixellate.h; sourceTree = "<group>"; };
+		D7252ACBE794CB5F50ED63AD86B9B1CC /* YUCISurfaceBlur.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCISurfaceBlur.cikernel; path = Sources/YUCISurfaceBlur.cikernel; sourceTree = "<group>"; };
+		D88F7586C46FFF1B33226BB6A9D3E4C7 /* YUCIBilateralFilter.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIBilateralFilter.cikernel; path = Sources/YUCIBilateralFilter.cikernel; sourceTree = "<group>"; };
+		D8F860E624A60BC3A26073D1FEC62F54 /* YUCITriangularPixellate.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCITriangularPixellate.cikernel; path = Sources/YUCITriangularPixellate.cikernel; sourceTree = "<group>"; };
 		DD0BCC6A24AE4D2FE6199DFE28DEF813 /* Pods-iOS-Depth-Sampler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Depth-Sampler-dummy.m"; sourceTree = "<group>"; };
-		DE50BCC5992C2B937D4163E23F4AD3FF /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = SwiftAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
-		E3A1A30E7E06E46F84FD7163CB31479E /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = SwiftAssetsPickerController/Resources/Base.lproj; sourceTree = "<group>"; };
+		DF9C6D0AA4DA767C1AC2D9D5C2DB72C6 /* YUCIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIUtilities.m; path = Sources/YUCIUtilities.m; sourceTree = "<group>"; };
+		E2A0BEB9A34FC2FAA8AE487967B832BE /* YUCIStarfieldGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIStarfieldGenerator.h; path = Sources/YUCIStarfieldGenerator.h; sourceTree = "<group>"; };
 		E59947D72365916E4F337781A163E780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E6E37EA0D4582D4443069883B576A53A /* YUCIReflectedTile.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIReflectedTile.cikernel; path = Sources/YUCIReflectedTile.cikernel; sourceTree = "<group>"; };
-		E7F71FD26C398AE08097C937DBFDC718 /* YUCIBilateralFilter.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIBilateralFilter.cikernel; path = Sources/YUCIBilateralFilter.cikernel; sourceTree = "<group>"; };
-		E8E4972C7B610CD570DFC84411358F87 /* YUCICrossZoomTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCICrossZoomTransition.cikernel; path = Sources/YUCICrossZoomTransition.cikernel; sourceTree = "<group>"; };
-		EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIUtilities.m; path = Sources/YUCIUtilities.m; sourceTree = "<group>"; };
-		ED39A13101757ED9F7D383C134D9719C /* YUCIStarfieldGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YUCIStarfieldGenerator.h; path = Sources/YUCIStarfieldGenerator.h; sourceTree = "<group>"; };
-		F23ADEEFA5FFA67E15745BCD1F905DA1 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
-		F62A25C798F45A4D86C66F80E5E6A17B /* SwiftAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
-		F6E7ADF9F9D3AD1C1F5DFF03E97E0123 /* YUCIFlashTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFlashTransition.m; path = Sources/YUCIFlashTransition.m; sourceTree = "<group>"; };
-		F7A0C5D87D434E9751768E7F2D903C02 /* video-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-icon.png"; path = "SwiftAssetsPickerController/Resources/video-icon.png"; sourceTree = "<group>"; };
+		EAB99C5E260D7235CA28977934689428 /* YUCIFilterUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIFilterUtilities.m; path = Sources/YUCIFilterUtilities.m; sourceTree = "<group>"; };
+		ED70E8D9E69E9EA664C783AF5139F612 /* Vivid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-prefix.pch"; sourceTree = "<group>"; };
+		EE372759D671882DD66A1A18634A94D3 /* YUCISkyGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCISkyGenerator.cikernel; path = Sources/YUCISkyGenerator.cikernel; sourceTree = "<group>"; };
+		EE400E83CAE6869D0AFAF0BA8C4CFAC7 /* YUCIReflectedTile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YUCIReflectedTile.m; path = Sources/YUCIReflectedTile.m; sourceTree = "<group>"; };
+		F3FB2720175F156C9935E28965F46177 /* YUCIFlashTransition.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIFlashTransition.cikernel; path = Sources/YUCIFlashTransition.cikernel; sourceTree = "<group>"; };
+		FA03106C11A84AFE1799E384BC2891DF /* YUCIStarfieldGenerator.cikernel */ = {isa = PBXFileReference; includeInIndex = 1; name = YUCIStarfieldGenerator.cikernel; path = Sources/YUCIStarfieldGenerator.cikernel; sourceTree = "<group>"; };
+		FE661C490E0EF1C6F21E43C449D81A6F /* Vivid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vivid-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,28 +260,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FBC66648F98BEAE5878CB33F9DF04D1 /* Resources */ = {
+		0FCAA64FE05CAC69952931D150C21672 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E7F71FD26C398AE08097C937DBFDC718 /* YUCIBilateralFilter.cikernel */,
-				BB6F2CB2D35B4A67ECC74DB1E9852E81 /* YUCIBlobsGenerator.cikernel */,
-				616ABDD2A6C9DFF196947141B3E6D9A2 /* YUCICLAHE.cikernel */,
-				0EAB44AC2AB1AFFE3F7246BBDFE36423 /* YUCIColorLookup.cikernel */,
-				74DFAF2617C49E790AB841DF2D23D581 /* YUCIColorLookupTableDefault.png */,
-				E8E4972C7B610CD570DFC84411358F87 /* YUCICrossZoomTransition.cikernel */,
-				40364E9CC1FB1A684C578347B2E4C1C1 /* YUCIFilmBurnTransition.cikernel */,
-				CC4850EE0DF60ABB169764AF7F4DE44D /* YUCIFlashTransition.cikernel */,
-				40209A3B60F86B3E9AF56DBCCD89AA15 /* YUCIFXAA.cikernel */,
-				81E7E92D2D82983A90C2E8E0CD5491CA /* YUCIHSLToRGB.cikernel */,
-				E6E37EA0D4582D4443069883B576A53A /* YUCIReflectedTile.cikernel */,
-				D8714798FADA01903F2421EA6C0552AC /* YUCIRGBToHSL.cikernel */,
-				456DBFD2C2FACADC9449D6210AC0089A /* YUCIRGBToneCurve.cikernel */,
-				18CDFB887F148DEF26A5F65BE7C5CB09 /* YUCISkyGenerator.cikernel */,
-				C806D12AE4097BB9EA6CF9DA68BEB7EE /* YUCIStarfieldGenerator.cikernel */,
-				A629E48DA6BE3B31EF12FE32CD5AAE68 /* YUCISurfaceBlur.cikernel */,
-				946F6ED033AFA924F1FA667926EC52E3 /* YUCITriangularPixellate.cikernel */,
+				D88F7586C46FFF1B33226BB6A9D3E4C7 /* YUCIBilateralFilter.cikernel */,
+				79D41B4EA41AD767120E4FA72153394A /* YUCIBlobsGenerator.cikernel */,
+				5DE07E78BBBDFC2BFE2FF86DDCF38E0D /* YUCICLAHE.cikernel */,
+				0D3FEA6370D82B4B935DC746159A514D /* YUCIColorLookup.cikernel */,
+				04F17EC08E1E9E42E53F9302A0E37025 /* YUCIColorLookupTableDefault.png */,
+				0C599B9430949DBE6F4688ADF7F9738B /* YUCICrossZoomTransition.cikernel */,
+				7D0F3D82FE8AA82CA31B656F52CD8B6A /* YUCIFilmBurnTransition.cikernel */,
+				F3FB2720175F156C9935E28965F46177 /* YUCIFlashTransition.cikernel */,
+				8CBF8B21EB873604997839F5CF8DAAAA /* YUCIFXAA.cikernel */,
+				6C61CA63EAAD947CB4BD1BCB1809F839 /* YUCIHSLToRGB.cikernel */,
+				4C55EB8092806D7B896949EB0DE0E21C /* YUCIReflectedTile.cikernel */,
+				418E6E3CD33D7BD28BCBCAD542098E96 /* YUCIRGBToHSL.cikernel */,
+				7CE41894F3E62F3DD22708C1822018BA /* YUCIRGBToneCurve.cikernel */,
+				EE372759D671882DD66A1A18634A94D3 /* YUCISkyGenerator.cikernel */,
+				FA03106C11A84AFE1799E384BC2891DF /* YUCIStarfieldGenerator.cikernel */,
+				D7252ACBE794CB5F50ED63AD86B9B1CC /* YUCISurfaceBlur.cikernel */,
+				D8F860E624A60BC3A26073D1FEC62F54 /* YUCITriangularPixellate.cikernel */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A162E3812D1B67C54638C841190F3D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A545557B078C7E81B7218205728966A /* CheckMarkView.modulemap */,
+				4129457B49FAA70A02167B5D4A6AB0EC /* CheckMarkView-dummy.m */,
+				D1A2F6E846D2E9D6329E589AE314B519 /* CheckMarkView-Info.plist */,
+				19FD3C9E8504A155248E9126C1C2DF1B /* CheckMarkView-prefix.pch */,
+				1A2DD12BBA735B7246144C503CF1E1A2 /* CheckMarkView-umbrella.h */,
+				147C53077FCD10669AFDDDFD13CE2D2A /* CheckMarkView.debug.xcconfig */,
+				2F3D0CCAA759935FF39548C6D2ACDF3D /* CheckMarkView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CheckMarkView";
+			sourceTree = "<group>";
+		};
+		2D1748185C24E3C264A7CB4CCFE8D8B5 /* Vivid */ = {
+			isa = PBXGroup;
+			children = (
+				19AED0AC1B40D359392409A8563A7FE2 /* YUCIBilateralFilter.h */,
+				965762ABF10E1B86119242F003AB4C19 /* YUCIBilateralFilter.m */,
+				BCB5824C583C33F1EDBB443371BCCA51 /* YUCIBlobsGenerator.h */,
+				77756C4BF63754351F4ABAC4A6FB1D76 /* YUCIBlobsGenerator.m */,
+				7CF1A491BFBC0C4593DCE96AA311DCB9 /* YUCICLAHE.h */,
+				252751D4D78FD2E49357F62834A67BD4 /* YUCICLAHE.m */,
+				7D8D0201AAC517F222FE3FCEBC5F3AD2 /* YUCIColorLookup.h */,
+				6321A99966578F024861E3BE3328BFB4 /* YUCIColorLookup.m */,
+				513DBA90AA6BDA1BDD85B9FEB9F5BB75 /* YUCICrossZoomTransition.h */,
+				848632F646E2B8DC29555F4B73B9B28F /* YUCICrossZoomTransition.m */,
+				64D16E13440440C72A913A5624CB7E62 /* YUCIFilmBurnTransition.h */,
+				7A6F5D380B2371F3FD8F9C7079235C00 /* YUCIFilmBurnTransition.m */,
+				37237A7A8FFB708B056A4D48AF56FF28 /* YUCIFilterConstructor.h */,
+				8664A5EC1ED1C50C86C505BFF2416E88 /* YUCIFilterConstructor.m */,
+				4763ACD16A91DCA0B6073FCA0FFAD535 /* YUCIFilterPreviewGenerator.h */,
+				7EBE9B3409F70CB0D94DB064990BE138 /* YUCIFilterPreviewGenerator.m */,
+				B29B359B33D9FD11CCF4123AE11802FF /* YUCIFilterUtilities.h */,
+				EAB99C5E260D7235CA28977934689428 /* YUCIFilterUtilities.m */,
+				A1D0218D7FA9C8F8F961DC3D64774062 /* YUCIFlashTransition.h */,
+				9D5D45AEAAAAB93167035284007E3ADA /* YUCIFlashTransition.m */,
+				58A9E7A7EE85820D844CF5DB68682FC2 /* YUCIFXAA.h */,
+				AF2A9CF76AAF791020708AC034B77B6E /* YUCIFXAA.m */,
+				4D20DAACD35967E99BE8FF8081A2383F /* YUCIHistogramEqualization.h */,
+				268368E03B85786DBEC5D0F5EC79972C /* YUCIHistogramEqualization.m */,
+				90CE9B52771AE1FE609DF444AF7533DF /* YUCIReflectedTile.h */,
+				EE400E83CAE6869D0AFAF0BA8C4CFAC7 /* YUCIReflectedTile.m */,
+				90AAA0A10C8FB82932C39F7DC6076276 /* YUCIReflectedTileROICalculator.h */,
+				8A2201D724A9686CAC458683473C8DDC /* YUCIReflectedTileROICalculator.m */,
+				85A3FC6B3A60FC952B6D98B4B9D72636 /* YUCIRGBToneCurve.h */,
+				716BE695911623BFE59E2250E6EBFBB5 /* YUCIRGBToneCurve.m */,
+				7ED0C589212441C969508553ABE00D18 /* YUCISkyGenerator.h */,
+				3C3A464268AE180665E24C689211A726 /* YUCISkyGenerator.m */,
+				E2A0BEB9A34FC2FAA8AE487967B832BE /* YUCIStarfieldGenerator.h */,
+				40024D552A1B081AA415D41568F55E05 /* YUCIStarfieldGenerator.m */,
+				99EB5D0AB272DC4EFE029E0C9E3D433E /* YUCISurfaceBlur.h */,
+				711192799B87E1B3FCF612036CDFABCB /* YUCISurfaceBlur.m */,
+				D2BE14B463D4361C055589FF9373BA30 /* YUCITriangularPixellate.h */,
+				18777AD09488A33A23CCA87DFBBA6B4F /* YUCITriangularPixellate.m */,
+				CB344F4C007780FB05B04145908DB327 /* YUCIUtilities.h */,
+				DF9C6D0AA4DA767C1AC2D9D5C2DB72C6 /* YUCIUtilities.m */,
+				0FCAA64FE05CAC69952931D150C21672 /* Resources */,
+				DABA6C5D9F622F0D3FEAEB7E5CF4DAAC /* Support Files */,
+			);
+			name = Vivid;
+			path = Vivid;
 			sourceTree = "<group>";
 		};
 		2E758788D4666725F5D7732081103B78 /* Targets Support Files */ = {
@@ -289,6 +357,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		333400A0ECEBC12D74339C680704684C /* SwiftAssetsPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				83248F1A9545D825FB8AFA47DB675770 /* AssetsPickerController.swift */,
+				112497C1C9387A854AF3C3103AA478E7 /* AssetsPickerGridController.swift */,
+				B58EC32E3A09B060C693B3A707ECB56D /* Resources */,
+				B328FEC93F3187EDB4E5FC2654E887E0 /* Support Files */,
+			);
+			name = SwiftAssetsPickerController;
+			path = SwiftAssetsPickerController;
+			sourceTree = "<group>";
+		};
+		3B59ABC6497119673CE89B9AE0038C37 /* CheckMarkView */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFD440888BE696FA2492356ACC26E5 /* CheckMarkView.swift */,
+				2A162E3812D1B67C54638C841190F3D9 /* Support Files */,
+			);
+			name = CheckMarkView;
+			path = CheckMarkView;
+			sourceTree = "<group>";
+		};
 		5C9BD753DB22BB670EE05D46A6173E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,82 +386,6 @@
 				E2400505CC1CBDAAEAA03EBB6D67C8F9 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5E24D2B2DEEFEEAF7BF9719357B9C3DE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				45A6D629984D15A2F38B397B84E7EAAB /* CheckMarkView.modulemap */,
-				33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */,
-				182C24230E499679C93607E2E68B1782 /* CheckMarkView-dummy.m */,
-				B2BFF08385EF4A1351F9385A770F6E7B /* CheckMarkView-Info.plist */,
-				80D9F9393BBA4A640453B2C8324DA4FF /* CheckMarkView-prefix.pch */,
-				F23ADEEFA5FFA67E15745BCD1F905DA1 /* CheckMarkView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CheckMarkView";
-			sourceTree = "<group>";
-		};
-		649FDB0EF238E588CCF6E853A65C418F /* Vivid */ = {
-			isa = PBXGroup;
-			children = (
-				B8A842346ACFA9F89350CBBB3D4B1110 /* YUCIBilateralFilter.h */,
-				A1BF597559BA638661E2863F16163454 /* YUCIBilateralFilter.m */,
-				9160744B9031ABFE445401C9D1BC5E60 /* YUCIBlobsGenerator.h */,
-				27419039F1605BC915BBA2B9F59FD8AB /* YUCIBlobsGenerator.m */,
-				47D25ED3DAA6399ACA4764D5747F2F35 /* YUCICLAHE.h */,
-				183B8209F718E934923BAC336B300C6C /* YUCICLAHE.m */,
-				466B5A0D59455C18B73F02DD31B314DB /* YUCIColorLookup.h */,
-				5CB3752C51629EBF1DE93DB6D644858A /* YUCIColorLookup.m */,
-				CC27138FA18FC3F5D6C5B811C6128022 /* YUCICrossZoomTransition.h */,
-				A5797A3028C62C6D40935641999AE197 /* YUCICrossZoomTransition.m */,
-				1FEEFE08FA35A3DEE6A9A6F8C9839A99 /* YUCIFilmBurnTransition.h */,
-				71E4A7877C541160460B6DCCC4DB4E1D /* YUCIFilmBurnTransition.m */,
-				6D6D137D5E865628943341ADDDF98E6B /* YUCIFilterConstructor.h */,
-				60B449D21E5986EFF85A6841FDF260FB /* YUCIFilterConstructor.m */,
-				7AE4FC362FC9F3276A39D4BA34936BD4 /* YUCIFilterPreviewGenerator.h */,
-				75A86429DFC66985D38382843D7A2919 /* YUCIFilterPreviewGenerator.m */,
-				D7FB39FFE8CDF22E084BCABC05C02DED /* YUCIFilterUtilities.h */,
-				110E25164E7481B87549F40DADB478BE /* YUCIFilterUtilities.m */,
-				52CC4882FE88368C688C65868AECB840 /* YUCIFlashTransition.h */,
-				F6E7ADF9F9D3AD1C1F5DFF03E97E0123 /* YUCIFlashTransition.m */,
-				037F93DA2AB2E3F3C125DACD21F44EB8 /* YUCIFXAA.h */,
-				DAAC8E90773CB8284D62C4A2B56FE46C /* YUCIFXAA.m */,
-				91DF0F154620A777A9D39FF8DB507D2D /* YUCIHistogramEqualization.h */,
-				9841C2DEF7253CB17C022999C6DD456B /* YUCIHistogramEqualization.m */,
-				63AB969F8B4C1109E8D247FDF2245CEC /* YUCIReflectedTile.h */,
-				B55315C465553938C4B307865CC8F989 /* YUCIReflectedTile.m */,
-				2DC4C262A86A1E05515AFAD2FEEAC48A /* YUCIReflectedTileROICalculator.h */,
-				9B1F3F33E7479DA29224A0395B8E8A44 /* YUCIReflectedTileROICalculator.m */,
-				B824A65A866C8DC93C28DEB8EE5A8F32 /* YUCIRGBToneCurve.h */,
-				BE4286722C85ACFC41FA2868729EBDF7 /* YUCIRGBToneCurve.m */,
-				4C84377645F99F26386571F96200C858 /* YUCISkyGenerator.h */,
-				98BC1EF8C8282D29A60CB8E1082F2C5C /* YUCISkyGenerator.m */,
-				ED39A13101757ED9F7D383C134D9719C /* YUCIStarfieldGenerator.h */,
-				00F0F84746D825A7E12A114E349191E9 /* YUCIStarfieldGenerator.m */,
-				2BCDF7BE3969DA1F5A7666A2BF622359 /* YUCISurfaceBlur.h */,
-				14DE6DD5274C9BB889153E4C591AE5BB /* YUCISurfaceBlur.m */,
-				11706A733FF991D96831513A04BC6CFB /* YUCITriangularPixellate.h */,
-				AAE02821784C7076B14821DE718ED04D /* YUCITriangularPixellate.m */,
-				DB3BD0BDC1EB2BF4818ADF558655BC4B /* YUCIUtilities.h */,
-				EB2C30B76B438F0089E7919466195BF4 /* YUCIUtilities.m */,
-				1FBC66648F98BEAE5878CB33F9DF04D1 /* Resources */,
-				E12E63EC96B77244C214BCA430DA9F04 /* Support Files */,
-			);
-			name = Vivid;
-			path = Vivid;
-			sourceTree = "<group>";
-		};
-		8E72CBF7FA1B2BCDAB74CB9E43DE7FC1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E3A1A30E7E06E46F84FD7163CB31479E /* Base.lproj */,
-				DE50BCC5992C2B937D4163E23F4AD3FF /* en.lproj */,
-				8264E14C7EFE2A0A9269C137A4820525 /* panorama-icon.png */,
-				B648833C7EE9107DF530F35BFAA7DA4D /* timelapse-icon.png */,
-				F7A0C5D87D434E9751768E7F2D903C02 /* video-icon.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		A5D84BA1F1EC0D61B42FCF032877457D /* Products */ = {
@@ -385,18 +399,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5E5555516B2C0D6030E6CC694F3B905 /* Support Files */ = {
+		B328FEC93F3187EDB4E5FC2654E887E0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A15D5B7748C53596E17888367764B7C4 /* SwiftAssetsPickerController.modulemap */,
-				991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */,
-				9287B01CD11BD22012E85C89A88471F4 /* SwiftAssetsPickerController-dummy.m */,
-				CD7B2641478035A4B6D8D93BDF0ED3AD /* SwiftAssetsPickerController-Info.plist */,
-				F62A25C798F45A4D86C66F80E5E6A17B /* SwiftAssetsPickerController-prefix.pch */,
-				976CC9319804FDE33133ECC7CA54F2C7 /* SwiftAssetsPickerController-umbrella.h */,
+				10E48B515F5AE146C7A0B156CF323691 /* SwiftAssetsPickerController.modulemap */,
+				5E5F0417DEA74B0D972D06925A54150A /* SwiftAssetsPickerController-dummy.m */,
+				C1D91071CD3D174200798DACFE8D3F93 /* SwiftAssetsPickerController-Info.plist */,
+				750717442D1B2359EB3FD463570E5881 /* SwiftAssetsPickerController-prefix.pch */,
+				B1F969D6C4108BC4E3670CCE026CB158 /* SwiftAssetsPickerController-umbrella.h */,
+				BFFBA8C60E705E139012EE5EBF91EA01 /* SwiftAssetsPickerController.debug.xcconfig */,
+				778DC44D1645152C150ADC4A93443DD7 /* SwiftAssetsPickerController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftAssetsPickerController";
+			sourceTree = "<group>";
+		};
+		B58EC32E3A09B060C693B3A707ECB56D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2BC7D15E240E0105AB3D087D06032E3 /* Base.lproj */,
+				A29E230A9CC48F1C08B0158852F6FD16 /* en.lproj */,
+				33A6A5563D31BC44ADFE8D69440A5B66 /* panorama-icon.png */,
+				9E34C154682F0B7F536D67DD69402C7D /* timelapse-icon.png */,
+				011CCB3956167B07BB6A358C277F7153 /* video-icon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CA3C5A4D67A0362C233EC08AF37221E2 /* Pods-iOS-Depth-Sampler */ = {
@@ -427,27 +454,16 @@
 			);
 			sourceTree = "<group>";
 		};
-		DCE86A307A40C2D68B35F8880611FCAB /* SwiftAssetsPickerController */ = {
+		DABA6C5D9F622F0D3FEAEB7E5CF4DAAC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				147FB1BA7225D78331AFD31C9E2AACF3 /* AssetsPickerController.swift */,
-				85947D635639FF1E2810936262EE9745 /* AssetsPickerGridController.swift */,
-				8E72CBF7FA1B2BCDAB74CB9E43DE7FC1 /* Resources */,
-				A5E5555516B2C0D6030E6CC694F3B905 /* Support Files */,
-			);
-			name = SwiftAssetsPickerController;
-			path = SwiftAssetsPickerController;
-			sourceTree = "<group>";
-		};
-		E12E63EC96B77244C214BCA430DA9F04 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BFDBAAE3EE738EA286B564AEF9A5203E /* Vivid.modulemap */,
-				7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */,
-				8DD5F0E87EAC0D13123EC691D8438AFD /* Vivid-dummy.m */,
-				C5CF5B409C5D4FBCF36F6D9509CD01E7 /* Vivid-Info.plist */,
-				272059386DD227797C2FCC120A0922E8 /* Vivid-prefix.pch */,
-				1AF863FA3A05EADF09661E2E95A1AFBC /* Vivid-umbrella.h */,
+				231E663CBBB3B954659D92C91E442F68 /* Vivid.modulemap */,
+				8132307A4AE2A1CCD9A662E0E8106BBB /* Vivid-dummy.m */,
+				4DC7C650714DDDA3E526E1585DFEACF5 /* Vivid-Info.plist */,
+				ED70E8D9E69E9EA664C783AF5139F612 /* Vivid-prefix.pch */,
+				FE661C490E0EF1C6F21E43C449D81A6F /* Vivid-umbrella.h */,
+				32A68609EA75E4E98653844104281FB1 /* Vivid.debug.xcconfig */,
+				7C41C9B948E3969304EDA473F4AF3C57 /* Vivid.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Vivid";
@@ -461,22 +477,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F34D9889A3711135C4781454AE49924B /* CheckMarkView */ = {
-			isa = PBXGroup;
-			children = (
-				3F6C9AB140D4C74E2F0533C2DB188BC9 /* CheckMarkView.swift */,
-				5E24D2B2DEEFEEAF7BF9719357B9C3DE /* Support Files */,
-			);
-			name = CheckMarkView;
-			path = CheckMarkView;
-			sourceTree = "<group>";
-		};
 		FDB37ACDBD62148450786D65A7C4AE79 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F34D9889A3711135C4781454AE49924B /* CheckMarkView */,
-				DCE86A307A40C2D68B35F8880611FCAB /* SwiftAssetsPickerController */,
-				649FDB0EF238E588CCF6E853A65C418F /* Vivid */,
+				3B59ABC6497119673CE89B9AE0038C37 /* CheckMarkView */,
+				333400A0ECEBC12D74339C680704684C /* SwiftAssetsPickerController */,
+				2D1748185C24E3C264A7CB4CCFE8D8B5 /* Vivid */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -630,6 +636,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = A5D84BA1F1EC0D61B42FCF032877457D /* Products */;
@@ -783,6 +790,80 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1B060EF671E1AA1124AA35C60859C55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A68609EA75E4E98653844104281FB1 /* Vivid.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
+				PRODUCT_MODULE_NAME = Vivid;
+				PRODUCT_NAME = Vivid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BB241A6FA885399CB93B75AF733B47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778DC44D1645152C150ADC4A93443DD7 /* SwiftAssetsPickerController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
+				PRODUCT_NAME = SwiftAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1E2D89DAE8E90BAD903CA56F3A1459B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67EE9C240C3E84489E88C80D5A784192 /* Pods-iOS-Depth-Sampler.release.xcconfig */;
@@ -922,9 +1003,9 @@
 			};
 			name = Debug;
 		};
-		3401F14F768171DEBB1B5D7B7A4C22CA /* Release */ = {
+		3E0EF5D06C8F131B7DA7F7764ADBE373 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */;
+			baseConfigurationReference = 7C41C9B948E3969304EDA473F4AF3C57 /* Vivid.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -935,9 +1016,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -945,9 +1026,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
-				PRODUCT_MODULE_NAME = CheckMarkView;
-				PRODUCT_NAME = CheckMarkView;
+				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
+				PRODUCT_MODULE_NAME = Vivid;
+				PRODUCT_NAME = Vivid;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -959,83 +1040,9 @@
 			};
 			name = Release;
 		};
-		6508509DFCAFB6E44A284E75BFA5AB8A /* Release */ = {
+		40521962B60A104C33E9B89D4791516F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
-				PRODUCT_NAME = SwiftAssetsPickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97E31C4B1CBBB9B718B73D8FF9B0BE65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33343C8EEE136A10BC8079BFAFCC33E6 /* CheckMarkView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
-				PRODUCT_MODULE_NAME = CheckMarkView;
-				PRODUCT_NAME = CheckMarkView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9DE406AEC5289C74FC39C20EE5C2149D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 991E466E4D8864B8B3AF1FD924F81C59 /* SwiftAssetsPickerController.xcconfig */;
+			baseConfigurationReference = BFFBA8C60E705E139012EE5EBF91EA01 /* SwiftAssetsPickerController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1070,9 +1077,9 @@
 			};
 			name = Debug;
 		};
-		A28D76C7BB1CA92810D01E232B44E260 /* Debug */ = {
+		61D36856B0E3EB914FB6CF11ED2DB4F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */;
+			baseConfigurationReference = 2F3D0CCAA759935FF39548C6D2ACDF3D /* CheckMarkView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1083,9 +1090,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1093,45 +1100,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
-				PRODUCT_MODULE_NAME = Vivid;
-				PRODUCT_NAME = Vivid;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A76BB925272E2903C9CA29BB9B631A6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A7F26C636DCD0C9773DC75C2CB2DA08 /* Vivid.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Vivid/Vivid-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/Vivid/Vivid-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Vivid/Vivid.modulemap";
-				PRODUCT_MODULE_NAME = Vivid;
-				PRODUCT_NAME = Vivid;
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1142,6 +1113,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		BEDCDA658A87D1EB760B668374313847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147C53077FCD10669AFDDDFD13CE2D2A /* CheckMarkView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1222,8 +1229,8 @@
 		5B3DCB67A07C06AB2755A3EE80C05080 /* Build configuration list for PBXNativeTarget "Vivid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A28D76C7BB1CA92810D01E232B44E260 /* Debug */,
-				A76BB925272E2903C9CA29BB9B631A6B /* Release */,
+				1B060EF671E1AA1124AA35C60859C55E /* Debug */,
+				3E0EF5D06C8F131B7DA7F7764ADBE373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1240,8 +1247,8 @@
 		9451E86B09BB5ABD82E9D19BD6919847 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DE406AEC5289C74FC39C20EE5C2149D /* Debug */,
-				6508509DFCAFB6E44A284E75BFA5AB8A /* Release */,
+				40521962B60A104C33E9B89D4791516F /* Debug */,
+				1BB241A6FA885399CB93B75AF733B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1249,8 +1256,8 @@
 		B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97E31C4B1CBBB9B718B73D8FF9B0BE65 /* Debug */,
-				3401F14F768171DEBB1B5D7B7A4C22CA /* Release */,
+				BEDCDA658A87D1EB760B668374313847 /* Debug */,
+				61D36856B0E3EB914FB6CF11ED2DB4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
