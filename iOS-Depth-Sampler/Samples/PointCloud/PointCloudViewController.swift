@@ -9,27 +9,30 @@
 import UIKit
 import Photos
 import SceneKit
+import Accelerate
 import SwiftAssetsPickerController
 
 class PointCloudlViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var typeSegmentedCtl: UISegmentedControl!
-
+    
     private var image: UIImage?
     private var depthData: AVDepthData?
-
+    
     @IBOutlet weak var scnView: SCNView!
     private let scene = SCNScene()
-    private var pointNode: SCNNode!
-
-    private let zCamera: Float = 0.3
+    
+    private var pointCloud: PointCloud?
+    private var pointCloudNode: SCNNode?
+    
+    private let zCamera: Float = -0.1
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setupScene()
-
+        
         PHPhotoLibrary.requestAuthorization({ status in
             switch status {
             case .authorized:
@@ -42,37 +45,27 @@ class PointCloudlViewController: UIViewController {
         
         update()
     }
-
+    
     private func setupScene() {
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        cameraNode.camera?.zNear = 0.0
-        cameraNode.camera?.zFar = 10.0
-        scene.rootNode.addChildNode(cameraNode)
-        
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: zCamera)
-        
-        let lightNode = SCNNode()
-        lightNode.light = SCNLight()
-        lightNode.light!.type = .omni
-        lightNode.position = SCNVector3(x: 0, y: 3, z: 3)
-        scene.rootNode.addChildNode(lightNode)
-        
-        let sphere = SCNSphere(radius: 0.001)
-        sphere.firstMaterial?.diffuse.contents = UIColor.blue
-        pointNode = SCNNode(geometry: sphere)
-        
-        
         scnView.scene = scene
         scnView.allowsCameraControl = true
         scnView.showsStatistics = true
         scnView.backgroundColor = UIColor.black
+        
+        let cameraNode = SCNNode()
+        let camera = SCNCamera()
+        camera.zNear = 0.1
+        cameraNode.camera = camera
+        cameraNode.rotation = SCNVector4(1, 0, 0, Float.pi)
+        scene.rootNode.addChildNode(cameraNode)
+        
+        cameraNode.position = SCNVector3(x: 0, y: 0, z: zCamera)
     }
     
     private func loadImage(at url: URL) {
         let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
-        depthData = imageSource.getDisparityData()
-//        depthData = imageSource.getDepthData()
+        //        depthData = imageSource.getDisparityData()
+        depthData = imageSource.getDepthData()
         guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
         self.image = image
         drawImage(image)
@@ -85,7 +78,8 @@ class PointCloudlViewController: UIViewController {
         }
         asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
             let imageSource = contentEditingInput!.createImageSource()
-            self.depthData = imageSource.getDisparityData()
+            //            self.depthData = imageSource.getDisparityData()
+            self.depthData = imageSource.getDepthData()
         }
     }
     
@@ -95,83 +89,78 @@ class PointCloudlViewController: UIViewController {
         }
     }
     
-    private func drawPointCloud() {
-        guard let colorImage = image, let cgColorImage = colorImage.cgImage else { fatalError() }
-        guard let depthData = depthData else { fatalError() }
-                
-        let depthPixelBuffer = depthData.converting(toDepthDataType: kCVPixelFormatType_DepthFloat32).depthDataMap
-        let width  = CVPixelBufferGetWidth(depthPixelBuffer)
-        let height = CVPixelBufferGetHeight(depthPixelBuffer)
-
-        let resizeScale = CGFloat(width) / colorImage.size.width
-        let resizedColorImage = CIImage(cgImage: cgColorImage).transformed(by: CGAffineTransform(scaleX: resizeScale, y: resizeScale))
-        guard let pixelDataColor = resizedColorImage.createCGImage().pixelData() else { fatalError() }
-
-        // Applying Histogram Equalization
-//        let depthImage = CIImage(cvPixelBuffer: depthPixelBuffer).applyingFilter("YUCIHistogramEqualization")
-//        let context = CIContext(options: nil)
-//        context.render(depthImage, to: depthPixelBuffer, bounds: depthImage.extent, colorSpace: nil)
-
-        let pixelDataDepth: [Float32]
-        pixelDataDepth = depthPixelBuffer.grayPixelData()
+    private func convertRGBDtoXYZ(colorImage: CGImage, depthValues: [Float32], depthWidth: Int, cameraCalibrationData: AVCameraCalibrationData) -> [SCNVector3] {
         
-        // Sometimes the z values of the depth are bigger than the camera's z
-        // So, determine a z scale factor to make it visible
-        let zMax = pixelDataDepth.max()!
-        let zNear = zCamera - 0.2
-        let zScale = zMax > zNear ? zNear / zMax : 1.0
-        print("z scale: \(zScale)")
-        let xyScale: Float = 0.0002
-
-        let pointCloud: [SCNVector3] = pixelDataDepth.enumerated().map {
+        var intrinsics = cameraCalibrationData.intrinsicMatrix
+        let referenceDimensions = cameraCalibrationData.intrinsicMatrixReferenceDimensions
+        
+        let ratio = Float(referenceDimensions.width) / Float(depthWidth)
+        intrinsics.columns.0[0] /= ratio
+        intrinsics.columns.1[1] /= ratio
+        intrinsics.columns.2[0] /= ratio
+        intrinsics.columns.2[1] /= ratio
+        
+        return depthValues.enumerated().map {
+            let z = Float($0.element)
             let index = $0.offset
-            // Adjusting scale and translating to the center
-            let x = Float(index % width - width / 2) * xyScale
-            let y = Float(height / 2 - index / width) * xyScale
-            // z comes as Float32 value
-            let z = -Float($0.element) * zScale
+            let u = Float(index % depthWidth)
+            let v = Float(index / depthWidth)
+            
+            let x = (u - intrinsics.columns.2[0]) * z / intrinsics.columns.0[0];
+            let y = (v - intrinsics.columns.2[1]) * z / intrinsics.columns.1[1];
+            
             return SCNVector3(x, y, z)
         }
-
+    }
+    
+    private func drawPointCloud() {
+        guard let colorImage = image, let cgColorImage = colorImage.cgImage else { return }
+        guard let depthData = depthData else { return }
+        
+        let depthPixelBuffer = depthData.depthDataMap
+        let depthWidth  = CVPixelBufferGetWidth(depthPixelBuffer)
+        let resizeScale = CGFloat(depthWidth) / CGFloat(colorImage.size.width)
+        let resizedColorImage = CIImage(cgImage: cgColorImage).transformed(by: CGAffineTransform(scaleX: resizeScale, y: resizeScale))
+        guard let pixelDataColor = resizedColorImage.createCGImage().pixelData() else { fatalError() }
+        
+        let depthValues: [Float32] = depthPixelBuffer.depthValues()
+        
+        guard let cameraCalibrationData = depthData.cameraCalibrationData else { return }
+        let points = convertRGBDtoXYZ(colorImage: cgColorImage, depthValues: depthValues, depthWidth: depthWidth, cameraCalibrationData: cameraCalibrationData)
+        
+        // 奥の方にある点群をカット
+        //        let zFarthest = depthValues.max()!
+        let zNearest = depthValues.min()!
+        var reducedPoints: [SCNVector3] = []
+        var reducedColors: [UInt8] = []
+        points.enumerated().forEach {
+            if abs($1.z) < zNearest + 1.0 {
+                reducedPoints.append($1)
+                
+                reducedColors.append(pixelDataColor[$0 * 4])
+                reducedColors.append(pixelDataColor[$0 * 4 + 1])
+                reducedColors.append(pixelDataColor[$0 * 4 + 2])
+                reducedColors.append(pixelDataColor[$0 * 4 + 3])
+            }
+        }
+        
         // Draw as a custom geometry
         let pc = PointCloud()
-        pc.pointCloud = pointCloud
-        pc.colors = pixelDataColor
+        //        pc.points = points
+        //        pc.colors = pixelDataColor
+        pc.points = reducedPoints
+        pc.colors = reducedColors
         let pcNode = pc.pointCloudNode()
         pcNode.position = SCNVector3(x: 0, y: 0, z: 0)
         scene.rootNode.addChildNode(pcNode)
-//        pcNode.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
-
-        // Draw with Sphere nodes
-//        pointCloud.enumerated().forEach {
-//            let index = $0.offset * 4
-//            let r = pixelDataColor[index]
-//            let g = pixelDataColor[index + 1]
-//            let b = pixelDataColor[index + 2]
-//
-//            let pos = $0.element
-//            // reducing the points
-//            guard Int(pos.x / scale) % 10 == 0 else { return }
-//            guard Int(pos.y / scale) % 10 == 0 else { return }
-//            let clone = pointNode.clone()
-//            clone.position = SCNVector3(pos.x, pos.y, pos.z)
-//
-//            // Creating a new geometry and a new material to color for each
-//            // https://stackoverflow.com/questions/39902802/stop-sharing-nodes-geometry-with-its-clone-programmatically
-//            guard let newGeometry = pointNode.geometry?.copy() as? SCNGeometry else { fatalError() }
-//            guard let newMaterial = newGeometry.firstMaterial?.copy() as? SCNMaterial else { fatalError() }
-//            newMaterial.diffuse.contents = UIColor(red: CGFloat(r)/255, green: CGFloat(g)/255, blue: CGFloat(b)/255, alpha: 1)
-//            newGeometry.materials = [newMaterial]
-//            clone.geometry = newGeometry
-//
-//            scene.rootNode.addChildNode(clone)
-//        }
+        
+        pointCloud = pc
+        pointCloudNode = pcNode
     }
     
     private func update() {
-        scene.rootNode.childNodes.forEach { childNode in
-            childNode.removeFromParentNode()
-        }
+        pointCloudNode?.removeFromParentNode()
+        
         switch typeSegmentedCtl.selectedSegmentIndex {
         case 0:
             scnView.isHidden = true
@@ -185,7 +174,7 @@ class PointCloudlViewController: UIViewController {
     }
     
     // MARK: - Actions
-
+    
     @IBAction func typeSegmentChanged(_ sender: UISegmentedControl) {
         update()
     }
@@ -206,10 +195,10 @@ extension CGImage {
 
     func pixelData() -> [UInt8]? {
         guard let colorSpace = colorSpace else { return nil }
-
+        
         let totalBytes = height * bytesPerRow
         var pixelData = [UInt8](repeating: 0, count: totalBytes)
-
+        
         guard let context = CGContext(
             data: &pixelData,
             width: width,
@@ -220,23 +209,39 @@ extension CGImage {
             bitmapInfo: bitmapInfo.rawValue)
             else { fatalError() }
         context.draw(self, in: CGRect(x: 0.0, y: 0.0, width: CGFloat(width), height: CGFloat(height)))
-
+        
         return pixelData
     }
 }
 
 extension CVPixelBuffer {
 
-    func grayPixelData() -> [Float32] {
+    // デプスが16bitで得られていることを前提
+    func depthValues() -> [Float32] {
         CVPixelBufferLockBaseAddress(self, CVPixelBufferLockFlags(rawValue: 0))
         let width = CVPixelBufferGetWidth(self)
         let height = CVPixelBufferGetHeight(self)
         var pixelData = [Float32](repeating: 0, count: Int(width * height))
+        let baseAddress = CVPixelBufferGetBaseAddress(self)!
+        guard
+            CVPixelBufferGetPixelFormatType(self) == kCVPixelFormatType_DepthFloat16 ||
+                CVPixelBufferGetPixelFormatType(self) == kCVPixelFormatType_DisparityFloat16
+            else { fatalError() }
+
+        // Float16という型がない（Floatは32bit）ので、UInt16として読み出す
+        let data = UnsafeMutableBufferPointer<UInt16>(start: baseAddress.assumingMemoryBound(to: UInt16.self), count: width * height)
         for yMap in 0 ..< height {
-            let rowData = CVPixelBufferGetBaseAddress(self)! + yMap * CVPixelBufferGetBytesPerRow(self)
-            let data = UnsafeMutableBufferPointer<Float>(start: rowData.assumingMemoryBound(to: Float.self), count: width)
             for index in 0 ..< width {
-                pixelData[index +  width * yMap] = Float32(data[index])               
+                let baseAddressIndex = index + yMap * width
+                // UInt16として読みだした値をFloat32に変換する
+                var f16Pixel = data[baseAddressIndex]  // Read as UInt16
+                var f32Pixel = Float32(0.0)
+                var src = vImage_Buffer(data: &f16Pixel, height: 1, width: 1, rowBytes: 2)
+                var dst = vImage_Buffer(data: &f32Pixel, height: 1, width: 1, rowBytes: 4)
+                vImageConvert_Planar16FtoPlanarF(&src, &dst, 0)
+                
+                // Float32の配列に格納
+                pixelData[baseAddressIndex] = f32Pixel
             }
         }
         CVPixelBufferUnlockBaseAddress(self, CVPixelBufferLockFlags(rawValue: 0))
