@@ -10,7 +10,7 @@ import UIKit
 import Photos
 import SceneKit
 import Accelerate
-import SwiftAssetsPickerController
+import PhotosUI
 
 class PointCloudlViewController: UIViewController {
 
@@ -68,21 +68,9 @@ class PointCloudlViewController: UIViewController {
         depthData = imageSource.getDepthData()
         guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
         self.image = image
-        drawImage(image)
+        update()
     }
-    
-    private func loadAsset(_ asset: PHAsset) {
-        asset.requestColorImage { image in
-            self.image = image
-            self.update()
-        }
-        asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
-            let imageSource = contentEditingInput!.createImageSource()
-            //            self.depthData = imageSource.getDisparityData()
-            self.depthData = imageSource.getDepthData()
-        }
-    }
-    
+
     private func drawImage(_ image: UIImage?) {
         DispatchQueue.main.async {
             self.imageView.image = image
@@ -157,19 +145,22 @@ class PointCloudlViewController: UIViewController {
         pointCloud = pc
         pointCloudNode = pcNode
     }
-    
+
     private func update() {
-        pointCloudNode?.removeFromParentNode()
-        
-        switch typeSegmentedCtl.selectedSegmentIndex {
-        case 0:
-            scnView.isHidden = true
-            drawImage(image)
-        case 1:
-            scnView.isHidden = false
-            drawPointCloud()
-        default:
-            fatalError()
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            pointCloudNode?.removeFromParentNode()
+
+            switch typeSegmentedCtl.selectedSegmentIndex {
+            case 0:
+                scnView.isHidden = true
+                drawImage(image)
+            case 1:
+                scnView.isHidden = false
+                drawPointCloud()
+            default:
+                fatalError()
+            }
         }
     }
     
@@ -180,14 +171,33 @@ class PointCloudlViewController: UIViewController {
     }
     
     @IBAction func pickerBtnTapped() {
-        let picker = AssetsPickerController()
-        picker.didSelectAssets = {(assets: Array<PHAsset?>) -> () in
-            guard let asset_ = assets.first, let asset = asset_ else { return }
-            self.loadAsset(asset)
-            self.typeSegmentedCtl.selectedSegmentIndex = 0
+        var configuration = PHPickerConfiguration()
+        configuration.filter = .depthEffectPhotos
+        configuration.selectionLimit = 1
+//        configuration.preferredAssetRepresentationMode = .current
+        let picker = PHPickerViewController(configuration: configuration)
+        picker.delegate = self
+        present(picker, animated: true, completion: nil)
+    }
+}
+
+extension PointCloudlViewController: PHPickerViewControllerDelegate {
+    func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
+        guard let provider = results.first?.itemProvider else { return }
+        guard let typeIdentifier = provider.registeredContentTypes.contains(UTType.heic) ? UTType.heic.identifier :  provider.registeredTypeIdentifiers.first else { return }
+        guard provider.hasItemConformingToTypeIdentifier(typeIdentifier) else { return }
+
+        provider.loadFileRepresentation(forTypeIdentifier: typeIdentifier) { [weak self] (url, error) in
+            guard let self = self else { return }
+            if let error = error {
+                print("loadFileRepresentation failed with error: \(error)")
+            }
+            if let url = url {
+                self.loadImage(at: url)
+            }
         }
-        let navigationController = UINavigationController(rootViewController: picker)
-        present(navigationController, animated: true, completion: nil)
+
+        picker.dismiss(animated: true, completion: nil)
     }
 }
 
