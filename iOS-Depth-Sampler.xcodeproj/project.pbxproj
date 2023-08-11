@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -296,8 +296,9 @@
 		8A702F8C212A3BD3004039F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Shuichi Tsutsumi";
 				TargetAttributes = {
 					8A702F93212A3BD3004039F7 = {
