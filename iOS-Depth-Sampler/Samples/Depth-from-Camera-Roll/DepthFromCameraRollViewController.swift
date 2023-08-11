@@ -7,9 +7,8 @@
 
 import UIKit
 import Photos
-import SwiftAssetsPickerController
 
-class DepthFromCameraRollViewController: UIViewController {
+class DepthFromCameraRollViewController: DepthImagePickableViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var typeSegmentedCtl: UISegmentedControl!
@@ -32,12 +31,17 @@ class DepthFromCameraRollViewController: UIViewController {
         })
     }
 
-    private func loadImage(at url: URL) {
+    override func loadImage(at url: URL) {
         let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
-        self.processImageSource(imageSource)
+        processImageSource(imageSource)
         guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
         self.image = image
-        self.drawImage(image)
+
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            typeSegmentedCtl.selectedSegmentIndex = 0
+        }
+        drawImage(image)
     }
     
     private func loadAsset(_ asset: PHAsset) {
@@ -78,7 +82,7 @@ class DepthFromCameraRollViewController: UIViewController {
         self.depthPixelBuffer = imageSource.getDepthData()?.depthDataMap
     }
     
-    private func update() {
+    private func updateView() {
         switch typeSegmentedCtl.selectedSegmentIndex {
         case 0:
             drawImage(image)
@@ -94,17 +98,6 @@ class DepthFromCameraRollViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func typeSegmentChanged(_ sender: UISegmentedControl) {
-        update()
-    }
-    
-    @IBAction func pickerBtnTapped() {
-        let rootListAssets = AssetsPickerController()
-        rootListAssets.didSelectAssets = {(assets: Array<PHAsset?>) -> () in
-            guard let asset_ = assets.first, let asset = asset_ else { return }
-            self.loadAsset(asset)
-            self.typeSegmentedCtl.selectedSegmentIndex = 0
-        }
-        let navigationController = UINavigationController(rootViewController: rootListAssets)
-        present(navigationController, animated: true, completion: nil)
+        updateView()
     }
 }

@@ -7,9 +7,8 @@
 
 import UIKit
 import Photos
-import SwiftAssetsPickerController
 
-class PortraitMatteViewController: UIViewController {
+class PortraitMatteViewController: DepthImagePickableViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var typeSegmentedCtl: UISegmentedControl!
@@ -41,12 +40,17 @@ class PortraitMatteViewController: UIViewController {
         })
     }
     
-    private func loadImage(at url: URL) {
-        self.imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
-        self.getPortraitMatte()
+    override func loadImage(at url: URL) {
+        imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)!
+        getPortraitMatte()
         guard let image = UIImage(contentsOfFile: url.path) else { fatalError() }
         self.image = image
-        self.drawImage(image)
+
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            typeSegmentedCtl.selectedSegmentIndex = 0
+        }
+        drawImage(image)
     }
     
     private func loadAsset(_ asset: PHAsset) {
@@ -92,7 +96,7 @@ class PortraitMatteViewController: UIViewController {
         mattePixelBuffer = depthDataMap
     }
     
-    private func update() {
+    private func updateView() {
         switch typeSegmentedCtl.selectedSegmentIndex {
         case 0:
             drawImage(image)
@@ -123,18 +127,6 @@ class PortraitMatteViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func typeSegmentChanged(_ sender: UISegmentedControl) {
-        update()
-    }
-    
-    @IBAction func pickerBtnTapped() {
-        let picker = AssetsPickerController()
-        picker.didSelectAssets = {(assets: Array<PHAsset?>) -> () in
-            if let asset_ = assets.first, let asset = asset_ {
-                self.loadAsset(asset)
-                self.typeSegmentedCtl.selectedSegmentIndex = 0
-            }
-        }
-        let navigationController = UINavigationController(rootViewController: picker)
-        present(navigationController, animated: true, completion: nil)
+        updateView()
     }
 }
