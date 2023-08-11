@@ -57,6 +57,7 @@
 		8A603D86214945A900F848A4 /* PortraitMatte.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PortraitMatte.storyboard; sourceTree = "<group>"; };
 		8A603D892149460E00F848A4 /* PhotosUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUtils.swift; sourceTree = "<group>"; };
 		8A603D8B2149590F00F848A4 /* UIAlertController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Utils.swift"; sourceTree = "<group>"; };
+		8A651ADA2A85E3D7008CF251 /* iOS-Depth-Sampler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-Depth-Sampler.entitlements"; sourceTree = "<group>"; };
 		8A702F94212A3BD3004039F7 /* iOS-Depth-Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Depth-Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A702F97212A3BD3004039F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A702F9E212A3BD5004039F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -204,6 +205,7 @@
 		8A702F96212A3BD3004039F7 /* iOS-Depth-Sampler */ = {
 			isa = PBXGroup;
 			children = (
+				8A651ADA2A85E3D7008CF251 /* iOS-Depth-Sampler.entitlements */,
 				8AFD650C214AF5620085F997 /* Resources */,
 				8AABBCCC2136463900C938EE /* iOS-Depth-Sampler-Bridging-Header.h */,
 				8A702FA3212A3BD5004039F7 /* Info.plist */,
@@ -574,6 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "iOS-Depth-Sampler/iOS-Depth-Sampler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86A4AWDE;
 				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
@@ -584,6 +587,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-Depth-Sampler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS-Depth-Sampler/iOS-Depth-Sampler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -597,6 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "iOS-Depth-Sampler/iOS-Depth-Sampler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86A4AWDE;
 				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
@@ -607,6 +614,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-Depth-Sampler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS-Depth-Sampler/iOS-Depth-Sampler-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
