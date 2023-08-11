@@ -38,6 +38,7 @@
 		8AAF371F214814BE006A551B /* DepthFromCameraRoll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */; };
 		8AB76029213628440051C3D1 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB76028213628440051C3D1 /* MetalRenderer.swift */; };
 		8AB7602B213631AD0051C3D1 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7602A213631AD0051C3D1 /* PassThrough.metal */; };
+		8AD73D822A85D49D00068656 /* DepthImagePickableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD73D812A85D49D00068656 /* DepthImagePickableViewController.swift */; };
 		8AFD6510214AFA0B0085F997 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */; };
 		8AFD6512214AFB1F0085F997 /* image-with-matte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */; };
 		8AFD6516214B08EB0085F997 /* PointCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD6514214B08EB0085F997 /* PointCloudViewController.swift */; };
@@ -79,6 +80,7 @@
 		8AAF371E214814BE006A551B /* DepthFromCameraRoll.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DepthFromCameraRoll.storyboard; sourceTree = "<group>"; };
 		8AB76028213628440051C3D1 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
 		8AB7602A213631AD0051C3D1 /* PassThrough.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
+		8AD73D812A85D49D00068656 /* DepthImagePickableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthImagePickableViewController.swift; sourceTree = "<group>"; };
 		8AFD650F214AFA0B0085F997 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
 		8AFD6511214AFB1F0085F997 /* image-with-matte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-matte.jpg"; sourceTree = "<group>"; };
 		8AFD6514214B08EB0085F997 /* PointCloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloudViewController.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				8AAF371021480D31006A551B /* RootViewCell.swift */,
 				8AAF371121480D32006A551B /* RootViewController.swift */,
 				8AAF371221480D32006A551B /* SampleDataSource.swift */,
+				8AD73D812A85D49D00068656 /* DepthImagePickableViewController.swift */,
 				8A171F11214905A400121E80 /* Utils */,
 				8A702FA9212A3CDE004039F7 /* VideoCapture */,
 				8A3D1A74213E5F2F0061470F /* Renderer */,
@@ -396,6 +399,7 @@
 				8A9A09DA214BA92E00432B1A /* PointCloud.swift in Sources */,
 				8AAF371C21481369006A551B /* DepthFromCameraRollViewController.swift in Sources */,
 				8A171F13214905D400121E80 /* CVPixelBuffer+CIImage.swift in Sources */,
+				8AD73D822A85D49D00068656 /* DepthImagePickableViewController.swift in Sources */,
 				8AAF371B21481369006A551B /* UIImage+Utils.swift in Sources */,
 				8AAF371521480D32006A551B /* SampleDataSource.swift in Sources */,
 				8AFD6516214B08EB0085F997 /* PointCloudViewController.swift in Sources */,
@@ -573,7 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86A4AWDE;
 				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,7 +600,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86A4AWDE;
 				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
