@@ -53,17 +53,6 @@ class PortraitMatteViewController: DepthImagePickableViewController {
         drawImage(image)
     }
     
-    private func loadAsset(_ asset: PHAsset) {
-        asset.requestColorImage { image in
-            self.image = image
-            self.drawImage(image)
-        }
-        asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
-            self.imageSource = contentEditingInput?.createImageSource()
-            self.getPortraitMatte()
-        }
-    }
-    
     private func showNoPortraitMatteAlert() {
         UIAlertController.showAlert(title: "No Portrait Matte", message: "This picture doesn't have portrait matte info. Plaease take a picture of a HUMAN with PORTRAIT mode.", on: self)
     }

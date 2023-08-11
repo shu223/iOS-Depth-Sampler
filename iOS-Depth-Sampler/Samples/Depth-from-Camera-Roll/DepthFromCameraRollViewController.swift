@@ -43,18 +43,7 @@ class DepthFromCameraRollViewController: DepthImagePickableViewController {
         }
         drawImage(image)
     }
-    
-    private func loadAsset(_ asset: PHAsset) {
-        asset.requestColorImage { image in
-            self.image = image
-            self.drawImage(image)
-        }
-        asset.requestContentEditingInput(with: nil) { contentEditingInput, info in
-            let imageSource = contentEditingInput!.createImageSource()
-            self.processImageSource(imageSource)
-        }
-    }
-    
+        
     private func drawImage(_ image: UIImage?) {
         DispatchQueue.main.async {
             self.imageView.image = image
