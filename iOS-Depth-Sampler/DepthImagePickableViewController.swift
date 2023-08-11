@@ -28,6 +28,9 @@ class DepthImagePickableViewController: UIViewController {
 
 extension DepthImagePickableViewController: PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
+        defer {
+            picker.dismiss(animated: true, completion: nil)
+        }
         guard let provider = results.first?.itemProvider else { return }
         guard let typeIdentifier = provider.registeredContentTypes.contains(UTType.heic) ? UTType.heic.identifier :  provider.registeredTypeIdentifiers.first else { return }
         guard provider.hasItemConformingToTypeIdentifier(typeIdentifier) else { return }
@@ -41,7 +44,5 @@ extension DepthImagePickableViewController: PHPickerViewControllerDelegate {
                 self.loadImage(at: url)
             }
         }
-
-        picker.dismiss(animated: true, completion: nil)
     }
 }
