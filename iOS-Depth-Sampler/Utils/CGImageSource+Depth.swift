@@ -40,7 +40,37 @@ extension CGImageSource {
     private var portraitEffectsMatteDataInfo: [String : AnyObject]? {
         return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypePortraitEffectsMatte) as? [String : AnyObject]
     }
-    
+
+    @available(iOS 13.0, *)
+    private var semanticSegmentationHairMatteDataInfo: [String : AnyObject]? {
+        return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypeSemanticSegmentationHairMatte) as? [String : AnyObject]
+    }
+
+    @available(iOS 13.0, *)
+    private var semanticSegmentationSkinMatteDataInfo: [String : AnyObject]? {
+        return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypeSemanticSegmentationSkinMatte) as? [String : AnyObject]
+    }
+
+    @available(iOS 13.0, *)
+    private var semanticSegmentationTeethMatteDataInfo: [String : AnyObject]? {
+        return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypeSemanticSegmentationTeethMatte) as? [String : AnyObject]
+    }
+
+    @available(iOS 14.1, *)
+    private var semanticSegmentationGlassesMatteDataInfo: [String : AnyObject]? {
+        return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypeSemanticSegmentationGlassesMatte) as? [String : AnyObject]
+    }
+
+    @available(iOS 14.1, *)
+    private var semanticSegmentationSkyMatteDataInfo: [String : AnyObject]? {
+        return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypeSemanticSegmentationSkyMatte) as? [String : AnyObject]
+    }
+
+    @available(iOS 14.1, *)
+    private var hdrGainMapMatteDataInfo: [String : AnyObject]? {
+        return CGImageSourceCopyAuxiliaryDataInfoAtIndex(self, 0, kCGImageAuxiliaryDataTypeHDRGainMap) as? [String : AnyObject]
+    }
+
     var disparityData: AVDepthData? {
         if let disparityDataInfo = disparityDataInfo {
             return try! AVDepthData(fromDictionaryRepresentation: disparityDataInfo)
@@ -56,13 +86,37 @@ extension CGImageSource {
     }
     
     @available(iOS 12.0, *)
-    func getMatteData() -> AVPortraitEffectsMatte? {
+    func getPortraitEffectsMatteData() -> AVPortraitEffectsMatte? {
         if let info = portraitEffectsMatteDataInfo {
             return try? AVPortraitEffectsMatte(fromDictionaryRepresentation: info)
         }
         return nil
     }
-    
+
+    func getSemanticSegmentationMatteData(matteType: AVSemanticSegmentationMatte.MatteType) -> AVSemanticSegmentationMatte? {
+        switch matteType {
+        case .hair:
+            guard let info = semanticSegmentationHairMatteDataInfo else { return nil }
+            return try? AVSemanticSegmentationMatte(fromImageSourceAuxiliaryDataType: kCGImageAuxiliaryDataTypeSemanticSegmentationHairMatte, dictionaryRepresentation: info)
+        case .skin:
+            guard let info = semanticSegmentationSkinMatteDataInfo else { return nil }
+            return try? AVSemanticSegmentationMatte(fromImageSourceAuxiliaryDataType: kCGImageAuxiliaryDataTypeSemanticSegmentationSkinMatte, dictionaryRepresentation: info)
+        case .teeth:
+            guard let info = semanticSegmentationTeethMatteDataInfo else { return nil }
+            return try? AVSemanticSegmentationMatte(fromImageSourceAuxiliaryDataType: kCGImageAuxiliaryDataTypeSemanticSegmentationTeethMatte, dictionaryRepresentation: info)
+        case .glasses:
+            guard let info = semanticSegmentationGlassesMatteDataInfo else { return nil }
+            return try? AVSemanticSegmentationMatte(fromImageSourceAuxiliaryDataType: kCGImageAuxiliaryDataTypeSemanticSegmentationGlassesMatte, dictionaryRepresentation: info)
+        default:
+            fatalError()
+        }
+    }
+
+    func getSemanticSegmentationSkyMatteData() -> AVSemanticSegmentationMatte? {
+        guard let info = semanticSegmentationSkyMatteDataInfo else { return nil }
+        return try? AVSemanticSegmentationMatte(fromImageSourceAuxiliaryDataType: kCGImageAuxiliaryDataTypeSemanticSegmentationSkyMatte, dictionaryRepresentation: info)
+    }
+
     func getDisparityData() -> AVDepthData? {
         var data: AVDepthData? = nil
         if let disparityData = disparityData {

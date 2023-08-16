@@ -79,7 +79,7 @@ class PortraitMatteViewController: DepthImagePickableViewController {
     
     private func getPortraitMatte() {
         var depthDataMap: CVPixelBuffer? = nil
-        if let matteData = imageSource?.getMatteData() {
+        if let matteData = imageSource?.getPortraitEffectsMatteData() {
             depthDataMap = matteData.mattingImage
         }
         mattePixelBuffer = depthDataMap

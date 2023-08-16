@@ -36,7 +36,7 @@ extension PHAsset {
         let semaphore = DispatchSemaphore(value: 0)
         requestContentEditingInput(with: nil) { contentEditingInput, info in
             let imageSource = contentEditingInput?.createImageSource()
-            result = imageSource?.getMatteData() != nil
+            result = imageSource?.getPortraitEffectsMatteData() != nil
             semaphore.signal()
         }
         semaphore.wait()
