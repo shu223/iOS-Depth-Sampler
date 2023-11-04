@@ -581,6 +581,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS-Depth-Sampler/iOS-Depth-Sampler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,6 +609,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS-Depth-Sampler/iOS-Depth-Sampler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "iOS-Depth-Sampler/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
